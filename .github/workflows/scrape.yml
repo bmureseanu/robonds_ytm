@@ -2,10 +2,12 @@ name: scrape
 
 on:
   schedule:
-    # Every 15 minutes. BVB data is itself 15-min delayed, so this is the
-    # natural cadence — sub-15-min cron is wasted work. GitHub may also
-    # silently skip cron runs under load; that's fine, next tick catches up.
-    - cron: "*/15 * * * *"
+    # Every 15 min on weekdays during a UTC window that covers BVB business
+    # hours (Mon-Fri 10:00–18:00 Europe/Bucharest) under both EET (UTC+2,
+    # winter) and EEST (UTC+3, summer). The union window is 07:00–16:59 UTC.
+    # An in-job guard below converts to local time and skips runs that fall
+    # outside the actual Bucharest window for the current DST state.
+    - cron: "*/15 7-16 * * 1-5"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -26,7 +28,47 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Authoritative Bucharest-local-time gate. Cron fires on a UTC window
+  # that's wider than the actual business window (it has to, to cover
+  # both EET in winter and EEST in summer). This job converts to local
+  # time and decides whether the scrape job should run. workflow_dispatch
+  # and push events always pass the gate so manual runs and CI on source
+  # changes still work.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        run: |
+          set -e
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "non-schedule event (${{ github.event_name }}); passing gate"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          export TZ=Europe/Bucharest
+          DOW=$(date +%u)   # 1=Mon ... 7=Sun
+          HOUR=$(date +%H)
+          MIN=$(date +%M)
+          echo "Bucharest local: $(date), DOW=$DOW HOUR=$HOUR:$MIN"
+          if [ "$DOW" -gt 5 ]; then
+            echo "weekend; skipping"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # 10:00 inclusive, 18:00 exclusive.
+          if [ "$((10#$HOUR))" -lt 10 ] || [ "$((10#$HOUR))" -ge 18 ]; then
+            echo "outside 10:00–18:00 Europe/Bucharest; skipping"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "in-window; running"
+          echo "run=true" >> "$GITHUB_OUTPUT"
+
   scrape:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

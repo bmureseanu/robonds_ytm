@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f1115" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="BVB YTM" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <title>BVB – RON Titluri de stat YTM</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #161a22;
+      --panel2: #1c212c;
+      --border: #2a313f;
+      --text: #d8dde6;
+      --muted: #8a93a6;
+      --accent: #4ea8ff;
+      --good: #4ec97a;
+      --bad: #e05a5a;
+      --warn: #d9a04d;
+    }
+    * { box-sizing: border-box; }
+    html, body { background: var(--bg); color: var(--text); margin: 0; font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+    @media (max-width: 700px) {
+      header { padding: 10px 12px; }
+      header h1 { font-size: 14px; }
+      main { padding: 10px 6px; overflow-x: auto; }
+      table { font-size: 12px; }
+      thead th, tbody td { padding: 5px 6px; }
+    }
+    header {
+      padding: 14px 20px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+      background: var(--panel);
+    }
+    header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+    .meta { color: var(--muted); font-size: 12px; }
+    button {
+      background: var(--panel2); color: var(--text); border: 1px solid var(--border);
+      padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px;
+    }
+    button:hover { border-color: var(--accent); color: var(--accent); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .filters { display: flex; gap: 14px; align-items: center; }
+    .filters label { color: var(--muted); font-size: 12px; display: flex; align-items: center; gap: 6px; }
+    .filters input[type="checkbox"] { accent-color: var(--accent); }
+    .filters input[type="number"] {
+      width: 70px; background: var(--panel2); color: var(--text);
+      border: 1px solid var(--border); border-radius: 4px; padding: 3px 6px;
+    }
+    main { padding: 16px 20px; }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; }
+    thead th {
+      position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none;
+      text-align: right; padding: 8px 10px; border-bottom: 1px solid var(--border);
+      font-weight: 600; color: var(--muted); white-space: nowrap;
+    }
+    thead th.text-left { text-align: left; }
+    thead th:hover { color: var(--accent); }
+    thead th .arrow { color: var(--accent); margin-left: 4px; }
+    tbody td {
+      padding: 6px 10px; border-bottom: 1px solid var(--border);
+      text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap;
+    }
+    tbody td.text-left { text-align: left; }
+    tbody tr:hover { background: var(--panel2); }
+    tbody tr.warn { background: rgba(217,160,77,0.07); }
+    tbody tr.warn td:first-child::before { content: "⚠ "; color: var(--warn); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .yield { font-weight: 600; }
+    .yield.best { color: var(--good); }
+    .empty, .error { padding: 30px; text-align: center; color: var(--muted); }
+    .error { color: var(--bad); }
+    .pct-pos { color: var(--good); }
+    .pct-neg { color: var(--bad); }
+    .small { color: var(--muted); font-size: 11px; }
+    footer { padding: 12px 20px; color: var(--muted); font-size: 11px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BVB – RON Titluri de stat — YTM at ask, bid &amp; last</h1>
+    <button id="refresh">Refresh</button>
+    <span class="meta" id="meta">loading…</span>
+    <div class="filters">
+      <label><input type="checkbox" id="requireAsk" checked /> only with ask</label>
+      <label>min ask vol <input type="number" id="minAskVol" value="0" min="0" step="1" /></label>
+      <label>max yrs <input type="number" id="maxYears" value="20" min="0" step="0.5" /></label>
+    </div>
+  </header>
+  <main>
+    <div id="content" class="empty">Loading…</div>
+  </main>
+  <footer>
+    Source: <a href="https://m.bvb.ro/FinancialInstruments/Markets/Bonds" target="_blank" rel="noopener">m.bvb.ro</a>.
+    Prices are delayed ≥15 min by BVB and additionally refreshed on a 15-min GitHub Actions cron.
+    YTM at ask/bid/last computed locally assuming annual coupons (ACT/365);
+    BVB YTM column reproduces the site's displayed YTM (based on last price) for cross-check.
+    Refresh = re-fetch the latest published data.json.
+  </footer>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let DATA = null;
+    let sort = { key: "ytmAtAsk", dir: "desc" };
+
+    const COLUMNS = [
+      { key: "ticker", label: "Ticker", align: "left", fmt: (a) =>
+          `<a href="https://m.bvb.ro/FinancialInstruments/Details/FinancialInstrumentsDetails.aspx?s=${a.ticker}" target="_blank">${a.ticker}</a><div class="small">${a.isin}</div>` },
+      { key: "maturity", label: "Maturity", align: "right", fmt: (a) => a.maturity || "-" },
+      { key: "yearsToMaturity", label: "Yrs", align: "right", fmt: (a) => fmtNum(a.yearsToMaturity, 2) },
+      { key: "couponPct", label: "Coupon", align: "right", fmt: (a) => fmtPct1(a.couponPct) },
+      { key: "bid", label: "Bid", align: "right", fmt: (a) => fmtNum(a.bid, 4) + sub(a.bidVol) },
+      { key: "ask", label: "Ask", align: "right", fmt: (a) => fmtNum(a.ask, 4) + sub(a.askVol) },
+      { key: "lastPrice", label: "Last", align: "right", fmt: (a) => fmtNum(a.lastPrice, 4) },
+      { key: "accrued", label: "Accrued", align: "right", fmt: (a) => fmtNum(a.accrued, 3) },
+      { key: "dirtyAsk", label: "Dirty (ask)", align: "right", fmt: (a) => fmtNum(a.dirtyAsk, 3) },
+      { key: "ytmAtAsk", label: "YTM ask", align: "right", fmt: (a) => yieldCell(a.ytmAtAsk, true) },
+      { key: "ytmAtBid", label: "YTM bid", align: "right", fmt: (a) => yieldCell(a.ytmAtBid, false) },
+      { key: "ytmAtLast", label: "YTM last", align: "right", fmt: (a) => yieldCell(a.ytmAtLast, false) },
+      { key: "bvbYtm", label: "BVB YTM", align: "right", fmt: (a) => yieldCell(a.bvbYtm, false) },
+    ];
+
+    function sub(v) {
+      if (v == null) return "";
+      return `<div class="small">vol ${fmtNum(v, 0)}</div>`;
+    }
+    function fmtNum(x, d) { return x == null ? "-" : x.toFixed(d); }
+    function fmtPct1(x) { return x == null ? "-" : x.toFixed(2) + "%"; }
+    function yieldCell(y, best) {
+      if (y == null) return "-";
+      const cls = best ? "yield best" : "yield";
+      const sign = y < 0 ? "pct-neg" : "pct-pos";
+      return `<span class="${cls} ${sign}">${(y * 100).toFixed(3)}%</span>`;
+    }
+
+    async function load(force = false) {
+      $("refresh").disabled = true;
+      $("meta").textContent = "loading…";
+      try {
+        // Cache-bust on explicit refresh; otherwise let the SW handle it.
+        const url = "./data.json" + (force ? "?t=" + Date.now() : "");
+        const res = await fetch(url, force ? { cache: "reload" } : {});
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        DATA = await res.json();
+        const at = new Date(DATA.generatedAt);
+        const ageMin = Math.max(0, Math.round((Date.now() - at.getTime()) / 60000));
+        $("meta").innerHTML = `${DATA.analytics.length} bonds — generated ${at.toLocaleString()} <span class="small">(${ageMin}m ago)</span>`;
+        render();
+      } catch (e) {
+        $("content").innerHTML = `<div class="error">Failed to load: ${e.message || e}</div>`;
+      } finally {
+        $("refresh").disabled = false;
+      }
+    }
+
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(() => {});
+      });
+    }
+
+    function applyFilters(rows) {
+      const requireAsk = $("requireAsk").checked;
+      const minVol = Number($("minAskVol").value) || 0;
+      const maxYears = Number($("maxYears").value) || Infinity;
+      return rows.filter((a) =>
+        (!requireAsk || (a.ask != null && a.ytmAtAsk != null)) &&
+        ((a.askVol ?? 0) >= minVol) &&
+        (a.yearsToMaturity <= maxYears)
+      );
+    }
+
+    function applySort(rows) {
+      const { key, dir } = sort;
+      const factor = dir === "asc" ? 1 : -1;
+      return [...rows].sort((a, b) => {
+        const av = a[key], bv = b[key];
+        if (av == null && bv == null) return 0;
+        if (av == null) return 1;
+        if (bv == null) return -1;
+        if (typeof av === "string") return av.localeCompare(bv) * factor;
+        return (av - bv) * factor;
+      });
+    }
+
+    function render() {
+      if (!DATA) return;
+      const rows = applySort(applyFilters(DATA.analytics));
+      if (!rows.length) {
+        $("content").innerHTML = `<div class="empty">No rows match current filters.</div>`;
+        return;
+      }
+      // mark "warn" rows: where YTM at ask < 0 (price above final CF) or no ask quote
+      const isWarn = (a) =>
+        a.ask == null || (a.ytmAtAsk != null && a.ytmAtAsk < 0);
+
+      const ths = COLUMNS.map((c) => {
+        const arrow = sort.key === c.key ? `<span class="arrow">${sort.dir === "asc" ? "▲" : "▼"}</span>` : "";
+        return `<th class="text-${c.align}" data-key="${c.key}">${c.label}${arrow}</th>`;
+      }).join("");
+
+      const trs = rows.map((a) => {
+        const tds = COLUMNS.map((c) => `<td class="text-${c.align}">${c.fmt(a)}</td>`).join("");
+        return `<tr class="${isWarn(a) ? "warn" : ""}">${tds}</tr>`;
+      }).join("");
+
+      $("content").innerHTML = `<table><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table>`;
+
+      document.querySelectorAll("thead th").forEach((th) => {
+        th.addEventListener("click", () => {
+          const k = th.dataset.key;
+          if (sort.key === k) sort.dir = sort.dir === "asc" ? "desc" : "asc";
+          else { sort.key = k; sort.dir = (k === "ticker" || k === "maturity") ? "asc" : "desc"; }
+          render();
+        });
+      });
+    }
+
+    $("refresh").addEventListener("click", () => load(true));
+    ["requireAsk", "minAskVol", "maxYears"].forEach((id) => {
+      $(id).addEventListener("change", render);
+      $(id).addEventListener("input", render);
+    });
+    load();
+  </script>
+</body>
+</html>

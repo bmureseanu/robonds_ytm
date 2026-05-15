@@ -1,0 +1,56 @@
+name: scrape
+
+on:
+  schedule:
+    # Every 15 minutes. BVB data is itself 15-min delayed, so this is the
+    # natural cadence — sub-15-min cron is wasted work. GitHub may also
+    # silently skip cron runs under load; that's fine, next tick catches up.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/scrape.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - run: npm run build:data
+
+      - name: Commit data.json if changed
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- src/public/data.json; then
+            echo "no data change"
+            exit 0
+          fi
+          git add src/public/data.json
+          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          # Rebase in case Pages workflow or another scrape pushed in between.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash
+          done
+          git push

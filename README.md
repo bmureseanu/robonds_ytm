@@ -48,14 +48,16 @@ npm run cli
 ## Deploying
 
 1. Push this repo to GitHub.
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. (Optional) **Settings → Actions → General → Workflow permissions: Read and
-   write permissions** if the cron commit fails with a 403.
-4. Trigger the workflows once manually from the Actions tab (`scrape` and
-   `deploy-pages`) so the first `data.json` exists and the site goes live.
+2. (If the first deploy fails with a 403 on commit) **Settings → Actions →
+   General → Workflow permissions: Read and write permissions**.
+3. Run the `scrape` workflow once manually from the Actions tab so the first
+   `data.json` exists. It will dispatch `deploy-pages`, which programmatically
+   enables Pages (via `configure-pages` with `enablement: true`) and publishes
+   the site.
 
-After that, the cron runs every 15 minutes and Pages re-deploys whenever
-`src/public/**` changes (which includes the data refresh commit).
+After that, the cron runs every 15 minutes, commits `data.json` if changed, and
+dispatches the deploy workflow. The Pages URL appears in the deploy job's
+output (`https://<user>.github.io/<repo>/`).
 
 ## Install on phone
 

@@ -27,6 +27,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: actions/configure-pages@v5
+        with:
+          # Programmatically enable the Pages site on first deploy so the user
+          # doesn't have to flip the toggle in Settings -> Pages manually.
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

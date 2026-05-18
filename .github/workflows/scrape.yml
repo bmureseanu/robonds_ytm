@@ -5,9 +5,16 @@ on:
     # Every 15 min on weekdays during a UTC window that covers BVB business
     # hours (Mon-Fri 10:00–18:00 Europe/Bucharest) under both EET (UTC+2,
     # winter) and EEST (UTC+3, summer). The union window is 07:00–16:59 UTC.
-    # An in-job guard below converts to local time and skips runs that fall
+    # An in-job gate below converts to local time and skips runs that fall
     # outside the actual Bucharest window for the current DST state.
-    - cron: "*/15 7-16 * * 1-5"
+    #
+    # NB: GitHub's schedule event is best-effort and can silently drop runs
+    # under load, especially on minute marks aligned with the hour (:00,
+    # :15, :30, :45). Per GitHub's own docs we use off-peak minute marks
+    # and write them explicitly rather than as `*/15` — this measurably
+    # improves fire rate but does not guarantee it. See README for the
+    # external-trigger fallback.
+    - cron: "5,20,35,50 7-16 * * 1-5"
   workflow_dispatch: {}
   push:
     branches: [main]

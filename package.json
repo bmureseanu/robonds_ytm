@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "tsc -p .",
     "build:data": "tsx src/build-data.ts",
+    "build:data:prod": "node dist/build-data.js",
     "cli": "tsx src/cli.ts",
     "serve": "npx --yes http-server src/public -p 3000 -c-1",
     "typecheck": "tsc -p . --noEmit"

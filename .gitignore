@@ -5,3 +5,8 @@ dist/
 .env
 .env.*
 !.env.example
+
+# cPanel deploy artifacts
+.refresh.lock.d/
+cron.log
+.refresh.lock

@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-05-29T11:15:41.625Z",
+  "generatedAt": "2026-05-29T11:17:37.771Z",
   "listing": [
+    {
+      "ticker": "R2910A",
+      "isin": "ROYXKB42YAO8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97.4799,
+      "changePct": -0.02,
+      "lastTradeAt": "29.05.2026 14:01",
+      "couponPct": 7,
+      "currency": "RON",
+      "maturity": "16.10.2029",
+      "category": "Titluri de stat"
+    },
     {
       "ticker": "R2608A",
       "isin": "ROZKUIL6NN02",
@@ -23,18 +35,6 @@
       "couponPct": 7.95,
       "currency": "RON",
       "maturity": "19.06.2031",
-      "category": "Titluri de stat"
-    },
-    {
-      "ticker": "R2910A",
-      "isin": "ROYXKB42YAO8",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 97.4799,
-      "changePct": -0.02,
-      "lastTradeAt": "29.05.2026 13:50",
-      "couponPct": 7,
-      "currency": "RON",
-      "maturity": "16.10.2029",
       "category": "Titluri de stat"
     },
     {
@@ -832,6 +832,30 @@
   ],
   "details": [
     {
+      "ticker": "R2910A",
+      "isin": "ROYXKB42YAO8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.3504,
+      "ask": 97.4799,
+      "bidVol": 152,
+      "askVol": 59,
+      "refPrice": 97.5,
+      "lastPrice": 97.4799,
+      "changePct": -0.02,
+      "high52w": 100.2795,
+      "low52w": 94,
+      "couponPct": 7,
+      "bvbYtmPct": 7.85,
+      "nominal": 100,
+      "issueValue": 603836500,
+      "tradingStart": "2024-10-17",
+      "maturity": "2029-10-16",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/FT R2910A.pdf"
+    },
+    {
       "ticker": "R2608A",
       "isin": "ROZKUIL6NN02",
       "segment": "Principal",
@@ -878,30 +902,6 @@
       "maturity": "2031-06-19",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3106A.pdf"
-    },
-    {
-      "ticker": "R2910A",
-      "isin": "ROYXKB42YAO8",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 97.3504,
-      "ask": 97.4799,
-      "bidVol": 152,
-      "askVol": 68,
-      "refPrice": 97.5,
-      "lastPrice": 97.4799,
-      "changePct": -0.02,
-      "high52w": 100.2795,
-      "low52w": 94,
-      "couponPct": 7,
-      "bvbYtmPct": 7.85,
-      "nominal": 100,
-      "issueValue": 603836500,
-      "tradingStart": "2024-10-17",
-      "maturity": "2029-10-16",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/FT R2910A.pdf"
     },
     {
       "ticker": "R3109A",
@@ -2501,7 +2501,7 @@
       "ask": 97.4799,
       "lastPrice": 97.4799,
       "bidVol": 152,
-      "askVol": 68,
+      "askVol": 59,
       "accrued": 4.315068493150685,
       "ytmAtBid": 0.07894279071479104,
       "ytmAtAsk": 0.07848568740882911,

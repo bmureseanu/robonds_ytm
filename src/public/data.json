@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-05-29T10:53:24.459Z",
+  "generatedAt": "2026-05-29T11:15:41.625Z",
   "listing": [
+    {
+      "ticker": "R2608A",
+      "isin": "ROZKUIL6NN02",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.12,
+      "changePct": -0.03,
+      "lastTradeAt": "29.05.2026 13:58",
+      "couponPct": 7.2,
+      "currency": "RON",
+      "maturity": "02.08.2026",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3106A",
+      "isin": "ROPD86K9RDH1",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.4,
+      "changePct": 0.15,
+      "lastTradeAt": "29.05.2026 13:55",
+      "couponPct": 7.95,
+      "currency": "RON",
+      "maturity": "19.06.2031",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2910A",
+      "isin": "ROYXKB42YAO8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97.4799,
+      "changePct": -0.02,
+      "lastTradeAt": "29.05.2026 13:50",
+      "couponPct": 7,
+      "currency": "RON",
+      "maturity": "16.10.2029",
+      "category": "Titluri de stat"
+    },
     {
       "ticker": "R3109A",
       "isin": "ROHIGDV2GZL6",
@@ -158,18 +194,6 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R3106A",
-      "isin": "ROPD86K9RDH1",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 100.4,
-      "changePct": 0.15,
-      "lastTradeAt": "29.05.2026 12:32",
-      "couponPct": 7.95,
-      "currency": "RON",
-      "maturity": "19.06.2031",
-      "category": "Titluri de stat"
-    },
-    {
       "ticker": "R2805B",
       "isin": "RO0HUFWQ1HQ0",
       "issuer": "MINISTERUL FINANTELOR",
@@ -179,18 +203,6 @@
       "couponPct": 7.4,
       "currency": "RON",
       "maturity": "20.05.2028",
-      "category": "Titluri de stat"
-    },
-    {
-      "ticker": "R2910A",
-      "isin": "ROYXKB42YAO8",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 97.4799,
-      "changePct": -0.02,
-      "lastTradeAt": "29.05.2026 12:24",
-      "couponPct": 7,
-      "currency": "RON",
-      "maturity": "16.10.2029",
       "category": "Titluri de stat"
     },
     {
@@ -323,18 +335,6 @@
       "couponPct": 6.95,
       "currency": "RON",
       "maturity": "19.11.2027",
-      "category": "Titluri de stat"
-    },
-    {
-      "ticker": "R2608A",
-      "isin": "ROZKUIL6NN02",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 100.1,
-      "changePct": -0.05,
-      "lastTradeAt": "29.05.2026 11:13",
-      "couponPct": 7.2,
-      "currency": "RON",
-      "maturity": "02.08.2026",
       "category": "Titluri de stat"
     },
     {
@@ -832,15 +832,87 @@
   ],
   "details": [
     {
+      "ticker": "R2608A",
+      "isin": "ROZKUIL6NN02",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.12,
+      "ask": 100.185,
+      "bidVol": 74,
+      "askVol": 50,
+      "refPrice": 100.15,
+      "lastPrice": 100.12,
+      "changePct": -0.03,
+      "high52w": 100.998,
+      "low52w": 97,
+      "couponPct": 7.2,
+      "bvbYtmPct": 6.23,
+      "nominal": 100,
+      "issueValue": 421765200,
+      "tradingStart": "2023-08-03",
+      "maturity": "2026-08-02",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/OMF 2188 din 12.07.2023.pdf"
+    },
+    {
+      "ticker": "R3106A",
+      "isin": "ROPD86K9RDH1",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.4,
+      "ask": 100.4397,
+      "bidVol": 15,
+      "askVol": 366,
+      "refPrice": 100.2501,
+      "lastPrice": 100.4,
+      "changePct": 0.15,
+      "high52w": 104.9998,
+      "low52w": 97,
+      "couponPct": 7.95,
+      "bvbYtmPct": 7.84,
+      "nominal": 100,
+      "issueValue": 69597600,
+      "tradingStart": "2025-06-20",
+      "maturity": "2031-06-19",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3106A.pdf"
+    },
+    {
+      "ticker": "R2910A",
+      "isin": "ROYXKB42YAO8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.3504,
+      "ask": 97.4799,
+      "bidVol": 152,
+      "askVol": 68,
+      "refPrice": 97.5,
+      "lastPrice": 97.4799,
+      "changePct": -0.02,
+      "high52w": 100.2795,
+      "low52w": 94,
+      "couponPct": 7,
+      "bvbYtmPct": 7.85,
+      "nominal": 100,
+      "issueValue": 603836500,
+      "tradingStart": "2024-10-17",
+      "maturity": "2029-10-16",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/FT R2910A.pdf"
+    },
+    {
       "ticker": "R3109A",
       "isin": "ROHIGDV2GZL6",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.4302,
-      "ask": 100.4,
-      "bidVol": 45,
-      "askVol": 20,
+      "bid": 99.431,
+      "ask": 100.3999,
+      "bidVol": 29,
+      "askVol": 7,
       "refPrice": 100.1,
       "lastPrice": 99.4608,
       "changePct": -0.64,
@@ -885,9 +957,9 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.05,
+      "bid": 99.0601,
       "ask": 100.1,
-      "bidVol": 3,
+      "bidVol": 7,
       "askVol": 349,
       "refPrice": 100.12,
       "lastPrice": 99.421,
@@ -909,10 +981,10 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.1,
+      "bid": 99.11,
       "ask": 99.5499,
-      "bidVol": 29,
-      "askVol": 1,
+      "bidVol": 100,
+      "askVol": 134,
       "refPrice": 99.52,
       "lastPrice": 99.05,
       "changePct": -0.47,
@@ -933,9 +1005,9 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.1101,
+      "bid": 99.1102,
       "ask": 99.8,
-      "bidVol": 57,
+      "bidVol": 7,
       "askVol": 36,
       "refPrice": 100,
       "lastPrice": 99.8,
@@ -1144,30 +1216,6 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2706B.pdf"
     },
     {
-      "ticker": "R3106A",
-      "isin": "ROPD86K9RDH1",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 100.2777,
-      "ask": 100.4,
-      "bidVol": 7,
-      "askVol": 55,
-      "refPrice": 100.2501,
-      "lastPrice": 100.4,
-      "changePct": 0.15,
-      "high52w": 104.9998,
-      "low52w": 97,
-      "couponPct": 7.95,
-      "bvbYtmPct": 7.84,
-      "nominal": 100,
-      "issueValue": 69597600,
-      "tradingStart": "2025-06-20",
-      "maturity": "2031-06-19",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3106A.pdf"
-    },
-    {
       "ticker": "R2805B",
       "isin": "RO0HUFWQ1HQ0",
       "segment": "Principal",
@@ -1190,30 +1238,6 @@
       "maturity": "2028-05-20",
       "currency": "RON",
       "prospectusUrl": null
-    },
-    {
-      "ticker": "R2910A",
-      "isin": "ROYXKB42YAO8",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 97.3503,
-      "ask": 97.4799,
-      "bidVol": 142,
-      "askVol": 85,
-      "refPrice": 97.5,
-      "lastPrice": 97.4799,
-      "changePct": -0.02,
-      "high52w": 100.2795,
-      "low52w": 94,
-      "couponPct": 7,
-      "bvbYtmPct": 7.85,
-      "nominal": 100,
-      "issueValue": 603836500,
-      "tradingStart": "2024-10-17",
-      "maturity": "2029-10-16",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/FT R2910A.pdf"
     },
     {
       "ticker": "R2708A",
@@ -1245,9 +1269,9 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 96.0201,
+      "bid": 96.03,
       "ask": 100.99,
-      "bidVol": 7,
+      "bidVol": 60,
       "askVol": 16,
       "refPrice": 98.88,
       "lastPrice": 98,
@@ -1480,39 +1504,15 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2711A.pdf"
     },
     {
-      "ticker": "R2608A",
-      "isin": "ROZKUIL6NN02",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 100.12,
-      "ask": 100.18,
-      "bidVol": 199,
-      "askVol": 125,
-      "refPrice": 100.15,
-      "lastPrice": 100.1,
-      "changePct": -0.05,
-      "high52w": 100.998,
-      "low52w": 97,
-      "couponPct": 7.2,
-      "bvbYtmPct": 6.35,
-      "nominal": 100,
-      "issueValue": 421765200,
-      "tradingStart": "2023-08-03",
-      "maturity": "2026-08-02",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/Juridic/files/OMF 2188 din 12.07.2023.pdf"
-    },
-    {
       "ticker": "R3111A",
       "isin": "RO6Z4H8A0AZ7",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.0002,
-      "ask": 99.99,
-      "bidVol": 7,
-      "askVol": 636,
+      "bid": 99.0004,
+      "ask": 99.94,
+      "bidVol": 66,
+      "askVol": 55,
       "refPrice": 99.4,
       "lastPrice": 100,
       "changePct": 0.6,
@@ -1533,9 +1533,9 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 98.3502,
+      "bid": 98.3503,
       "ask": 102.4689,
-      "bidVol": 30,
+      "bidVol": 75,
       "askVol": 66,
       "refPrice": 98.5,
       "lastPrice": 98.45,
@@ -1725,7 +1725,7 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 100.2109,
+      "bid": 100.2112,
       "ask": 100.9499,
       "bidVol": 7,
       "askVol": 1,
@@ -1773,9 +1773,9 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.5023,
-      "ask": 100.3494,
-      "bidVol": 36,
+      "bid": 99.55,
+      "ask": 100.2499,
+      "bidVol": 150,
       "askVol": 7,
       "refPrice": 99.5026,
       "lastPrice": 99.5026,
@@ -1917,7 +1917,7 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 97.5101,
+      "bid": 97.5111,
       "ask": 99,
       "bidVol": 56,
       "askVol": 422,
@@ -1966,9 +1966,9 @@
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
       "bid": 98.5,
-      "ask": 99.4999,
+      "ask": 99.18,
       "bidVol": 25,
-      "askVol": 50,
+      "askVol": 130,
       "refPrice": 98.4992,
       "lastPrice": 98.4992,
       "changePct": 0.89,
@@ -2062,7 +2062,7 @@
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
       "bid": 99.4201,
-      "ask": 99.8999,
+      "ask": 99.8749,
       "bidVol": 7,
       "askVol": 4,
       "refPrice": 99.41,
@@ -2497,19 +2497,37 @@
       "couponPct": 7,
       "nominal": 100,
       "currency": "RON",
-      "bid": 97.3503,
+      "bid": 97.3504,
       "ask": 97.4799,
       "lastPrice": 97.4799,
-      "bidVol": 142,
-      "askVol": 85,
+      "bidVol": 152,
+      "askVol": 68,
       "accrued": 4.315068493150685,
-      "ytmAtBid": 0.07894314403529279,
+      "ytmAtBid": 0.07894279071479104,
       "ytmAtAsk": 0.07848568740882911,
       "ytmAtLast": 0.07848568740882911,
       "bvbYtm": 0.0785,
       "dirtyAsk": 101.79496849315069,
-      "dirtyBid": 101.6653684931507,
-      "dirtyLast": 101.79496849315069
+      "dirtyBid": 101.66546849315068,
+      "dirtyLast": 101.79496849315069,
+      "cashflows": [
+        {
+          "years": 0.3835616438356164,
+          "amount": 7
+        },
+        {
+          "years": 1.3835616438356164,
+          "amount": 7
+        },
+        {
+          "years": 2.3863013698630136,
+          "amount": 7
+        },
+        {
+          "years": 3.3863013698630136,
+          "amount": 107
+        }
+      ]
     },
     {
       "ticker": "R3106A",
@@ -2519,19 +2537,45 @@
       "couponPct": 7.95,
       "nominal": 100,
       "currency": "RON",
-      "bid": 100.2777,
-      "ask": 100.4,
+      "bid": 100.4,
+      "ask": 100.4397,
       "lastPrice": 100.4,
-      "bidVol": 7,
-      "askVol": 55,
+      "bidVol": 15,
+      "askVol": 366,
       "accrued": 7.491346153846154,
-      "ytmAtBid": 0.078728058579145,
-      "ytmAtAsk": 0.07842676047584973,
+      "ytmAtBid": 0.07842676047584973,
+      "ytmAtAsk": 0.07832905949908309,
       "ytmAtLast": 0.07842676047584973,
       "bvbYtm": 0.0784,
-      "dirtyAsk": 107.89134615384616,
-      "dirtyBid": 107.76904615384615,
-      "dirtyLast": 107.89134615384616
+      "dirtyAsk": 107.93104615384615,
+      "dirtyBid": 107.89134615384616,
+      "dirtyLast": 107.89134615384616,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 7.95
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 7.95
+        },
+        {
+          "years": 2.0602739726027397,
+          "amount": 7.95
+        },
+        {
+          "years": 3.0602739726027397,
+          "amount": 7.95
+        },
+        {
+          "years": 4.06027397260274,
+          "amount": 7.95
+        },
+        {
+          "years": 5.06027397260274,
+          "amount": 107.95
+        }
+      ]
     },
     {
       "ticker": "R2912A",
@@ -2553,7 +2597,25 @@
       "bvbYtm": 0.079,
       "dirtyAsk": 102.48904109589041,
       "dirtyBid": 102.27914109589041,
-      "dirtyLast": 102.27114109589041
+      "dirtyLast": 102.27114109589041,
+      "cashflows": [
+        {
+          "years": 0.5698630136986301,
+          "amount": 7.6
+        },
+        {
+          "years": 1.5698630136986302,
+          "amount": 7.6
+        },
+        {
+          "years": 2.5726027397260274,
+          "amount": 7.6
+        },
+        {
+          "years": 3.5726027397260274,
+          "amount": 107.6
+        }
+      ]
     },
     {
       "ticker": "R2908A",
@@ -2575,7 +2637,25 @@
       "bvbYtm": 0.0795,
       "dirtyAsk": 103.03058493150685,
       "dirtyBid": 102.67068493150684,
-      "dirtyLast": 102.67068493150684
+      "dirtyLast": 102.67068493150684,
+      "cashflows": [
+        {
+          "years": 0.2356164383561644,
+          "amount": 7
+        },
+        {
+          "years": 1.2356164383561643,
+          "amount": 7
+        },
+        {
+          "years": 2.2383561643835614,
+          "amount": 7
+        },
+        {
+          "years": 3.2383561643835614,
+          "amount": 107
+        }
+      ]
     },
     {
       "ticker": "R3002A",
@@ -2597,7 +2677,25 @@
       "bvbYtm": 0.0789,
       "dirtyAsk": 102.50230136986302,
       "dirtyBid": 102.21630136986302,
-      "dirtyLast": 102.25630136986301
+      "dirtyLast": 102.25630136986301,
+      "cashflows": [
+        {
+          "years": 0.7287671232876712,
+          "amount": 7.95
+        },
+        {
+          "years": 1.7287671232876711,
+          "amount": 7.95
+        },
+        {
+          "years": 2.7315068493150685,
+          "amount": 7.95
+        },
+        {
+          "years": 3.7315068493150685,
+          "amount": 107.95
+        }
+      ]
     },
     {
       "ticker": "R3201A",
@@ -2619,7 +2717,33 @@
       "bvbYtm": 0.0795,
       "dirtyAsk": 101.05252747252747,
       "dirtyBid": 100.28262747252748,
-      "dirtyLast": 100.38252747252747
+      "dirtyLast": 100.38252747252747,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 7.5
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 7.5
+        },
+        {
+          "years": 2.671232876712329,
+          "amount": 7.5
+        },
+        {
+          "years": 3.671232876712329,
+          "amount": 7.5
+        },
+        {
+          "years": 4.671232876712328,
+          "amount": 7.5
+        },
+        {
+          "years": 5.671232876712328,
+          "amount": 107.5
+        }
+      ]
     },
     {
       "ticker": "R3110A",
@@ -2641,7 +2765,33 @@
       "bvbYtm": 0.078,
       "dirtyAsk": 105.08131868131868,
       "dirtyBid": 104.33161868131869,
-      "dirtyLast": 105.08121868131869
+      "dirtyLast": 105.08121868131869,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 7.9
+        },
+        {
+          "years": 1.4,
+          "amount": 7.9
+        },
+        {
+          "years": 2.4027397260273973,
+          "amount": 7.9
+        },
+        {
+          "years": 3.4027397260273973,
+          "amount": 7.9
+        },
+        {
+          "years": 4.402739726027397,
+          "amount": 7.9
+        },
+        {
+          "years": 5.402739726027397,
+          "amount": 107.9
+        }
+      ]
     },
     {
       "ticker": "R3109A",
@@ -2651,19 +2801,45 @@
       "couponPct": 7.9,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.4302,
-      "ask": 100.4,
+      "bid": 99.431,
+      "ask": 100.3999,
       "lastPrice": 99.4608,
-      "bidVol": 45,
-      "askVol": 20,
+      "bidVol": 29,
+      "askVol": 7,
       "accrued": 5.490934065934066,
-      "ytmAtBid": 0.08017631954862736,
-      "ytmAtAsk": 0.07787265742081217,
+      "ytmAtBid": 0.08017440707772039,
+      "ytmAtAsk": 0.07787289345287718,
       "ytmAtLast": 0.0801031832525041,
       "bvbYtm": 0.0801,
-      "dirtyAsk": 105.89093406593408,
-      "dirtyBid": 104.92113406593407,
-      "dirtyLast": 104.95173406593408
+      "dirtyAsk": 105.89083406593407,
+      "dirtyBid": 104.92193406593407,
+      "dirtyLast": 104.95173406593408,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 7.9
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 7.9
+        },
+        {
+          "years": 2.3068493150684932,
+          "amount": 7.9
+        },
+        {
+          "years": 3.3068493150684932,
+          "amount": 7.9
+        },
+        {
+          "years": 4.306849315068493,
+          "amount": 7.9
+        },
+        {
+          "years": 5.306849315068493,
+          "amount": 107.9
+        }
+      ]
     },
     {
       "ticker": "R3204A",
@@ -2685,7 +2861,33 @@
       "bvbYtm": 0.0775,
       "dirtyAsk": 99.9188232044199,
       "dirtyBid": 98.97262320441989,
-      "dirtyLast": 99.9219232044199
+      "dirtyLast": 99.9219232044199,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 7.6
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 7.6
+        },
+        {
+          "years": 2.9068493150684933,
+          "amount": 7.6
+        },
+        {
+          "years": 3.9068493150684933,
+          "amount": 7.6
+        },
+        {
+          "years": 4.906849315068493,
+          "amount": 7.6
+        },
+        {
+          "years": 5.909589041095891,
+          "amount": 107.6
+        }
+      ]
     },
     {
       "ticker": "R2912C",
@@ -2707,7 +2909,25 @@
       "bvbYtm": 0.0774,
       "dirtyAsk": 101.15969010989011,
       "dirtyBid": 100.17219010989011,
-      "dirtyLast": 101.14989010989011
+      "dirtyLast": 101.14989010989011,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 7.1
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 7.1
+        },
+        {
+          "years": 2.5561643835616437,
+          "amount": 7.1
+        },
+        {
+          "years": 3.5561643835616437,
+          "amount": 107.1
+        }
+      ]
     },
     {
       "ticker": "R3004A",
@@ -2729,7 +2949,25 @@
       "bvbYtm": 0.0789,
       "dirtyAsk": 100.39524246575343,
       "dirtyBid": 99.54634246575343,
-      "dirtyLast": 99.89534246575343
+      "dirtyLast": 99.89534246575343,
+      "cashflows": [
+        {
+          "years": 0.8821917808219178,
+          "amount": 7.6
+        },
+        {
+          "years": 1.884931506849315,
+          "amount": 7.6
+        },
+        {
+          "years": 2.884931506849315,
+          "amount": 7.6
+        },
+        {
+          "years": 3.884931506849315,
+          "amount": 107.6
+        }
+      ]
     },
     {
       "ticker": "R3202A",
@@ -2751,7 +2989,33 @@
       "bvbYtm": 0.0779,
       "dirtyAsk": 99.77184065934065,
       "dirtyBid": 98.79714065934066,
-      "dirtyLast": 99.47184065934066
+      "dirtyLast": 99.47184065934066,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 7.25
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 7.25
+        },
+        {
+          "years": 2.728767123287671,
+          "amount": 7.25
+        },
+        {
+          "years": 3.728767123287671,
+          "amount": 7.25
+        },
+        {
+          "years": 4.728767123287671,
+          "amount": 7.25
+        },
+        {
+          "years": 5.728767123287671,
+          "amount": 107.25
+        }
+      ]
     },
     {
       "ticker": "R3001A",
@@ -2773,7 +3037,25 @@
       "bvbYtm": 0.07719999999999999,
       "dirtyAsk": 100.34065934065934,
       "dirtyBid": 99.94065934065934,
-      "dirtyLast": 100.34065934065934
+      "dirtyLast": 100.34065934065934,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 7.1
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 7.1
+        },
+        {
+          "years": 2.671232876712329,
+          "amount": 7.1
+        },
+        {
+          "years": 3.671232876712329,
+          "amount": 107.1
+        }
+      ]
     },
     {
       "ticker": "R3112A",
@@ -2783,19 +3065,45 @@
       "couponPct": 7.5,
       "nominal": 100,
       "currency": "RON",
-      "bid": 97.5101,
+      "bid": 97.5111,
       "ask": 99,
       "lastPrice": 99.001,
       "bidVol": 56,
       "askVol": 422,
       "accrued": 3.337912087912088,
-      "ytmAtBid": 0.08055489513208158,
+      "ytmAtBid": 0.08055255960789509,
       "ytmAtAsk": 0.07710935527575202,
       "ytmAtLast": 0.07710706538637169,
       "bvbYtm": 0.0771,
       "dirtyAsk": 102.33791208791209,
-      "dirtyBid": 100.84801208791208,
-      "dirtyLast": 102.33891208791209
+      "dirtyBid": 100.84901208791209,
+      "dirtyLast": 102.33891208791209,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 7.5
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 7.5
+        },
+        {
+          "years": 2.5561643835616437,
+          "amount": 7.5
+        },
+        {
+          "years": 3.5561643835616437,
+          "amount": 7.5
+        },
+        {
+          "years": 4.556164383561644,
+          "amount": 7.5
+        },
+        {
+          "years": 5.556164383561644,
+          "amount": 107.5
+        }
+      ]
     },
     {
       "ticker": "R3107A",
@@ -2805,19 +3113,45 @@
       "couponPct": 7.95,
       "nominal": 100,
       "currency": "RON",
-      "bid": 100.2109,
+      "bid": 100.2112,
       "ask": 100.9499,
       "lastPrice": 100.6,
       "bidVol": 7,
       "askVol": 1,
       "accrued": 6.901648351648352,
-      "ytmAtBid": 0.07885972593794577,
+      "ytmAtBid": 0.07885899490793236,
       "ytmAtAsk": 0.0770676120009739,
       "ytmAtLast": 0.07791398136760108,
       "bvbYtm": 0.0779,
       "dirtyAsk": 107.85154835164835,
-      "dirtyBid": 107.11254835164834,
-      "dirtyLast": 107.50164835164834
+      "dirtyBid": 107.11284835164835,
+      "dirtyLast": 107.50164835164834,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 7.95
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 7.95
+        },
+        {
+          "years": 2.1342465753424658,
+          "amount": 7.95
+        },
+        {
+          "years": 3.1342465753424658,
+          "amount": 7.95
+        },
+        {
+          "years": 4.134246575342465,
+          "amount": 7.95
+        },
+        {
+          "years": 5.134246575342465,
+          "amount": 107.95
+        }
+      ]
     },
     {
       "ticker": "R3108A",
@@ -2839,29 +3173,33 @@
       "bvbYtm": 0.0789,
       "dirtyAsk": 107.00054945054946,
       "dirtyBid": 106.23104945054946,
-      "dirtyLast": 106.24054945054945
-    },
-    {
-      "ticker": "R3111A",
-      "isin": "RO6Z4H8A0AZ7",
-      "maturity": "2031-11-19",
-      "yearsToMaturity": 5.47945205479452,
-      "couponPct": 7.7,
-      "nominal": 100,
-      "currency": "RON",
-      "bid": 99.0002,
-      "ask": 99.99,
-      "lastPrice": 100,
-      "bidVol": 7,
-      "askVol": 636,
-      "accrued": 4.019230769230769,
-      "ytmAtBid": 0.0791305078600999,
-      "ytmAtAsk": 0.07684038425213657,
-      "ytmAtLast": 0.0768173981050495,
-      "bvbYtm": 0.0768,
-      "dirtyAsk": 104.00923076923077,
-      "dirtyBid": 103.01943076923078,
-      "dirtyLast": 104.01923076923077
+      "dirtyLast": 106.24054945054945,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 7.9
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 7.9
+        },
+        {
+          "years": 2.210958904109589,
+          "amount": 7.9
+        },
+        {
+          "years": 3.210958904109589,
+          "amount": 7.9
+        },
+        {
+          "years": 4.210958904109589,
+          "amount": 7.9
+        },
+        {
+          "years": 5.210958904109589,
+          "amount": 107.9
+        }
+      ]
     },
     {
       "ticker": "R3003A",
@@ -2871,19 +3209,85 @@
       "couponPct": 7.8,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.5023,
-      "ask": 100.3494,
+      "bid": 99.55,
+      "ask": 100.2499,
       "lastPrice": 99.5026,
-      "bidVol": 36,
+      "bidVol": 150,
       "askVol": 7,
       "accrued": 1.5172602739726027,
-      "ytmAtBid": 0.07935874679242261,
-      "ytmAtAsk": 0.07670667392085306,
+      "ytmAtBid": 0.07920860356534831,
+      "ytmAtAsk": 0.07701662232284434,
       "ytmAtLast": 0.0793578021985013,
       "bvbYtm": 0.0793,
-      "dirtyAsk": 101.8666602739726,
-      "dirtyBid": 101.0195602739726,
-      "dirtyLast": 101.0198602739726
+      "dirtyAsk": 101.76716027397259,
+      "dirtyBid": 101.0672602739726,
+      "dirtyLast": 101.0198602739726,
+      "cashflows": [
+        {
+          "years": 0.8054794520547945,
+          "amount": 7.8
+        },
+        {
+          "years": 1.8082191780821917,
+          "amount": 7.8
+        },
+        {
+          "years": 2.808219178082192,
+          "amount": 7.8
+        },
+        {
+          "years": 3.808219178082192,
+          "amount": 107.8
+        }
+      ]
+    },
+    {
+      "ticker": "R3111A",
+      "isin": "RO6Z4H8A0AZ7",
+      "maturity": "2031-11-19",
+      "yearsToMaturity": 5.47945205479452,
+      "couponPct": 7.7,
+      "nominal": 100,
+      "currency": "RON",
+      "bid": 99.0004,
+      "ask": 99.94,
+      "lastPrice": 100,
+      "bidVol": 66,
+      "askVol": 55,
+      "accrued": 4.019230769230769,
+      "ytmAtBid": 0.07913004208239727,
+      "ytmAtAsk": 0.0769553599820938,
+      "ytmAtLast": 0.0768173981050495,
+      "bvbYtm": 0.0768,
+      "dirtyAsk": 103.95923076923077,
+      "dirtyBid": 103.01963076923077,
+      "dirtyLast": 104.01923076923077,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 7.7
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 7.7
+        },
+        {
+          "years": 2.4794520547945207,
+          "amount": 7.7
+        },
+        {
+          "years": 3.4794520547945207,
+          "amount": 7.7
+        },
+        {
+          "years": 4.47945205479452,
+          "amount": 7.7
+        },
+        {
+          "years": 5.47945205479452,
+          "amount": 107.7
+        }
+      ]
     },
     {
       "ticker": "R3203A",
@@ -2905,7 +3309,73 @@
       "bvbYtm": 0.0766,
       "dirtyAsk": 98.7648901098901,
       "dirtyBid": 97.9750901098901,
-      "dirtyLast": 98.7747901098901
+      "dirtyLast": 98.7747901098901,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 7.1
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 7.1
+        },
+        {
+          "years": 2.8054794520547945,
+          "amount": 7.1
+        },
+        {
+          "years": 3.8054794520547945,
+          "amount": 7.1
+        },
+        {
+          "years": 4.8054794520547945,
+          "amount": 7.1
+        },
+        {
+          "years": 5.808219178082192,
+          "amount": 107.1
+        }
+      ]
+    },
+    {
+      "ticker": "R2911A",
+      "isin": "ROD3DG6RDI98",
+      "maturity": "2029-11-19",
+      "yearsToMaturity": 3.4794520547945207,
+      "couponPct": 7.35,
+      "nominal": 100,
+      "currency": "RON",
+      "bid": 98.5,
+      "ask": 99.18,
+      "lastPrice": 98.4992,
+      "bidVol": 25,
+      "askVol": 130,
+      "accrued": 3.8365384615384617,
+      "ytmAtBid": 0.07832994006457739,
+      "ytmAtAsk": 0.07601674934267066,
+      "ytmAtLast": 0.07833267419482581,
+      "bvbYtm": 0.0783,
+      "dirtyAsk": 103.01653846153847,
+      "dirtyBid": 102.33653846153847,
+      "dirtyLast": 102.33573846153847,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 7.35
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 7.35
+        },
+        {
+          "years": 2.4794520547945207,
+          "amount": 7.35
+        },
+        {
+          "years": 3.4794520547945207,
+          "amount": 107.35
+        }
+      ]
     },
     {
       "ticker": "R2907A",
@@ -2927,7 +3397,25 @@
       "bvbYtm": 0.0803,
       "dirtyAsk": 107.06461538461538,
       "dirtyBid": 105.81471538461538,
-      "dirtyLast": 105.76001538461539
+      "dirtyLast": 105.76001538461539,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 7.7
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 7.7
+        },
+        {
+          "years": 2.1342465753424658,
+          "amount": 7.7
+        },
+        {
+          "years": 3.1342465753424658,
+          "amount": 107.7
+        }
+      ]
     },
     {
       "ticker": "R2710A",
@@ -2937,19 +3425,29 @@
       "couponPct": 7.2,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.1,
+      "bid": 99.11,
       "ask": 99.5499,
       "lastPrice": 99.05,
-      "bidVol": 29,
-      "askVol": 1,
+      "bidVol": 100,
+      "askVol": 134,
       "accrued": 4.312087912087913,
-      "ytmAtBid": 0.07858738143113442,
+      "ytmAtBid": 0.0785091114230454,
       "ytmAtAsk": 0.07507933644228615,
       "ytmAtLast": 0.07897893423796631,
       "bvbYtm": 0.079,
       "dirtyAsk": 103.86198791208791,
-      "dirtyBid": 103.41208791208791,
-      "dirtyLast": 103.36208791208792
+      "dirtyBid": 103.42208791208792,
+      "dirtyLast": 103.36208791208792,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 7.2
+        },
+        {
+          "years": 1.4,
+          "amount": 107.2
+        }
+      ]
     },
     {
       "ticker": "R2805A",
@@ -2959,41 +3457,29 @@
       "couponPct": 7.4,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.1101,
+      "bid": 99.1102,
       "ask": 99.8,
       "lastPrice": 99.8,
-      "bidVol": 57,
+      "bidVol": 7,
       "askVol": 36,
       "accrued": 0.16219178082191782,
-      "ytmAtBid": 0.07889141983469017,
+      "ytmAtBid": 0.07889085126225837,
       "ytmAtAsk": 0.07498965933336876,
       "ytmAtLast": 0.07498965933336876,
       "bvbYtm": 0.075,
       "dirtyAsk": 99.96219178082191,
-      "dirtyBid": 99.27229178082192,
-      "dirtyLast": 99.96219178082191
-    },
-    {
-      "ticker": "R2911A",
-      "isin": "ROD3DG6RDI98",
-      "maturity": "2029-11-19",
-      "yearsToMaturity": 3.4794520547945207,
-      "couponPct": 7.35,
-      "nominal": 100,
-      "currency": "RON",
-      "bid": 98.5,
-      "ask": 99.4999,
-      "lastPrice": 98.4992,
-      "bidVol": 25,
-      "askVol": 50,
-      "accrued": 3.8365384615384617,
-      "ytmAtBid": 0.07832994006457739,
-      "ytmAtAsk": 0.07493594326660968,
-      "ytmAtLast": 0.07833267419482581,
-      "bvbYtm": 0.0783,
-      "dirtyAsk": 103.33643846153846,
-      "dirtyBid": 102.33653846153847,
-      "dirtyLast": 102.33573846153847
+      "dirtyBid": 99.27239178082192,
+      "dirtyLast": 99.96219178082191,
+      "cashflows": [
+        {
+          "years": 0.9780821917808219,
+          "amount": 7.4
+        },
+        {
+          "years": 1.9808219178082191,
+          "amount": 107.4
+        }
+      ]
     },
     {
       "ticker": "R2802A",
@@ -3015,7 +3501,17 @@
       "bvbYtm": 0.07490000000000001,
       "dirtyAsk": 102.27493150684931,
       "dirtyBid": 102.22493150684932,
-      "dirtyLast": 102.27493150684931
+      "dirtyLast": 102.27493150684931,
+      "cashflows": [
+        {
+          "years": 0.7287671232876712,
+          "amount": 7.65
+        },
+        {
+          "years": 1.7287671232876711,
+          "amount": 107.65
+        }
+      ]
     },
     {
       "ticker": "R2708A",
@@ -3037,7 +3533,17 @@
       "bvbYtm": 0.0748,
       "dirtyAsk": 105.3467032967033,
       "dirtyBid": 105.05670329670329,
-      "dirtyLast": 105.3467032967033
+      "dirtyLast": 105.3467032967033,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 7.2
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 107.2
+        }
+      ]
     },
     {
       "ticker": "R2803A",
@@ -3059,7 +3565,17 @@
       "bvbYtm": 0.07519999999999999,
       "dirtyAsk": 101.45890410958904,
       "dirtyBid": 101.35890410958905,
-      "dirtyLast": 101.35890410958905
+      "dirtyLast": 101.35890410958905,
+      "cashflows": [
+        {
+          "years": 0.8054794520547945,
+          "amount": 7.5
+        },
+        {
+          "years": 1.8082191780821917,
+          "amount": 107.5
+        }
+      ]
     },
     {
       "ticker": "R2706A",
@@ -3081,7 +3597,17 @@
       "bvbYtm": 0.0754,
       "dirtyAsk": 106.82596153846154,
       "dirtyBid": 106.72596153846153,
-      "dirtyLast": 106.72596153846153
+      "dirtyLast": 106.72596153846153,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 7.35
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 107.35
+        }
+      ]
     },
     {
       "ticker": "R2804B",
@@ -3103,7 +3629,17 @@
       "bvbYtm": 0.075,
       "dirtyAsk": 100.9708232044199,
       "dirtyBid": 100.77182320441989,
-      "dirtyLast": 100.7968232044199
+      "dirtyLast": 100.7968232044199,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 7.6
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 107.6
+        }
+      ]
     },
     {
       "ticker": "R2909A",
@@ -3125,7 +3661,25 @@
       "bvbYtm": 0.0828,
       "dirtyAsk": 105.72651758241759,
       "dirtyBid": 104.10251758241758,
-      "dirtyLast": 103.30241758241758
+      "dirtyLast": 103.30241758241758,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 7.6
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 7.6
+        },
+        {
+          "years": 2.3068493150684932,
+          "amount": 7.6
+        },
+        {
+          "years": 3.3068493150684932,
+          "amount": 107.6
+        }
+      ]
     },
     {
       "ticker": "R2803C",
@@ -3147,7 +3701,17 @@
       "bvbYtm": 0.0741,
       "dirtyAsk": 98.65072417582417,
       "dirtyBid": 98.00082417582416,
-      "dirtyLast": 98.65072417582417
+      "dirtyLast": 98.65072417582417,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 5.9
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 105.9
+        }
+      ]
     },
     {
       "ticker": "R2710B",
@@ -3169,7 +3733,17 @@
       "bvbYtm": 0.0736,
       "dirtyAsk": 105.91098901098901,
       "dirtyBid": 105.47098901098902,
-      "dirtyLast": 105.91098901098901
+      "dirtyLast": 105.91098901098901,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 8.2
+        },
+        {
+          "years": 1.4,
+          "amount": 108.2
+        }
+      ]
     },
     {
       "ticker": "R2712D",
@@ -3191,7 +3765,17 @@
       "bvbYtm": 0.0742,
       "dirtyAsk": 103.56006483516484,
       "dirtyBid": 103.07026483516483,
-      "dirtyLast": 103.47016483516484
+      "dirtyLast": 103.47016483516484,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 7.55
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 107.55
+        }
+      ]
     },
     {
       "ticker": "R3002C",
@@ -3213,7 +3797,25 @@
       "bvbYtm": 0.0771,
       "dirtyAsk": 99.83585164835165,
       "dirtyBid": 98.13585164835165,
-      "dirtyLast": 98.76585164835166
+      "dirtyLast": 98.76585164835166,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 6.75
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 6.75
+        },
+        {
+          "years": 2.728767123287671,
+          "amount": 6.75
+        },
+        {
+          "years": 3.728767123287671,
+          "amount": 106.75
+        }
+      ]
     },
     {
       "ticker": "R2801B",
@@ -3223,19 +3825,29 @@
       "couponPct": 7.45,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.05,
+      "bid": 99.0601,
       "ask": 100.1,
       "lastPrice": 99.421,
-      "bidVol": 3,
+      "bidVol": 7,
       "askVol": 349,
       "accrued": 2.456043956043956,
-      "ytmAtBid": 0.08047875526244752,
+      "ytmAtBid": 0.0804115170321893,
       "ytmAtAsk": 0.0735472169762943,
       "ytmAtLast": 0.07801614169147797,
       "bvbYtm": 0.078,
       "dirtyAsk": 102.55604395604395,
-      "dirtyBid": 101.50604395604395,
-      "dirtyLast": 101.87704395604396
+      "dirtyBid": 101.51614395604396,
+      "dirtyLast": 101.87704395604396,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 7.45
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 107.45
+        }
+      ]
     },
     {
       "ticker": "R3205A",
@@ -3257,7 +3869,33 @@
       "bvbYtm": 0.0771,
       "dirtyAsk": 101.06473516483517,
       "dirtyBid": 99.16593516483516,
-      "dirtyLast": 99.16493516483517
+      "dirtyLast": 99.16493516483517,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 7.5
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 7.5
+        },
+        {
+          "years": 2.978082191780822,
+          "amount": 7.5
+        },
+        {
+          "years": 3.978082191780822,
+          "amount": 7.5
+        },
+        {
+          "years": 4.978082191780822,
+          "amount": 7.5
+        },
+        {
+          "years": 5.980821917808219,
+          "amount": 107.5
+        }
+      ]
     },
     {
       "ticker": "R2803B",
@@ -3279,7 +3917,17 @@
       "bvbYtm": 0.0748,
       "dirtyAsk": 100.66587912087911,
       "dirtyBid": 99.89587912087912,
-      "dirtyLast": 100.34587912087912
+      "dirtyLast": 100.34587912087912,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 6.9
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 106.9
+        }
+      ]
     },
     {
       "ticker": "R2708B",
@@ -3301,7 +3949,49 @@
       "bvbYtm": 0.0728,
       "dirtyAsk": 107.4679120879121,
       "dirtyBid": 107.1879120879121,
-      "dirtyLast": 107.4679120879121
+      "dirtyLast": 107.4679120879121,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 8.2
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 108.2
+        }
+      ]
+    },
+    {
+      "ticker": "R2709A",
+      "isin": "ROP6PWH0TFR8",
+      "maturity": "2027-09-17",
+      "yearsToMaturity": 1.3041095890410959,
+      "couponPct": 7.2,
+      "nominal": 100,
+      "currency": "RON",
+      "bid": 99.4201,
+      "ask": 99.8749,
+      "lastPrice": 99.41,
+      "bidVol": 7,
+      "askVol": 4,
+      "accrued": 5.004395604395604,
+      "ytmAtBid": 0.0764194345974829,
+      "ytmAtAsk": 0.07264376335660927,
+      "ytmAtLast": 0.0765036283119116,
+      "bvbYtm": 0.0765,
+      "dirtyAsk": 104.8792956043956,
+      "dirtyBid": 104.42449560439562,
+      "dirtyLast": 104.4143956043956,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 7.2
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 107.2
+        }
+      ]
     },
     {
       "ticker": "R2712A",
@@ -3323,29 +4013,17 @@
       "bvbYtm": 0.0726,
       "dirtyAsk": 101.86500989010989,
       "dirtyBid": 101.25630989010989,
-      "dirtyLast": 101.86500989010989
-    },
-    {
-      "ticker": "R2709A",
-      "isin": "ROP6PWH0TFR8",
-      "maturity": "2027-09-17",
-      "yearsToMaturity": 1.3041095890410959,
-      "couponPct": 7.2,
-      "nominal": 100,
-      "currency": "RON",
-      "bid": 99.4201,
-      "ask": 99.8999,
-      "lastPrice": 99.41,
-      "bidVol": 7,
-      "askVol": 4,
-      "accrued": 5.004395604395604,
-      "ytmAtBid": 0.0764194345974829,
-      "ytmAtAsk": 0.07243709560134448,
-      "ytmAtLast": 0.0765036283119116,
-      "bvbYtm": 0.0765,
-      "dirtyAsk": 104.9042956043956,
-      "dirtyBid": 104.42449560439562,
-      "dirtyLast": 104.4143956043956
+      "dirtyLast": 101.86500989010989,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 6.55
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 106.55
+        }
+      ]
     },
     {
       "ticker": "R3005A",
@@ -3367,7 +4045,25 @@
       "bvbYtm": 0.07730000000000001,
       "dirtyAsk": 102.07075890410958,
       "dirtyBid": 100.32095890410959,
-      "dirtyLast": 100.37095890410959
+      "dirtyLast": 100.37095890410959,
+      "cashflows": [
+        {
+          "years": 0.9780821917808219,
+          "amount": 7.8
+        },
+        {
+          "years": 1.9808219178082191,
+          "amount": 7.8
+        },
+        {
+          "years": 2.9808219178082194,
+          "amount": 7.8
+        },
+        {
+          "years": 3.9808219178082194,
+          "amount": 107.8
+        }
+      ]
     },
     {
       "ticker": "R2712B",
@@ -3389,7 +4085,17 @@
       "bvbYtm": 0.07690000000000001,
       "dirtyAsk": 104.29798219178082,
       "dirtyBid": 103.70308219178082,
-      "dirtyLast": 103.62308219178081
+      "dirtyLast": 103.62308219178081,
+      "cashflows": [
+        {
+          "years": 0.5698630136986301,
+          "amount": 7.9
+        },
+        {
+          "years": 1.5698630136986302,
+          "amount": 107.9
+        }
+      ]
     },
     {
       "ticker": "R2706B",
@@ -3411,7 +4117,17 @@
       "bvbYtm": 0.0741,
       "dirtyAsk": 108.96826923076922,
       "dirtyBid": 108.81826923076923,
-      "dirtyLast": 108.76826923076923
+      "dirtyLast": 108.76826923076923,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 8.35
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 108.35
+        }
+      ]
     },
     {
       "ticker": "R2804C",
@@ -3433,7 +4149,17 @@
       "bvbYtm": 0.0716,
       "dirtyAsk": 99.58332541436464,
       "dirtyBid": 98.58352541436464,
-      "dirtyLast": 99.58342541436464
+      "dirtyLast": 99.58342541436464,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 6.6
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 106.6
+        }
+      ]
     },
     {
       "ticker": "R2711B",
@@ -3455,7 +4181,17 @@
       "bvbYtm": 0.07519999999999999,
       "dirtyAsk": 105.12962527472527,
       "dirtyBid": 104.64972527472527,
-      "dirtyLast": 104.64972527472527
+      "dirtyLast": 104.64972527472527,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 7.95
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 107.95
+        }
+      ]
     },
     {
       "ticker": "R2805B",
@@ -3477,7 +4213,17 @@
       "bvbYtm": 0.0716,
       "dirtyAsk": 100.56233736263736,
       "dirtyBid": 99.66273736263737,
-      "dirtyLast": 100.56233736263736
+      "dirtyLast": 100.56233736263736,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 7.4
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 107.4
+        }
+      ]
     },
     {
       "ticker": "R2707C",
@@ -3499,7 +4245,17 @@
       "bvbYtm": 0.0785,
       "dirtyAsk": 106.36385604395605,
       "dirtyBid": 105.69405604395604,
-      "dirtyLast": 105.64435604395604
+      "dirtyLast": 105.64435604395604,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 7.25
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 107.25
+        }
+      ]
     },
     {
       "ticker": "R2802B",
@@ -3521,7 +4277,17 @@
       "bvbYtm": 0.0753,
       "dirtyAsk": 101.92464285714286,
       "dirtyBid": 101.14474285714286,
-      "dirtyLast": 101.29474285714285
+      "dirtyLast": 101.29474285714285,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 7.15
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 107.15
+        }
+      ]
     },
     {
       "ticker": "R2804A",
@@ -3543,7 +4309,17 @@
       "bvbYtm": 0.0736,
       "dirtyAsk": 101.09,
       "dirtyBid": 100.71,
-      "dirtyLast": 100.71
+      "dirtyLast": 100.71,
+      "cashflows": [
+        {
+          "years": 0.8821917808219178,
+          "amount": 7.3
+        },
+        {
+          "years": 1.884931506849315,
+          "amount": 107.3
+        }
+      ]
     },
     {
       "ticker": "R2707B",
@@ -3565,7 +4341,17 @@
       "bvbYtm": 0.0726,
       "dirtyAsk": 108.35208791208791,
       "dirtyBid": 108.16208791208791,
-      "dirtyLast": 108.16208791208791
+      "dirtyLast": 108.16208791208791,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 8.25
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 108.25
+        }
+      ]
     },
     {
       "ticker": "R3003C",
@@ -3587,7 +4373,25 @@
       "bvbYtm": 0.0705,
       "dirtyAsk": 99.78736263736263,
       "dirtyBid": 96.08736263736263,
-      "dirtyLast": 99.78736263736263
+      "dirtyLast": 99.78736263736263,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 6.6
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 6.6
+        },
+        {
+          "years": 2.8054794520547945,
+          "amount": 6.6
+        },
+        {
+          "years": 3.8054794520547945,
+          "amount": 106.6
+        }
+      ]
     },
     {
       "ticker": "R2707A",
@@ -3609,7 +4413,17 @@
       "bvbYtm": 0.0703,
       "dirtyAsk": 105.97315068493151,
       "dirtyBid": 105.74365068493151,
-      "dirtyLast": 105.99285068493151
+      "dirtyLast": 105.99285068493151,
+      "cashflows": [
+        {
+          "years": 0.0958904109589041,
+          "amount": 6.85
+        },
+        {
+          "years": 1.095890410958904,
+          "amount": 106.85
+        }
+      ]
     },
     {
       "ticker": "R2709B",
@@ -3631,7 +4445,17 @@
       "bvbYtm": 0.0732,
       "dirtyAsk": 107.04845054945055,
       "dirtyBid": 106.59945054945055,
-      "dirtyLast": 106.68945054945054
+      "dirtyLast": 106.68945054945054,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 8.2
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 108.2
+        }
+      ]
     },
     {
       "ticker": "R2802C",
@@ -3653,7 +4477,17 @@
       "bvbYtm": 0.079,
       "dirtyAsk": 100.34136483516484,
       "dirtyBid": 98.92296483516483,
-      "dirtyLast": 98.92286483516484
+      "dirtyLast": 98.92286483516484,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 6.15
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 106.15
+        }
+      ]
     },
     {
       "ticker": "R2801A",
@@ -3675,7 +4509,17 @@
       "bvbYtm": 0.0708,
       "dirtyAsk": 101.31637362637362,
       "dirtyBid": 100.63637362637363,
-      "dirtyLast": 101.12637362637362
+      "dirtyLast": 101.12637362637362,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 6.45
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 106.45
+        }
+      ]
     },
     {
       "ticker": "R2711A",
@@ -3697,7 +4541,17 @@
       "bvbYtm": 0.07730000000000001,
       "dirtyAsk": 103.58774725274725,
       "dirtyBid": 102.52774725274726,
-      "dirtyLast": 102.52774725274726
+      "dirtyLast": 102.52774725274726,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 6.95
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 106.95
+        }
+      ]
     },
     {
       "ticker": "R2908C",
@@ -3719,7 +4573,25 @@
       "bvbYtm": 0.07629999999999999,
       "dirtyAsk": 108.05274725274725,
       "dirtyBid": 101.58354725274725,
-      "dirtyLast": 106.05274725274725
+      "dirtyLast": 106.05274725274725,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 7.65
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 7.65
+        },
+        {
+          "years": 2.210958904109589,
+          "amount": 7.65
+        },
+        {
+          "years": 3.210958904109589,
+          "amount": 107.65
+        }
+      ]
     },
     {
       "ticker": "R2704A",
@@ -3741,7 +4613,13 @@
       "bvbYtm": 0.073,
       "dirtyAsk": 100.68428356164384,
       "dirtyBid": 100.29438356164383,
-      "dirtyLast": 100.29438356164383
+      "dirtyLast": 100.29438356164383,
+      "cashflows": [
+        {
+          "years": 0.8986301369863013,
+          "amount": 106.85
+        }
+      ]
     },
     {
       "ticker": "R3004C",
@@ -3751,19 +4629,37 @@
       "couponPct": 7.1,
       "nominal": 100,
       "currency": "RON",
-      "bid": 96.0201,
+      "bid": 96.03,
       "ask": 100.99,
       "lastPrice": 98,
-      "bidVol": 7,
+      "bidVol": 60,
       "askVol": 16,
       "accrued": 0.6276243093922652,
-      "ytmAtBid": 0.08338730686227791,
+      "ytmAtBid": 0.083355758106336,
       "ytmAtAsk": 0.06807542612659745,
       "ytmAtLast": 0.07716310079558752,
       "bvbYtm": 0.077,
       "dirtyAsk": 101.61762430939226,
-      "dirtyBid": 96.64772430939226,
-      "dirtyLast": 98.62762430939226
+      "dirtyBid": 96.65762430939226,
+      "dirtyLast": 98.62762430939226,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 7.1
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 7.1
+        },
+        {
+          "years": 2.9068493150684933,
+          "amount": 7.1
+        },
+        {
+          "years": 3.9068493150684933,
+          "amount": 107.1
+        }
+      ]
     },
     {
       "ticker": "R3005C",
@@ -3785,7 +4681,25 @@
       "bvbYtm": null,
       "dirtyAsk": 100.85384615384616,
       "dirtyBid": 95.15444615384617,
-      "dirtyLast": null
+      "dirtyLast": null,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 7
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 7
+        },
+        {
+          "years": 2.978082191780822,
+          "amount": 7
+        },
+        {
+          "years": 3.978082191780822,
+          "amount": 107
+        }
+      ]
     },
     {
       "ticker": "R2612A",
@@ -3807,7 +4721,13 @@
       "bvbYtm": 0.0677,
       "dirtyAsk": 103.36808219178081,
       "dirtyBid": 103.19808219178081,
-      "dirtyLast": 103.36808219178081
+      "dirtyLast": 103.36808219178081,
+      "cashflows": [
+        {
+          "years": 0.5616438356164384,
+          "amount": 107.25
+        }
+      ]
     },
     {
       "ticker": "R2703A",
@@ -3829,7 +4749,13 @@
       "bvbYtm": 0.0697,
       "dirtyAsk": 101.51242465753425,
       "dirtyBid": 101.35342465753425,
-      "dirtyLast": 101.35342465753425
+      "dirtyLast": 101.35342465753425,
+      "cashflows": [
+        {
+          "years": 0.7698630136986301,
+          "amount": 106.75
+        }
+      ]
     },
     {
       "ticker": "B2707A",
@@ -3851,7 +4777,17 @@
       "bvbYtm": 0.0639,
       "dirtyAsk": 103.82835616438356,
       "dirtyBid": 99.89835616438356,
-      "dirtyLast": 104.22835616438356
+      "dirtyLast": 104.22835616438356,
+      "cashflows": [
+        {
+          "years": 0.1589041095890411,
+          "amount": 5.8
+        },
+        {
+          "years": 1.158904109589041,
+          "amount": 105.8
+        }
+      ]
     },
     {
       "ticker": "R2910C",
@@ -3861,19 +4797,37 @@
       "couponPct": 7.6,
       "nominal": 100,
       "currency": "RON",
-      "bid": 98.3502,
+      "bid": 98.3503,
       "ask": 102.4689,
       "lastPrice": 98.45,
-      "bidVol": 30,
+      "bidVol": 75,
       "askVol": 66,
       "accrued": 4.5516483516483515,
-      "ytmAtBid": 0.0814624318445567,
+      "ytmAtBid": 0.08146208079415374,
       "ytmAtAsk": 0.06740382549469359,
       "ytmAtLast": 0.08111235909746028,
       "bvbYtm": 0.08109999999999999,
       "dirtyAsk": 107.02054835164836,
-      "dirtyBid": 102.90184835164835,
-      "dirtyLast": 103.00164835164836
+      "dirtyBid": 102.90194835164836,
+      "dirtyLast": 103.00164835164836,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 7.6
+        },
+        {
+          "years": 1.4,
+          "amount": 7.6
+        },
+        {
+          "years": 2.4027397260273973,
+          "amount": 7.6
+        },
+        {
+          "years": 3.4027397260273973,
+          "amount": 107.6
+        }
+      ]
     },
     {
       "ticker": "R2610A",
@@ -3895,7 +4849,13 @@
       "bvbYtm": 0.069,
       "dirtyAsk": 104.68123287671233,
       "dirtyBid": 104.58123287671233,
-      "dirtyLast": 104.58223287671233
+      "dirtyLast": 104.58223287671233,
+      "cashflows": [
+        {
+          "years": 0.3561643835616438,
+          "amount": 107.1
+        }
+      ]
     },
     {
       "ticker": "R2906A",
@@ -3917,7 +4877,25 @@
       "bvbYtm": 0.0836,
       "dirtyAsk": 110.15576923076924,
       "dirtyBid": 106.54576923076924,
-      "dirtyLast": 105.50586923076924
+      "dirtyLast": 105.50586923076924,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 7.7
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 7.7
+        },
+        {
+          "years": 2.0602739726027397,
+          "amount": 7.7
+        },
+        {
+          "years": 3.0602739726027397,
+          "amount": 107.7
+        }
+      ]
     },
     {
       "ticker": "R2805C",
@@ -3939,7 +4917,17 @@
       "bvbYtm": 0.0652,
       "dirtyAsk": 99.84065934065934,
       "dirtyBid": 97.55125934065934,
-      "dirtyLast": 99.89065934065934
+      "dirtyLast": 99.89065934065934,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 6.4
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 106.4
+        }
+      ]
     },
     {
       "ticker": "R2608A",
@@ -3950,18 +4938,24 @@
       "nominal": 100,
       "currency": "RON",
       "bid": 100.12,
-      "ask": 100.18,
-      "lastPrice": 100.1,
-      "bidVol": 199,
-      "askVol": 125,
+      "ask": 100.185,
+      "lastPrice": 100.12,
+      "bidVol": 74,
+      "askVol": 50,
       "accrued": 5.917808219178082,
       "ytmAtBid": 0.06312289767083712,
-      "ytmAtAsk": 0.059751258726464584,
-      "ytmAtLast": 0.06424958453862928,
-      "bvbYtm": 0.0635,
-      "dirtyAsk": 106.09780821917809,
+      "ytmAtAsk": 0.059470857871929184,
+      "ytmAtLast": 0.06312289767083712,
+      "bvbYtm": 0.0623,
+      "dirtyAsk": 106.10280821917809,
       "dirtyBid": 106.03780821917809,
-      "dirtyLast": 106.01780821917808
+      "dirtyLast": 106.03780821917809,
+      "cashflows": [
+        {
+          "years": 0.1780821917808219,
+          "amount": 107.2
+        }
+      ]
     },
     {
       "ticker": "B3109A",
@@ -3983,7 +4977,33 @@
       "bvbYtm": 0.0509,
       "dirtyAsk": 95.87,
       "dirtyBid": null,
-      "dirtyLast": 95.87
+      "dirtyLast": 95.87,
+      "cashflows": [
+        {
+          "years": 0.3232876712328767,
+          "amount": 3.65
+        },
+        {
+          "years": 1.3232876712328767,
+          "amount": 3.65
+        },
+        {
+          "years": 2.326027397260274,
+          "amount": 3.65
+        },
+        {
+          "years": 3.326027397260274,
+          "amount": 3.65
+        },
+        {
+          "years": 4.326027397260274,
+          "amount": 3.65
+        },
+        {
+          "years": 5.326027397260274,
+          "amount": 103.65
+        }
+      ]
     },
     {
       "ticker": "B2902A",
@@ -4005,7 +5025,21 @@
       "bvbYtm": 0.04190000000000001,
       "dirtyAsk": null,
       "dirtyBid": null,
-      "dirtyLast": 103.45205479452055
+      "dirtyLast": 103.45205479452055,
+      "cashflows": [
+        {
+          "years": 0.7095890410958904,
+          "amount": 5
+        },
+        {
+          "years": 1.7095890410958905,
+          "amount": 5
+        },
+        {
+          "years": 2.712328767123288,
+          "amount": 105
+        }
+      ]
     }
   ],
   "errors": []

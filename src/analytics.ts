@@ -66,5 +66,8 @@ export function analyze(
     dirtyBid: detail.bid != null ? detail.bid + accrued : null,
     dirtyLast:
       detail.lastPrice != null ? detail.lastPrice + accrued : null,
+    // Drop the dates — frontend only needs (years, amount) pairs to
+    // discount. Keeps data.json compact.
+    cashflows: cfs.map((cf) => ({ years: cf.years, amount: cf.amount })),
   };
 }

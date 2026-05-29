@@ -11,6 +11,9 @@
     "serve": "npx --yes http-server src/public -p 3000 -c-1",
     "typecheck": "tsc -p . --noEmit"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "cheerio": "^1.0.0"
   },

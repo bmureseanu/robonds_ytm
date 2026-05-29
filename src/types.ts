@@ -57,4 +57,9 @@ export interface BondAnalytics {
   dirtyAsk: number | null;
   dirtyBid: number | null;
   dirtyLast: number | null;
+  // Future cashflows per 100 nominal, ACT/365 years from `generatedAt`.
+  // Exposed so the frontend can invert the pricing equation in O(n_cfs) to
+  // answer "what clean price gives me YTM y?" without round-tripping to the
+  // server: clean = sum(amount / (1+y)^years) - accrued.
+  cashflows: { years: number; amount: number }[];
 }

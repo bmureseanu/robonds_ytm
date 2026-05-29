@@ -54,6 +54,25 @@
       width: 70px; background: var(--panel2); color: var(--text);
       border: 1px solid var(--border); border-radius: 4px; padding: 3px 6px;
     }
+    .filter-target {
+      color: var(--text) !important; font-weight: 600; font-size: 13px !important;
+      padding: 2px 10px; border-left: 1px solid var(--border);
+    }
+    .filter-target input[type="number"] {
+      width: 80px; font-size: 14px; padding: 4px 6px;
+      border-color: var(--accent);
+    }
+    .price-buy   { color: var(--good); font-weight: 700; }
+    .price-spread { color: var(--text); }
+    .price-aggressive { color: var(--bad); }
+    .badge {
+      display: inline-block; margin-left: 4px; padding: 0 5px;
+      border-radius: 3px; font-size: 10px; font-weight: 600;
+      vertical-align: 1px;
+    }
+    .badge.ok { background: rgba(21,128,61,0.12); color: var(--good); }
+    .badge.bad { background: rgba(185,28,28,0.12); color: var(--bad); }
+    .badge.mid { background: rgba(180,83,9,0.12); color: var(--warn); }
     main { padding: 16px 20px; }
     table { border-collapse: collapse; width: 100%; font-size: 13px; }
     thead th {
@@ -93,6 +112,11 @@
       <label><input type="checkbox" id="requireAsk" checked /> only with ask</label>
       <label>min ask vol <input type="number" id="minAskVol" value="0" min="0" step="1" /></label>
       <label>max yrs <input type="number" id="maxYears" value="20" min="0" step="0.5" /></label>
+      <label class="filter-target">
+        Target YTM
+        <input type="number" id="targetYtm" placeholder="e.g. 8.0" step="0.05" min="-50" max="50" inputmode="decimal" />
+        %
+      </label>
     </div>
   </header>
   <main>
@@ -103,6 +127,10 @@
     Prices are delayed ≥15 min by BVB and additionally refreshed on a 15-min GitHub Actions cron.
     YTM at ask/bid/last computed locally assuming annual coupons (ACT/365);
     BVB YTM column reproduces the site's displayed YTM (based on last price) for cross-check.
+    Type a target in "Target YTM" to see the clean price each bond needs to offer that yield —
+    badge tells you whether the market is already there (<span class="badge ok">buy now</span>),
+    your target sits inside the spread (<span class="badge mid">in spread</span>), or you'd be
+    bidding below current buyers (<span class="badge bad">below bid</span>).
     Refresh = re-fetch the latest published data.json.
   </footer>
 
@@ -110,6 +138,48 @@
     const $ = (id) => document.getElementById(id);
     let DATA = null;
     let sort = { key: "ytmAtAsk", dir: "desc" };
+    // Target YTM as a fraction (e.g. 0.08 for 8%). null = unset.
+    let targetYtm = null;
+
+    // Inverse of solveYtm: given target YTM, return the clean price that
+    // achieves it. Direct closed-form (no solver). Returns null if cashflows
+    // are missing or the math degenerates.
+    function priceAtYtm(yTarget, cfs, accrued) {
+      if (yTarget == null || !cfs || !cfs.length) return null;
+      const one = 1 + yTarget;
+      if (one <= 0) return null;  // would require taking pow of non-positive base
+      let dirty = 0;
+      for (const cf of cfs) dirty += cf.amount / Math.pow(one, cf.years);
+      const clean = dirty - (accrued || 0);
+      return Number.isFinite(clean) ? clean : null;
+    }
+
+    function priceAtTargetCell(a) {
+      const p = priceAtYtm(targetYtm, a.cashflows, a.accrued);
+      if (p == null) return targetYtm == null ? '<span class="small">set target</span>' : "-";
+      // Classify relative to current market:
+      //  p >= ask  → market is already at or below your target price → just buy at ask.
+      //  bid <= p < ask → your target sits in the spread → post a limit order at p.
+      //  p < bid → your target is more aggressive than current buyers → unlikely to fill.
+      let cls = "price-spread";
+      let badge = "";
+      if (a.ask != null && p >= a.ask) {
+        cls = "price-buy";
+        badge = '<span class="badge ok">buy now</span>';
+      } else if (a.bid != null && p < a.bid) {
+        cls = "price-aggressive";
+        badge = '<span class="badge bad">below bid</span>';
+      } else if (a.ask != null && a.bid != null) {
+        badge = '<span class="badge mid">in spread</span>';
+      }
+      return `<span class="${cls}">${p.toFixed(4)}</span>${badge}`;
+    }
+
+    function priceTargetLabel() {
+      return targetYtm != null
+        ? `Price @ ${(targetYtm * 100).toFixed(2)}%`
+        : "Price @ target";
+    }
 
     const COLUMNS = [
       { key: "ticker", label: "Ticker", align: "left", fmt: (a) =>
@@ -120,6 +190,7 @@
       { key: "bid", label: "Bid", align: "right", fmt: (a) => fmtNum(a.bid, 4) + sub(a.bidVol) },
       { key: "ask", label: "Ask", align: "right", fmt: (a) => fmtNum(a.ask, 4) + sub(a.askVol) },
       { key: "lastPrice", label: "Last", align: "right", fmt: (a) => fmtNum(a.lastPrice, 4) },
+      { key: "priceAtTarget", label: priceTargetLabel, align: "right", fmt: priceAtTargetCell },
       { key: "accrued", label: "Accrued", align: "right", fmt: (a) => fmtNum(a.accrued, 3) },
       { key: "dirtyAsk", label: "Dirty (ask)", align: "right", fmt: (a) => fmtNum(a.dirtyAsk, 3) },
       { key: "ytmAtAsk", label: "YTM ask", align: "right", fmt: (a) => yieldCell(a.ytmAtAsk, true) },
@@ -127,6 +198,13 @@
       { key: "ytmAtLast", label: "YTM last", align: "right", fmt: (a) => yieldCell(a.ytmAtLast, false) },
       { key: "bvbYtm", label: "BVB YTM", align: "right", fmt: (a) => yieldCell(a.bvbYtm, false) },
     ];
+
+    // Sort accessors. Most keys are plain field lookups (`a[key]`); the
+    // priceAtTarget column needs to recompute on the fly.
+    function sortValue(a, key) {
+      if (key === "priceAtTarget") return priceAtYtm(targetYtm, a.cashflows, a.accrued);
+      return a[key];
+    }
 
     function sub(v) {
       if (v == null) return "";
@@ -182,7 +260,7 @@
       const { key, dir } = sort;
       const factor = dir === "asc" ? 1 : -1;
       return [...rows].sort((a, b) => {
-        const av = a[key], bv = b[key];
+        const av = sortValue(a, key), bv = sortValue(b, key);
         if (av == null && bv == null) return 0;
         if (av == null) return 1;
         if (bv == null) return -1;
@@ -204,7 +282,8 @@
 
       const ths = COLUMNS.map((c) => {
         const arrow = sort.key === c.key ? `<span class="arrow">${sort.dir === "asc" ? "▲" : "▼"}</span>` : "";
-        return `<th class="text-${c.align}" data-key="${c.key}">${c.label}${arrow}</th>`;
+        const label = typeof c.label === "function" ? c.label() : c.label;
+        return `<th class="text-${c.align}" data-key="${c.key}">${label}${arrow}</th>`;
       }).join("");
 
       const trs = rows.map((a) => {
@@ -228,6 +307,12 @@
     ["requireAsk", "minAskVol", "maxYears"].forEach((id) => {
       $(id).addEventListener("change", render);
       $(id).addEventListener("input", render);
+    });
+    $("targetYtm").addEventListener("input", (e) => {
+      const v = e.target.value.trim();
+      const n = v === "" ? NaN : Number(v);
+      targetYtm = Number.isFinite(n) ? n / 100 : null;
+      render();
     });
     load();
   </script>

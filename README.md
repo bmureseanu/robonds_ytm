@@ -1,10 +1,13 @@
-# BVB RON Titluri de stat — YTM at ask, bid & last
+# BVB Titluri de stat (RON & EUR) — YTM at ask, bid & last
 
-A static PWA that shows yield-to-maturity for Romanian RON government bonds
-listed on Bucharest Stock Exchange (`m.bvb.ro`), sortable by YTM at bid / ask /
-last price. BVB only publishes YTM at last price; this app additionally computes
-YTM at the current ask (what you'd pay to buy) and bid (what you'd get to sell),
-which is usually what you actually want when shopping for yield.
+A static PWA that shows yield-to-maturity for Romanian government bonds
+(RON and EUR Titluri de stat) listed on Bucharest Stock Exchange
+(`m.bvb.ro`), sortable by YTM at bid / ask / last price. BVB only publishes
+YTM at last price; this app additionally computes YTM at the current ask
+(what you'd pay to buy) and bid (what you'd get to sell), which is usually
+what you actually want when shopping for yield. Both currencies are scraped
+in the same pass and split into two tabs in the UI (bookmarkable via
+`#RON` / `#EUR`).
 
 No backend. A GitHub Actions cron scrapes BVB every 15 minutes, commits a fresh
 `data.json` to the repo, and GitHub Pages serves the static site. The page is
@@ -142,10 +145,16 @@ last-cached `data.json`, and refreshes in the background when online.
 ## Calibration
 
 The "BVB YTM" column reproduces the YTM shown on each bond's detail page on
-`m.bvb.ro` (which is computed at last-traded price). Local YTM-at-last typically
-matches it within 1 bp for both R-series (Fidelis, nominal 100) and B-series
-(regular treasury, nominal 5,000). Annual coupons + ACT/365 are assumed; this
-matches the Romanian retail-govies convention.
+`m.bvb.ro` (which is computed at last-traded price). Local YTM-at-last
+matches BVB very closely under the annual-coupon + ACT/365 assumption:
+
+| Universe | n | Mean |YTM_last − BVB_YTM| |
+|---|---|---|
+| RON Titluri de stat | ~70 | ≤ 1 bp |
+| EUR Titluri de stat | ~60 | ≤ 0.5 bp |
+
+This holds across R-series (Fidelis, nominal 100), B-series (regular
+treasury, nominal 5,000), and the EUR equivalents (R????AE tickers).
 
 ## Caveats
 

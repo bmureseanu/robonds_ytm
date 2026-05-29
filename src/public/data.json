@@ -1,6 +1,126 @@
 {
-  "generatedAt": "2026-05-29T11:17:37.771Z",
+  "generatedAt": "2026-05-29T11:38:23.280Z",
   "listing": [
+    {
+      "ticker": "R3004A",
+      "isin": "ROE5YA2DZUA8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.4999,
+      "changePct": 0.5,
+      "lastTradeAt": "29.05.2026 14:22",
+      "couponPct": 7.6,
+      "currency": "RON",
+      "maturity": "16.04.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2706B",
+      "isin": "ROFIH9DER1W7",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.9,
+      "changePct": -0.29,
+      "lastTradeAt": "29.05.2026 14:21",
+      "couponPct": 8.35,
+      "currency": "RON",
+      "maturity": "19.06.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2812AE",
+      "isin": "RO5W46FHTRU7",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.32,
+      "changePct": 0.3,
+      "lastTradeAt": "29.05.2026 14:21",
+      "couponPct": 5.5,
+      "currency": "EUR",
+      "maturity": "20.12.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3003A",
+      "isin": "RON6WVVB8CK0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.2499,
+      "changePct": 0.75,
+      "lastTradeAt": "29.05.2026 14:17",
+      "couponPct": 7.8,
+      "currency": "RON",
+      "maturity": "19.03.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2709B",
+      "isin": "RO4UOH6AFY33",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.9,
+      "changePct": -0.09,
+      "lastTradeAt": "29.05.2026 14:17",
+      "couponPct": 8.2,
+      "currency": "RON",
+      "maturity": "17.09.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2804A",
+      "isin": "ROL18FQB3YR2",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.23,
+      "changePct": 0.38,
+      "lastTradeAt": "29.05.2026 14:16",
+      "couponPct": 7.3,
+      "currency": "RON",
+      "maturity": "16.04.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2707B",
+      "isin": "ROV4289T5QU6",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 101,
+      "changePct": 0.15,
+      "lastTradeAt": "29.05.2026 14:12",
+      "couponPct": 8.25,
+      "currency": "RON",
+      "maturity": "16.07.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2706A",
+      "isin": "ROROPQC7AIC0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100,
+      "changePct": 0.1,
+      "lastTradeAt": "29.05.2026 14:09",
+      "couponPct": 7.35,
+      "currency": "RON",
+      "maturity": "19.06.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2908A",
+      "isin": "ROOH5OS3YJ34",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97.67,
+      "changePct": 0.33,
+      "lastTradeAt": "29.05.2026 14:08",
+      "couponPct": 7,
+      "currency": "RON",
+      "maturity": "23.08.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2612A",
+      "isin": "ROS2QW8ADYI0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.19,
+      "changePct": -0.01,
+      "lastTradeAt": "29.05.2026 14:06",
+      "couponPct": 7.25,
+      "currency": "RON",
+      "maturity": "20.12.2026",
+      "category": "Titluri de stat"
+    },
     {
       "ticker": "R2910A",
       "isin": "ROYXKB42YAO8",
@@ -26,6 +146,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R3112AE",
+      "isin": "ROYZCEDPZ539",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100,
+      "changePct": -0.03,
+      "lastTradeAt": "29.05.2026 13:57",
+      "couponPct": 5.75,
+      "currency": "EUR",
+      "maturity": "23.12.2031",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R3106A",
       "isin": "ROPD86K9RDH1",
       "issuer": "MINISTERUL FINANTELOR",
@@ -35,6 +167,114 @@
       "couponPct": 7.95,
       "currency": "RON",
       "maturity": "19.06.2031",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3203AE",
+      "isin": "ROW1WT1KVBM6",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 13:51",
+      "couponPct": 6,
+      "currency": "EUR",
+      "maturity": "19.03.2032",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2902AE",
+      "isin": "ROWF8VKLR6R9",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 95.95,
+      "changePct": 5.44,
+      "lastTradeAt": "29.05.2026 13:48",
+      "couponPct": 3.6,
+      "currency": "EUR",
+      "maturity": "18.02.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2903CE",
+      "isin": "ROKRUQ2S3EJ7",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97,
+      "changePct": 0.52,
+      "lastTradeAt": "29.05.2026 13:48",
+      "couponPct": 3.5,
+      "currency": "EUR",
+      "maturity": "18.03.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2804AE",
+      "isin": "ROTDI264MAU5",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.79,
+      "changePct": 0.38,
+      "lastTradeAt": "29.05.2026 13:48",
+      "couponPct": 5.8,
+      "currency": "EUR",
+      "maturity": "13.04.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3601AE",
+      "isin": "ROWSNY06IUC9",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.45,
+      "changePct": -0.05,
+      "lastTradeAt": "29.05.2026 13:47",
+      "couponPct": 6.2,
+      "currency": "EUR",
+      "maturity": "28.01.2036",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2907AE",
+      "isin": "RO4BEW3ZCCI4",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99,
+      "changePct": 0.1,
+      "lastTradeAt": "29.05.2026 13:46",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "03.07.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2707AE",
+      "isin": "RO2RNGFETGY1",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.4,
+      "changePct": 0.05,
+      "lastTradeAt": "29.05.2026 13:46",
+      "couponPct": 3.4,
+      "currency": "EUR",
+      "maturity": "16.07.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3102AE",
+      "isin": "ROWHEG1FHZQ1",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 96.89,
+      "changePct": 0.93,
+      "lastTradeAt": "29.05.2026 13:43",
+      "couponPct": 4.5,
+      "currency": "EUR",
+      "maturity": "18.02.2031",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3602AE",
+      "isin": "ROXZP5TZUW61",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97.7498,
+      "changePct": -0.4,
+      "lastTradeAt": "29.05.2026 13:42",
+      "couponPct": 6,
+      "currency": "EUR",
+      "maturity": "18.02.2036",
       "category": "Titluri de stat"
     },
     {
@@ -50,18 +290,6 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R2706A",
-      "isin": "ROROPQC7AIC0",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 99.8,
-      "changePct": -0.1,
-      "lastTradeAt": "29.05.2026 13:35",
-      "couponPct": 7.35,
-      "currency": "RON",
-      "maturity": "19.06.2027",
-      "category": "Titluri de stat"
-    },
-    {
       "ticker": "R2801B",
       "isin": "RO5D5RX35QO7",
       "issuer": "MINISTERUL FINANTELOR",
@@ -71,6 +299,18 @@
       "couponPct": 7.45,
       "currency": "RON",
       "maturity": "28.01.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3204AE",
+      "isin": "ROV33IZK0XP8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.0799,
+      "changePct": 0.08,
+      "lastTradeAt": "29.05.2026 13:28",
+      "couponPct": 6,
+      "currency": "EUR",
+      "maturity": "16.04.2032",
       "category": "Titluri de stat"
     },
     {
@@ -98,6 +338,30 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R2709AE",
+      "isin": "RODEVKUTQUL4",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 98.1101,
+      "changePct": 0.1,
+      "lastTradeAt": "29.05.2026 13:22",
+      "couponPct": 3.1,
+      "currency": "EUR",
+      "maturity": "17.09.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3103AE",
+      "isin": "RO0AS9O8UWZ3",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 95,
+      "changePct": -2.06,
+      "lastTradeAt": "29.05.2026 13:21",
+      "couponPct": 4.5,
+      "currency": "EUR",
+      "maturity": "18.03.2031",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2704A",
       "isin": "ROFM5R7FQWV5",
       "issuer": "MINISTERUL FINANTELOR",
@@ -110,18 +374,6 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R2707B",
-      "isin": "ROV4289T5QU6",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 101,
-      "changePct": 0.15,
-      "lastTradeAt": "29.05.2026 13:17",
-      "couponPct": 8.25,
-      "currency": "RON",
-      "maturity": "16.07.2027",
-      "category": "Titluri de stat"
-    },
-    {
       "ticker": "R2708B",
       "isin": "ROYUO8Z4NFO2",
       "issuer": "MINISTERUL FINANTELOR",
@@ -131,18 +383,6 @@
       "couponPct": 8.2,
       "currency": "RON",
       "maturity": "13.08.2027",
-      "category": "Titluri de stat"
-    },
-    {
-      "ticker": "R2612A",
-      "isin": "ROS2QW8ADYI0",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 100.19,
-      "changePct": -0.01,
-      "lastTradeAt": "29.05.2026 13:11",
-      "couponPct": 7.25,
-      "currency": "RON",
-      "maturity": "20.12.2026",
       "category": "Titluri de stat"
     },
     {
@@ -182,15 +422,51 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R2706B",
-      "isin": "ROFIH9DER1W7",
+      "ticker": "R3010AE",
+      "isin": "ROXC47R5KNF9",
       "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 100.9,
-      "changePct": -0.29,
-      "lastTradeAt": "29.05.2026 12:37",
-      "couponPct": 8.35,
-      "currency": "RON",
-      "maturity": "19.06.2027",
+      "lastPrice": 99,
+      "changePct": -1.49,
+      "lastTradeAt": "29.05.2026 12:41",
+      "couponPct": 5.25,
+      "currency": "EUR",
+      "maturity": "22.10.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3603AE",
+      "isin": "ROHLCA3VVNV2",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 98.3,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 12:40",
+      "couponPct": 6,
+      "currency": "EUR",
+      "maturity": "18.03.2036",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3604AE",
+      "isin": "ROLYE7K276R7",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.83,
+      "changePct": 0.23,
+      "lastTradeAt": "29.05.2026 12:40",
+      "couponPct": 6.4,
+      "currency": "EUR",
+      "maturity": "24.04.2036",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2810AE",
+      "isin": "ROY61GNL5YW8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100,
+      "changePct": 0.2,
+      "lastTradeAt": "29.05.2026 12:36",
+      "couponPct": 5.3,
+      "currency": "EUR",
+      "maturity": "06.10.2028",
       "category": "Titluri de stat"
     },
     {
@@ -230,6 +506,30 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R3510AE",
+      "isin": "RO6NDIVKWUM2",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 101.25,
+      "changePct": 0.05,
+      "lastTradeAt": "29.05.2026 12:13",
+      "couponPct": 6.5,
+      "currency": "EUR",
+      "maturity": "22.10.2035",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2910AE",
+      "isin": "RO773WJCMQ25",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 98.6,
+      "changePct": 0.6,
+      "lastTradeAt": "29.05.2026 12:11",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "16.10.2029",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2703A",
       "isin": "ROFO4YBT7LL8",
       "issuer": "MINISTERUL FINANTELOR",
@@ -251,6 +551,18 @@
       "couponPct": 7.25,
       "currency": "RON",
       "maturity": "16.07.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2610AE",
+      "isin": "ROQHRYERUPM6",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.4,
+      "changePct": -0.4,
+      "lastTradeAt": "29.05.2026 11:55",
+      "couponPct": 1.6,
+      "currency": "EUR",
+      "maturity": "06.10.2026",
       "category": "Titluri de stat"
     },
     {
@@ -290,6 +602,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R2704AE",
+      "isin": "ROSSLQ9LCF50",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 11:39",
+      "couponPct": 3.6,
+      "currency": "EUR",
+      "maturity": "16.04.2027",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2803A",
       "isin": "RO9PPT8AXOV1",
       "issuer": "MINISTERUL FINANTELOR",
@@ -299,6 +623,18 @@
       "couponPct": 7.5,
       "currency": "RON",
       "maturity": "19.03.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2705AE",
+      "isin": "ROA0GOCOANU8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.8,
+      "changePct": -0.2,
+      "lastTradeAt": "29.05.2026 11:26",
+      "couponPct": 3.85,
+      "currency": "EUR",
+      "maturity": "21.05.2027",
       "category": "Titluri de stat"
     },
     {
@@ -326,6 +662,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R2810CE",
+      "isin": "RORVG1BGEDM4",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97.5,
+      "changePct": -1.01,
+      "lastTradeAt": "29.05.2026 11:21",
+      "couponPct": 4.15,
+      "currency": "EUR",
+      "maturity": "22.10.2028",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2711A",
       "isin": "ROCH8FS9GK90",
       "issuer": "MINISTERUL FINANTELOR",
@@ -335,6 +683,114 @@
       "couponPct": 6.95,
       "currency": "RON",
       "maturity": "19.11.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3012AE",
+      "isin": "ROSIR7HAZ5O9",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 95.1,
+      "changePct": -2.52,
+      "lastTradeAt": "29.05.2026 11:09",
+      "couponPct": 4.75,
+      "currency": "EUR",
+      "maturity": "17.12.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3509AE",
+      "isin": "ROG7CTZ7I9J2",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 101.3,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 11:07",
+      "couponPct": 6.5,
+      "currency": "EUR",
+      "maturity": "17.09.2035",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3202AE",
+      "isin": "ROF1JEO56VX1",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.01,
+      "changePct": 0.01,
+      "lastTradeAt": "29.05.2026 11:07",
+      "couponPct": 6.25,
+      "currency": "EUR",
+      "maturity": "19.02.2032",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3205AE",
+      "isin": "ROLX45LYZZF0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.5,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 11:03",
+      "couponPct": 6.25,
+      "currency": "EUR",
+      "maturity": "21.05.2032",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3011AE",
+      "isin": "RO29NOGS1TD3",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 98.1,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 11:02",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "19.11.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3206AE",
+      "isin": "ROHJWQ1AI036",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 101.5,
+      "changePct": 0.1,
+      "lastTradeAt": "29.05.2026 11:01",
+      "couponPct": 6.5,
+      "currency": "EUR",
+      "maturity": "19.06.2032",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3605AE",
+      "isin": "ROVMSL8DL3F3",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.1002,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 10:39",
+      "couponPct": 6.25,
+      "currency": "EUR",
+      "maturity": "20.05.2036",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3512AE",
+      "isin": "RORCFVY72V16",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.85,
+      "changePct": -0.05,
+      "lastTradeAt": "29.05.2026 10:38",
+      "couponPct": 6.2,
+      "currency": "EUR",
+      "maturity": "17.12.2035",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3207AE",
+      "isin": "ROC14H6U70H3",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.6871,
+      "changePct": 0.69,
+      "lastTradeAt": "29.05.2026 10:27",
+      "couponPct": 6.3,
+      "currency": "EUR",
+      "maturity": "16.07.2032",
       "category": "Titluri de stat"
     },
     {
@@ -362,6 +818,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R2706AE",
+      "isin": "ROGWSAJ4MI93",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.7601,
+      "changePct": -0.74,
+      "lastTradeAt": "29.05.2026 10:22",
+      "couponPct": 3.9,
+      "currency": "EUR",
+      "maturity": "19.06.2027",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2802A",
       "isin": "ROOBSYD57S94",
       "issuer": "MINISTERUL FINANTELOR",
@@ -386,15 +854,15 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R2908A",
-      "isin": "ROOH5OS3YJ34",
+      "ticker": "R3508AE",
+      "isin": "RO3537MMT1B7",
       "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 97.32,
-      "changePct": -0.03,
-      "lastTradeAt": "29.05.2026 10:08",
-      "couponPct": 7,
-      "currency": "RON",
-      "maturity": "23.08.2029",
+      "lastPrice": 101.45,
+      "changePct": 0.2,
+      "lastTradeAt": "29.05.2026 10:10",
+      "couponPct": 6.5,
+      "currency": "EUR",
+      "maturity": "13.08.2035",
       "category": "Titluri de stat"
     },
     {
@@ -410,15 +878,39 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R3004A",
-      "isin": "ROE5YA2DZUA8",
+      "ticker": "R2808AE",
+      "isin": "ROKZLUKMGN59",
       "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 99,
+      "lastPrice": 100.04,
+      "changePct": -0.11,
+      "lastTradeAt": "29.05.2026 10:05",
+      "couponPct": 5.45,
+      "currency": "EUR",
+      "maturity": "02.08.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2904AE",
+      "isin": "RO46T3V3B2W6",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.2,
       "changePct": 0,
-      "lastTradeAt": "29.05.2026 10:03",
-      "couponPct": 7.6,
-      "currency": "RON",
-      "maturity": "16.04.2030",
+      "lastTradeAt": "29.05.2026 10:02",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "22.04.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2707BE",
+      "isin": "ROJ6O1WX8EN5",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.0033,
+      "changePct": 0,
+      "lastTradeAt": "29.05.2026 10:00",
+      "couponPct": 4.4,
+      "currency": "EUR",
+      "maturity": "16.07.2027",
       "category": "Titluri de stat"
     },
     {
@@ -470,15 +962,15 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R3003A",
-      "isin": "RON6WVVB8CK0",
+      "ticker": "R2908AE",
+      "isin": "ROFWCWVUUWU1",
       "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 99.5026,
-      "changePct": -0.1,
-      "lastTradeAt": "28.05.2026 16:41",
-      "couponPct": 7.8,
-      "currency": "RON",
-      "maturity": "19.03.2030",
+      "lastPrice": 98.9,
+      "changePct": 0,
+      "lastTradeAt": "28.05.2026 16:35",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "23.08.2029",
       "category": "Titluri de stat"
     },
     {
@@ -494,18 +986,6 @@
       "category": "Titluri de stat"
     },
     {
-      "ticker": "R2804A",
-      "isin": "ROL18FQB3YR2",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 99.85,
-      "changePct": 0,
-      "lastTradeAt": "28.05.2026 16:17",
-      "couponPct": 7.3,
-      "currency": "RON",
-      "maturity": "16.04.2028",
-      "category": "Titluri de stat"
-    },
-    {
       "ticker": "R3203A",
       "isin": "RO1RJXWIY3I9",
       "issuer": "MINISTERUL FINANTELOR",
@@ -515,6 +995,30 @@
       "couponPct": 7.1,
       "currency": "RON",
       "maturity": "18.03.2032",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3511AE",
+      "isin": "ROMWZQ4CEV91",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.0884,
+      "changePct": -0.1,
+      "lastTradeAt": "28.05.2026 15:44",
+      "couponPct": 6.3,
+      "currency": "EUR",
+      "maturity": "19.11.2035",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2905AE",
+      "isin": "ROMJJXMMMB11",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.01,
+      "changePct": 0,
+      "lastTradeAt": "28.05.2026 15:32",
+      "couponPct": 4,
+      "currency": "EUR",
+      "maturity": "20.05.2029",
       "category": "Titluri de stat"
     },
     {
@@ -554,6 +1058,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R3008AE",
+      "isin": "ROKMM9ZNGN31",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.5,
+      "changePct": 0.51,
+      "lastTradeAt": "28.05.2026 14:15",
+      "couponPct": 5.25,
+      "currency": "EUR",
+      "maturity": "13.08.2030",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2712D",
       "isin": "ROP2VPULO136",
       "issuer": "MINISTERUL FINANTELOR",
@@ -563,6 +1079,18 @@
       "couponPct": 7.55,
       "currency": "RON",
       "maturity": "17.12.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2702AE",
+      "isin": "ROYBEZSSXQ73",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.3,
+      "changePct": 0.2,
+      "lastTradeAt": "28.05.2026 13:54",
+      "couponPct": 4,
+      "currency": "EUR",
+      "maturity": "19.02.2027",
       "category": "Titluri de stat"
     },
     {
@@ -590,6 +1118,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R2901AE",
+      "isin": "ROOUNDU25V29",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 97.9999,
+      "changePct": 0.51,
+      "lastTradeAt": "28.05.2026 11:09",
+      "couponPct": 3.75,
+      "currency": "EUR",
+      "maturity": "28.01.2029",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2802B",
       "isin": "ROO6OWJUVYX5",
       "issuer": "MINISTERUL FINANTELOR",
@@ -599,6 +1139,30 @@
       "couponPct": 7.15,
       "currency": "RON",
       "maturity": "18.02.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2812CE",
+      "isin": "ROIDUZS8Y0G0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.1898,
+      "changePct": 2.26,
+      "lastTradeAt": "28.05.2026 10:45",
+      "couponPct": 3.75,
+      "currency": "EUR",
+      "maturity": "17.12.2028",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2904CE",
+      "isin": "ROT3PPVD93X0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.7,
+      "changePct": 0.02,
+      "lastTradeAt": "28.05.2026 10:28",
+      "couponPct": 4.25,
+      "currency": "EUR",
+      "maturity": "24.04.2029",
       "category": "Titluri de stat"
     },
     {
@@ -614,6 +1178,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R3007AE",
+      "isin": "RO7BBA1JDI51",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.11,
+      "changePct": 0.87,
+      "lastTradeAt": "28.05.2026 10:00",
+      "couponPct": 5.5,
+      "currency": "EUR",
+      "maturity": "16.07.2030",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2709A",
       "isin": "ROP6PWH0TFR8",
       "issuer": "MINISTERUL FINANTELOR",
@@ -621,18 +1197,6 @@
       "changePct": 0.18,
       "lastTradeAt": "27.05.2026 17:50",
       "couponPct": 7.2,
-      "currency": "RON",
-      "maturity": "17.09.2027",
-      "category": "Titluri de stat"
-    },
-    {
-      "ticker": "R2709B",
-      "isin": "RO4UOH6AFY33",
-      "issuer": "MINISTERUL FINANTELOR",
-      "lastPrice": 100.99,
-      "changePct": 0.27,
-      "lastTradeAt": "27.05.2026 17:44",
-      "couponPct": 8.2,
       "currency": "RON",
       "maturity": "17.09.2027",
       "category": "Titluri de stat"
@@ -647,6 +1211,30 @@
       "couponPct": 7.25,
       "currency": "RON",
       "maturity": "18.02.2032",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2612AE",
+      "isin": "ROUFKA4GGAZ1",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.85,
+      "changePct": -0.05,
+      "lastTradeAt": "27.05.2026 17:20",
+      "couponPct": 1.8,
+      "currency": "EUR",
+      "maturity": "15.12.2026",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2903AE",
+      "isin": "ROBK9EB2A2D8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.51,
+      "changePct": 0.52,
+      "lastTradeAt": "27.05.2026 16:59",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "06.03.2029",
       "category": "Titluri de stat"
     },
     {
@@ -671,6 +1259,54 @@
       "couponPct": 7.1,
       "currency": "RON",
       "maturity": "28.01.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3101AE",
+      "isin": "RO4EW9A9YNJ8",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 96.9999,
+      "changePct": 0,
+      "lastTradeAt": "27.05.2026 16:16",
+      "couponPct": 4.75,
+      "currency": "EUR",
+      "maturity": "28.01.2031",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2612BE",
+      "isin": "ROPOCDN18MP3",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.5997,
+      "changePct": 0.1,
+      "lastTradeAt": "27.05.2026 15:19",
+      "couponPct": 3.75,
+      "currency": "EUR",
+      "maturity": "23.12.2026",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2708AE",
+      "isin": "RODE7888PH79",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.5,
+      "changePct": 0,
+      "lastTradeAt": "27.05.2026 12:08",
+      "couponPct": 3.1,
+      "currency": "EUR",
+      "maturity": "13.08.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2703AE",
+      "isin": "ROFFXW47BSR5",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.6703,
+      "changePct": -1.07,
+      "lastTradeAt": "26.05.2026 15:01",
+      "couponPct": 3.75,
+      "currency": "EUR",
+      "maturity": "19.03.2027",
       "category": "Titluri de stat"
     },
     {
@@ -710,6 +1346,18 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R3006AE",
+      "isin": "ROIS1C28MMI3",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 101.5999,
+      "changePct": 2.01,
+      "lastTradeAt": "26.05.2026 11:48",
+      "couponPct": 5.6,
+      "currency": "EUR",
+      "maturity": "19.06.2030",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2907A",
       "isin": "RO74XVFGHRJ5",
       "issuer": "MINISTERUL FINANTELOR",
@@ -719,6 +1367,18 @@
       "couponPct": 7.7,
       "currency": "RON",
       "maturity": "16.07.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3105AE",
+      "isin": "ROIN7TGI0BM0",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 102.9,
+      "changePct": 2.13,
+      "lastTradeAt": "26.05.2026 10:20",
+      "couponPct": 5,
+      "currency": "EUR",
+      "maturity": "20.05.2031",
       "category": "Titluri de stat"
     },
     {
@@ -758,6 +1418,42 @@
       "category": "Titluri de stat"
     },
     {
+      "ticker": "R2708BE",
+      "isin": "ROKRR4DYND14",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.2,
+      "changePct": 0.1,
+      "lastTradeAt": "22.05.2026 15:07",
+      "couponPct": 4.1,
+      "currency": "EUR",
+      "maturity": "13.08.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2709BE",
+      "isin": "RO7ME2F4N6J4",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 100.71,
+      "changePct": 0,
+      "lastTradeAt": "22.05.2026 11:42",
+      "couponPct": 4.1,
+      "currency": "EUR",
+      "maturity": "17.09.2027",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R2811AE",
+      "isin": "ROIBDNOE8N78",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99.8878,
+      "changePct": 2.98,
+      "lastTradeAt": "21.05.2026 11:32",
+      "couponPct": 3.9,
+      "currency": "EUR",
+      "maturity": "19.11.2028",
+      "category": "Titluri de stat"
+    },
+    {
       "ticker": "R2906A",
       "isin": "RO3OR8IVDER8",
       "issuer": "MINISTERUL FINANTELOR",
@@ -779,6 +1475,30 @@
       "couponPct": 7.65,
       "currency": "RON",
       "maturity": "13.08.2029",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3009AE",
+      "isin": "ROCHUHLJ51R5",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 98.75,
+      "changePct": 0,
+      "lastTradeAt": "20.05.2026 11:27",
+      "couponPct": 5.25,
+      "currency": "EUR",
+      "maturity": "17.09.2030",
+      "category": "Titluri de stat"
+    },
+    {
+      "ticker": "R3104AE",
+      "isin": "ROVYJXJ8GK73",
+      "issuer": "MINISTERUL FINANTELOR",
+      "lastPrice": 99,
+      "changePct": -3.41,
+      "lastTradeAt": "12.05.2026 12:47",
+      "couponPct": 5.25,
+      "currency": "EUR",
+      "maturity": "24.04.2031",
       "category": "Titluri de stat"
     },
     {
@@ -832,6 +1552,246 @@
   ],
   "details": [
     {
+      "ticker": "R3004A",
+      "isin": "ROE5YA2DZUA8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.651,
+      "ask": 99.4999,
+      "bidVol": 4,
+      "askVol": 5,
+      "refPrice": 99,
+      "lastPrice": 99.4999,
+      "changePct": 0.5,
+      "high52w": 102.8999,
+      "low52w": 96,
+      "couponPct": 7.6,
+      "bvbYtmPct": 7.74,
+      "nominal": 100,
+      "issueValue": 108525900,
+      "tradingStart": "2025-04-17",
+      "maturity": "2030-04-16",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_5Y_R3004A.pdf"
+    },
+    {
+      "ticker": "R2706B",
+      "isin": "ROFIH9DER1W7",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.9,
+      "ask": 101.1,
+      "bidVol": 115,
+      "askVol": 100,
+      "refPrice": 101.19,
+      "lastPrice": 100.9,
+      "changePct": -0.29,
+      "high52w": 102.99,
+      "low52w": 99.0102,
+      "couponPct": 8.35,
+      "bvbYtmPct": 7.41,
+      "nominal": 100,
+      "issueValue": 113870000,
+      "tradingStart": "2025-06-20",
+      "maturity": "2027-06-19",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2706B.pdf"
+    },
+    {
+      "ticker": "R2812AE",
+      "isin": "RO5W46FHTRU7",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.32,
+      "ask": 100.65,
+      "bidVol": 353,
+      "askVol": 4,
+      "refPrice": 100.0201,
+      "lastPrice": 100.32,
+      "changePct": 0.3,
+      "high52w": 103.075,
+      "low52w": 94.1,
+      "couponPct": 5.5,
+      "bvbYtmPct": 5.34,
+      "nominal": 100,
+      "issueValue": 174355200,
+      "tradingStart": "2023-12-21",
+      "maturity": "2028-12-20",
+      "currency": "EUR",
+      "prospectusUrl": null
+    },
+    {
+      "ticker": "R3003A",
+      "isin": "RON6WVVB8CK0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.55,
+      "ask": 100.2499,
+      "bidVol": 150,
+      "askVol": 3,
+      "refPrice": 99.5026,
+      "lastPrice": 100.2499,
+      "changePct": 0.75,
+      "high52w": 102.94,
+      "low52w": 96.2,
+      "couponPct": 7.8,
+      "bvbYtmPct": 7.7,
+      "nominal": 100,
+      "issueValue": 113323500,
+      "tradingStart": "2025-03-20",
+      "maturity": "2030-03-19",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/MFP_Fidelis_Termeni Finali_Lei_5Y R3003A.pdf"
+    },
+    {
+      "ticker": "R2709B",
+      "isin": "RO4UOH6AFY33",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.72,
+      "ask": 100.9,
+      "bidVol": 23,
+      "askVol": 61,
+      "refPrice": 100.99,
+      "lastPrice": 100.9,
+      "changePct": -0.09,
+      "high52w": 102.8,
+      "low52w": 100,
+      "couponPct": 8.2,
+      "bvbYtmPct": 7.39,
+      "nominal": 100,
+      "issueValue": 118074100,
+      "tradingStart": "2025-09-18",
+      "maturity": "2027-09-17",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2709B.pdf"
+    },
+    {
+      "ticker": "R2804A",
+      "isin": "ROL18FQB3YR2",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.85,
+      "ask": 100.23,
+      "bidVol": 298,
+      "askVol": 62,
+      "refPrice": 99.85,
+      "lastPrice": 100.23,
+      "changePct": 0.38,
+      "high52w": 103,
+      "low52w": 96.1,
+      "couponPct": 7.3,
+      "bvbYtmPct": 7.14,
+      "nominal": 100,
+      "issueValue": 149062500,
+      "tradingStart": "2025-04-17",
+      "maturity": "2028-04-16",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_3Y_R2804A.pdf"
+    },
+    {
+      "ticker": "R2707B",
+      "isin": "ROV4289T5QU6",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 101,
+      "ask": 101.19,
+      "bidVol": 270,
+      "askVol": 236,
+      "refPrice": 100.85,
+      "lastPrice": 101,
+      "changePct": 0.15,
+      "high52w": 102.96,
+      "low52w": 99.67,
+      "couponPct": 8.25,
+      "bvbYtmPct": 7.26,
+      "nominal": 100,
+      "issueValue": 99083500,
+      "tradingStart": "2025-07-17",
+      "maturity": "2027-07-16",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori.pdf"
+    },
+    {
+      "ticker": "R2706A",
+      "isin": "ROROPQC7AIC0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100,
+      "ask": 100.3998,
+      "bidVol": 101,
+      "askVol": 15,
+      "refPrice": 99.9,
+      "lastPrice": 100,
+      "changePct": 0.1,
+      "high52w": 102,
+      "low52w": 96.0801,
+      "couponPct": 7.35,
+      "bvbYtmPct": 7.34,
+      "nominal": 100,
+      "issueValue": 317807200,
+      "tradingStart": "2025-06-20",
+      "maturity": "2027-06-19",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2706A.pdf"
+    },
+    {
+      "ticker": "R2908A",
+      "isin": "ROOH5OS3YJ34",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.67,
+      "ask": 97.6799,
+      "bidVol": 7,
+      "askVol": 43,
+      "refPrice": 97.3501,
+      "lastPrice": 97.67,
+      "changePct": 0.33,
+      "high52w": 100.37,
+      "low52w": 94,
+      "couponPct": 7,
+      "bvbYtmPct": 7.82,
+      "nominal": 100,
+      "issueValue": 970211700,
+      "tradingStart": "2024-08-26",
+      "maturity": "2029-08-23",
+      "currency": "RON",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni finali R2908A.pdf"
+    },
+    {
+      "ticker": "R2612A",
+      "isin": "ROS2QW8ADYI0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.02,
+      "ask": 100.19,
+      "bidVol": 150,
+      "askVol": 1252,
+      "refPrice": 100.2001,
+      "lastPrice": 100.19,
+      "changePct": -0.01,
+      "high52w": 101.18,
+      "low52w": 98,
+      "couponPct": 7.25,
+      "bvbYtmPct": 6.77,
+      "nominal": 100,
+      "issueValue": 563108800,
+      "tradingStart": "2023-12-21",
+      "maturity": "2026-12-20",
+      "currency": "RON",
+      "prospectusUrl": null
+    },
+    {
       "ticker": "R2910A",
       "isin": "ROYXKB42YAO8",
       "segment": "Principal",
@@ -880,6 +1840,30 @@
       "prospectusUrl": "https://m.bvb.ro/Juridic/files/OMF 2188 din 12.07.2023.pdf"
     },
     {
+      "ticker": "R3112AE",
+      "isin": "ROYZCEDPZ539",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100,
+      "ask": 100.03,
+      "bidVol": 188,
+      "askVol": 45,
+      "refPrice": 100.03,
+      "lastPrice": 100,
+      "changePct": -0.03,
+      "high52w": 100.2999,
+      "low52w": 94.9,
+      "couponPct": 5.75,
+      "bvbYtmPct": 5.74,
+      "nominal": 100,
+      "issueValue": 140940800,
+      "tradingStart": "2024-12-27",
+      "maturity": "2031-12-23",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/MFP_Fidelis_Termeni Finali_Euro_7Y R3112AE.pdf"
+    },
+    {
       "ticker": "R3106A",
       "isin": "ROPD86K9RDH1",
       "segment": "Principal",
@@ -902,6 +1886,222 @@
       "maturity": "2031-06-19",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3106A.pdf"
+    },
+    {
+      "ticker": "R3203AE",
+      "isin": "ROW1WT1KVBM6",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100,
+      "ask": 100.0875,
+      "bidVol": 190,
+      "askVol": 190,
+      "refPrice": 100,
+      "lastPrice": 100,
+      "changePct": 0,
+      "high52w": 101,
+      "low52w": 93,
+      "couponPct": 6,
+      "bvbYtmPct": 5.99,
+      "nominal": 100,
+      "issueValue": 85500100,
+      "tradingStart": "2025-03-20",
+      "maturity": "2032-03-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/MFP_Fidelis_Termeni Finali_Euro_7Y R3203AE.pdf"
+    },
+    {
+      "ticker": "R2902AE",
+      "isin": "ROWF8VKLR6R9",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 94.42,
+      "ask": 95.95,
+      "bidVol": 40,
+      "askVol": 21,
+      "refPrice": 91,
+      "lastPrice": 95.95,
+      "changePct": 5.44,
+      "high52w": 100.5,
+      "low52w": 91,
+      "couponPct": 3.6,
+      "bvbYtmPct": 5.22,
+      "nominal": 100,
+      "issueValue": 25470200,
+      "tradingStart": "2026-02-19",
+      "maturity": "2029-02-18",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2902AE.pdf"
+    },
+    {
+      "ticker": "R2903CE",
+      "isin": "ROKRUQ2S3EJ7",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 96,
+      "ask": 99.2887,
+      "bidVol": 1,
+      "askVol": 20,
+      "refPrice": 96.5001,
+      "lastPrice": 97,
+      "changePct": 0.52,
+      "high52w": 100.5,
+      "low52w": 94.0021,
+      "couponPct": 3.5,
+      "bvbYtmPct": 4.66,
+      "nominal": 100,
+      "issueValue": 19339100,
+      "tradingStart": "2026-03-19",
+      "maturity": "2029-03-18",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2903CE.pdf"
+    },
+    {
+      "ticker": "R2804AE",
+      "isin": "ROTDI264MAU5",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.5,
+      "ask": 100.79,
+      "bidVol": 4,
+      "askVol": 379,
+      "refPrice": 100.412,
+      "lastPrice": 100.79,
+      "changePct": 0.38,
+      "high52w": 104,
+      "low52w": 99,
+      "couponPct": 5.8,
+      "bvbYtmPct": 5.33,
+      "nominal": 100,
+      "issueValue": 274733900,
+      "tradingStart": "2023-04-18",
+      "maturity": "2028-04-13",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/FT R2804AE.pdf"
+    },
+    {
+      "ticker": "R3601AE",
+      "isin": "ROWSNY06IUC9",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.15,
+      "ask": 99.4499,
+      "bidVol": 12,
+      "askVol": 34,
+      "refPrice": 99.4995,
+      "lastPrice": 99.45,
+      "changePct": -0.05,
+      "high52w": 101.88,
+      "low52w": 96,
+      "couponPct": 6.2,
+      "bvbYtmPct": 6.27,
+      "nominal": 100,
+      "issueValue": 151639100,
+      "tradingStart": "2026-01-29",
+      "maturity": "2036-01-28",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3601AE.pdf"
+    },
+    {
+      "ticker": "R2907AE",
+      "isin": "RO4BEW3ZCCI4",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.95,
+      "ask": 99,
+      "bidVol": 30,
+      "askVol": 20,
+      "refPrice": 98.9,
+      "lastPrice": 99,
+      "changePct": 0.1,
+      "high52w": 100.8699,
+      "low52w": 93.21,
+      "couponPct": 5,
+      "bvbYtmPct": 5.35,
+      "nominal": 100,
+      "issueValue": 116769400,
+      "tradingStart": "2024-07-04",
+      "maturity": "2029-07-03",
+      "currency": "EUR",
+      "prospectusUrl": null
+    },
+    {
+      "ticker": "R2707AE",
+      "isin": "RO2RNGFETGY1",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.6005,
+      "ask": 99.38,
+      "bidVol": 3,
+      "askVol": 77,
+      "refPrice": 99.35,
+      "lastPrice": 99.4,
+      "changePct": 0.05,
+      "high52w": 100.9998,
+      "low52w": 98.1,
+      "couponPct": 3.4,
+      "bvbYtmPct": 3.95,
+      "nominal": 100,
+      "issueValue": 60332200,
+      "tradingStart": "2025-07-17",
+      "maturity": "2027-07-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y.pdf"
+    },
+    {
+      "ticker": "R3102AE",
+      "isin": "ROWHEG1FHZQ1",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 95.0002,
+      "ask": 96.89,
+      "bidVol": 3,
+      "askVol": 1,
+      "refPrice": 96,
+      "lastPrice": 96.89,
+      "changePct": 0.93,
+      "high52w": 100,
+      "low52w": 91.1003,
+      "couponPct": 4.5,
+      "bvbYtmPct": 5.25,
+      "nominal": 100,
+      "issueValue": 13478600,
+      "tradingStart": "2026-02-19",
+      "maturity": "2031-02-18",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3102AE.pdf"
+    },
+    {
+      "ticker": "R3602AE",
+      "isin": "ROXZP5TZUW61",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.66,
+      "ask": 97.7498,
+      "bidVol": 100,
+      "askVol": 4,
+      "refPrice": 98.139,
+      "lastPrice": 97.7498,
+      "changePct": -0.4,
+      "high52w": 100.79,
+      "low52w": 95.5201,
+      "couponPct": 6,
+      "bvbYtmPct": 6.31,
+      "nominal": 100,
+      "issueValue": 85545400,
+      "tradingStart": "2026-02-19",
+      "maturity": "2036-02-18",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3602AE.pdf"
     },
     {
       "ticker": "R3109A",
@@ -928,39 +2128,15 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3109A.pdf"
     },
     {
-      "ticker": "R2706A",
-      "isin": "ROROPQC7AIC0",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 99.8,
-      "ask": 99.9,
-      "bidVol": 103,
-      "askVol": 49,
-      "refPrice": 99.9,
-      "lastPrice": 99.8,
-      "changePct": -0.1,
-      "high52w": 102,
-      "low52w": 96.0801,
-      "couponPct": 7.35,
-      "bvbYtmPct": 7.54,
-      "nominal": 100,
-      "issueValue": 317807200,
-      "tradingStart": "2025-06-20",
-      "maturity": "2027-06-19",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2706A.pdf"
-    },
-    {
       "ticker": "R2801B",
       "isin": "RO5D5RX35QO7",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.0601,
-      "ask": 100.1,
-      "bidVol": 7,
-      "askVol": 349,
+      "bid": 99.2,
+      "ask": 100.0999,
+      "bidVol": 150,
+      "askVol": 463,
       "refPrice": 100.12,
       "lastPrice": 99.421,
       "changePct": -0.7,
@@ -974,6 +2150,30 @@
       "maturity": "2028-01-28",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2801B.pdf"
+    },
+    {
+      "ticker": "R3204AE",
+      "isin": "ROV33IZK0XP8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100,
+      "ask": 100.0799,
+      "bidVol": 100,
+      "askVol": 12,
+      "refPrice": 100,
+      "lastPrice": 100.0799,
+      "changePct": 0.08,
+      "high52w": 101,
+      "low52w": 93,
+      "couponPct": 6,
+      "bvbYtmPct": 5.97,
+      "nominal": 100,
+      "issueValue": 58475600,
+      "tradingStart": "2025-04-17",
+      "maturity": "2032-04-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_7Y_R3204AE.pdf"
     },
     {
       "ticker": "R2710A",
@@ -1024,6 +2224,54 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_3Y_R2805A.pdf"
     },
     {
+      "ticker": "R2709AE",
+      "isin": "RODEVKUTQUL4",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.11,
+      "ask": 98.5,
+      "bidVol": 20,
+      "askVol": 200,
+      "refPrice": 98.0101,
+      "lastPrice": 98.1101,
+      "changePct": 0.1,
+      "high52w": 102,
+      "low52w": 96.6101,
+      "couponPct": 3.1,
+      "bvbYtmPct": 4.63,
+      "nominal": 100,
+      "issueValue": 81548700,
+      "tradingStart": "2025-09-18",
+      "maturity": "2027-09-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y_R2709AE.pdf"
+    },
+    {
+      "ticker": "R3103AE",
+      "isin": "RO0AS9O8UWZ3",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 95,
+      "ask": 96.8999,
+      "bidVol": 11,
+      "askVol": 15,
+      "refPrice": 97,
+      "lastPrice": 95,
+      "changePct": -2.06,
+      "high52w": 99.7399,
+      "low52w": 92.5,
+      "couponPct": 4.5,
+      "bvbYtmPct": 5.71,
+      "nominal": 100,
+      "issueValue": 14990000,
+      "tradingStart": "2026-03-19",
+      "maturity": "2031-03-18",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3103AE.pdf"
+    },
+    {
       "ticker": "R2704A",
       "isin": "ROFM5R7FQWV5",
       "segment": "Principal",
@@ -1048,30 +2296,6 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospect baza FIDELIS 2024.pdf"
     },
     {
-      "ticker": "R2707B",
-      "isin": "ROV4289T5QU6",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 101,
-      "ask": 101.19,
-      "bidVol": 275,
-      "askVol": 236,
-      "refPrice": 100.85,
-      "lastPrice": 101,
-      "changePct": 0.15,
-      "high52w": 102.96,
-      "low52w": 99.67,
-      "couponPct": 8.25,
-      "bvbYtmPct": 7.26,
-      "nominal": 100,
-      "issueValue": 99083500,
-      "tradingStart": "2025-07-17",
-      "maturity": "2027-07-16",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori.pdf"
-    },
-    {
       "ticker": "R2708B",
       "isin": "ROYUO8Z4NFO2",
       "segment": "Principal",
@@ -1094,30 +2318,6 @@
       "maturity": "2027-08-13",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2708B.pdf"
-    },
-    {
-      "ticker": "R2612A",
-      "isin": "ROS2QW8ADYI0",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 100.02,
-      "ask": 100.19,
-      "bidVol": 150,
-      "askVol": 1452,
-      "refPrice": 100.2001,
-      "lastPrice": 100.19,
-      "changePct": -0.01,
-      "high52w": 101.18,
-      "low52w": 98,
-      "couponPct": 7.25,
-      "bvbYtmPct": 6.77,
-      "nominal": 100,
-      "issueValue": 563108800,
-      "tradingStart": "2023-12-21",
-      "maturity": "2026-12-20",
-      "currency": "RON",
-      "prospectusUrl": null
     },
     {
       "ticker": "R2610A",
@@ -1192,28 +2392,100 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2803C.pdf"
     },
     {
-      "ticker": "R2706B",
-      "isin": "ROFIH9DER1W7",
+      "ticker": "R3010AE",
+      "isin": "ROXC47R5KNF9",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 100.95,
-      "ask": 101.1,
-      "bidVol": 50,
-      "askVol": 100,
-      "refPrice": 101.19,
-      "lastPrice": 100.9,
-      "changePct": -0.29,
-      "high52w": 102.99,
-      "low52w": 99.0102,
-      "couponPct": 8.35,
-      "bvbYtmPct": 7.41,
+      "bid": 98.11,
+      "ask": 100,
+      "bidVol": 11,
+      "askVol": 150,
+      "refPrice": 100.499,
+      "lastPrice": 99,
+      "changePct": -1.49,
+      "high52w": 103.2,
+      "low52w": 96.3504,
+      "couponPct": 5.25,
+      "bvbYtmPct": 5.5,
       "nominal": 100,
-      "issueValue": 113870000,
-      "tradingStart": "2025-06-20",
-      "maturity": "2027-06-19",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2706B.pdf"
+      "issueValue": 52711300,
+      "tradingStart": "2025-10-23",
+      "maturity": "2030-10-22",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3010AE.pdf"
+    },
+    {
+      "ticker": "R3603AE",
+      "isin": "ROHLCA3VVNV2",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.9,
+      "ask": 98.3,
+      "bidVol": 273,
+      "askVol": 1800,
+      "refPrice": 98.3,
+      "lastPrice": 98.3,
+      "changePct": 0,
+      "high52w": 100.294,
+      "low52w": 96.1,
+      "couponPct": 6,
+      "bvbYtmPct": 6.23,
+      "nominal": 100,
+      "issueValue": 91807500,
+      "tradingStart": "2026-03-19",
+      "maturity": "2036-03-18",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3603AE.pdf"
+    },
+    {
+      "ticker": "R3604AE",
+      "isin": "ROLYE7K276R7",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.3602,
+      "ask": 100.8,
+      "bidVol": 8,
+      "askVol": 15,
+      "refPrice": 100.6,
+      "lastPrice": 100.83,
+      "changePct": 0.23,
+      "high52w": 102.5,
+      "low52w": 99.2611,
+      "couponPct": 6.4,
+      "bvbYtmPct": 6.28,
+      "nominal": 100,
+      "issueValue": 118914700,
+      "tradingStart": "2026-04-27",
+      "maturity": "2036-04-24",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3604AE.pdf"
+    },
+    {
+      "ticker": "R2810AE",
+      "isin": "ROY61GNL5YW8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.8001,
+      "ask": 100,
+      "bidVol": 54,
+      "askVol": 127,
+      "refPrice": 99.8015,
+      "lastPrice": 100,
+      "changePct": 0.2,
+      "high52w": 102.9,
+      "low52w": 97.01,
+      "couponPct": 5.3,
+      "bvbYtmPct": 5.28,
+      "nominal": 100,
+      "issueValue": 93820400,
+      "tradingStart": "2023-10-09",
+      "maturity": "2028-10-06",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/FT 2810AE.pdf"
     },
     {
       "ticker": "R2805B",
@@ -1269,10 +2541,10 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 96.03,
-      "ask": 100.99,
+      "bid": 96.031,
+      "ask": 100.9997,
       "bidVol": 60,
-      "askVol": 16,
+      "askVol": 101,
       "refPrice": 98.88,
       "lastPrice": 98,
       "changePct": -0.89,
@@ -1286,6 +2558,54 @@
       "maturity": "2030-04-24",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_4Y_R3004C.pdf"
+    },
+    {
+      "ticker": "R3510AE",
+      "isin": "RO6NDIVKWUM2",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 101.25,
+      "ask": 101.3999,
+      "bidVol": 103,
+      "askVol": 19,
+      "refPrice": 101.2,
+      "lastPrice": 101.25,
+      "changePct": 0.05,
+      "high52w": 104.38,
+      "low52w": 99.6113,
+      "couponPct": 6.5,
+      "bvbYtmPct": 6.31,
+      "nominal": 100,
+      "issueValue": 96765500,
+      "tradingStart": "2025-10-23",
+      "maturity": "2035-10-22",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3510AE.pdf"
+    },
+    {
+      "ticker": "R2910AE",
+      "isin": "RO773WJCMQ25",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.6001,
+      "ask": 99.1499,
+      "bidVol": 17,
+      "askVol": 85,
+      "refPrice": 98.01,
+      "lastPrice": 98.6,
+      "changePct": 0.6,
+      "high52w": 100.5,
+      "low52w": 95,
+      "couponPct": 5,
+      "bvbYtmPct": 5.45,
+      "nominal": 100,
+      "issueValue": 170669400,
+      "tradingStart": "2024-10-17",
+      "maturity": "2029-10-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/FT R2910AE.pdf"
     },
     {
       "ticker": "R2703A",
@@ -1336,13 +2656,37 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y.pdf"
     },
     {
+      "ticker": "R2610AE",
+      "isin": "ROQHRYERUPM6",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.3001,
+      "ask": 99.7,
+      "bidVol": 100,
+      "askVol": 99,
+      "refPrice": 99.8,
+      "lastPrice": 99.4,
+      "changePct": -0.4,
+      "high52w": 100,
+      "low52w": 95.2,
+      "couponPct": 1.6,
+      "bvbYtmPct": 3.35,
+      "nominal": 100,
+      "issueValue": 59071800,
+      "tradingStart": "2021-10-07",
+      "maturity": "2026-10-06",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni finali 5Y (R2610AE).pdf"
+    },
+    {
       "ticker": "R3204A",
       "isin": "ROERZSYG42J1",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
       "bid": 98.3008,
-      "ask": 99.247,
+      "ask": 99.246,
       "bidVol": 7,
       "askVol": 290,
       "refPrice": 99.26,
@@ -1408,6 +2752,30 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni Finali_R3002A.pdf"
     },
     {
+      "ticker": "R2704AE",
+      "isin": "ROSSLQ9LCF50",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.85,
+      "ask": 100,
+      "bidVol": 13,
+      "askVol": 5,
+      "refPrice": 100,
+      "lastPrice": 100,
+      "changePct": 0,
+      "high52w": 101.9,
+      "low52w": 96.3101,
+      "couponPct": 3.6,
+      "bvbYtmPct": 3.6,
+      "nominal": 100,
+      "issueValue": 42788300,
+      "tradingStart": "2025-04-17",
+      "maturity": "2027-04-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y_R2704AE.pdf"
+    },
+    {
       "ticker": "R2803A",
       "isin": "RO9PPT8AXOV1",
       "segment": "Principal",
@@ -1430,6 +2798,30 @@
       "maturity": "2028-03-19",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/Juridic/files/MFP_Fidelis_Termeni Finali_Lei_3Y R2803A.pdf"
+    },
+    {
+      "ticker": "R2705AE",
+      "isin": "ROA0GOCOANU8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.8,
+      "ask": 100.4998,
+      "bidVol": 169,
+      "askVol": 2,
+      "refPrice": 100,
+      "lastPrice": 99.8,
+      "changePct": -0.2,
+      "high52w": 102,
+      "low52w": 93,
+      "couponPct": 3.85,
+      "bvbYtmPct": 4.06,
+      "nominal": 100,
+      "issueValue": 66979700,
+      "tradingStart": "2025-05-22",
+      "maturity": "2027-05-21",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y_R2705AE.pdf"
     },
     {
       "ticker": "R3201A",
@@ -1464,7 +2856,7 @@
       "bid": 99.5505,
       "ask": 99.78,
       "bidVol": 100,
-      "askVol": 50,
+      "askVol": 100,
       "refPrice": 99.555,
       "lastPrice": 99.7997,
       "changePct": 0.25,
@@ -1478,6 +2870,30 @@
       "maturity": "2027-07-03",
       "currency": "RON",
       "prospectusUrl": null
+    },
+    {
+      "ticker": "R2810CE",
+      "isin": "RORVG1BGEDM4",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98,
+      "ask": 98.9999,
+      "bidVol": 1,
+      "askVol": 32,
+      "refPrice": 98.49,
+      "lastPrice": 97.5,
+      "changePct": -1.01,
+      "high52w": 101,
+      "low52w": 96.71,
+      "couponPct": 4.15,
+      "bvbYtmPct": 5.27,
+      "nominal": 100,
+      "issueValue": 96619500,
+      "tradingStart": "2025-10-23",
+      "maturity": "2028-10-22",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2810CE.pdf"
     },
     {
       "ticker": "R2711A",
@@ -1502,6 +2918,222 @@
       "maturity": "2027-11-19",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2711A.pdf"
+    },
+    {
+      "ticker": "R3012AE",
+      "isin": "ROSIR7HAZ5O9",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 95.1,
+      "ask": 96.6999,
+      "bidVol": 30,
+      "askVol": 8,
+      "refPrice": 97.56,
+      "lastPrice": 95.1,
+      "changePct": -2.52,
+      "high52w": 101.8999,
+      "low52w": 95.1002,
+      "couponPct": 4.75,
+      "bvbYtmPct": 6,
+      "nominal": 100,
+      "issueValue": 33928200,
+      "tradingStart": "2025-12-18",
+      "maturity": "2030-12-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3012AE.pdf"
+    },
+    {
+      "ticker": "R3509AE",
+      "isin": "ROG7CTZ7I9J2",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 101.0001,
+      "ask": 101.4,
+      "bidVol": 25,
+      "askVol": 36,
+      "refPrice": 101.3,
+      "lastPrice": 101.3,
+      "changePct": 0,
+      "high52w": 104.8689,
+      "low52w": 99,
+      "couponPct": 6.5,
+      "bvbYtmPct": 6.3,
+      "nominal": 100,
+      "issueValue": 99813300,
+      "tradingStart": "2025-09-18",
+      "maturity": "2035-09-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3509AE.pdf"
+    },
+    {
+      "ticker": "R3202AE",
+      "isin": "ROF1JEO56VX1",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.05,
+      "ask": 100.1969,
+      "bidVol": 12,
+      "askVol": 20,
+      "refPrice": 100,
+      "lastPrice": 100.01,
+      "changePct": 0.01,
+      "high52w": 102.449,
+      "low52w": 93,
+      "couponPct": 6.25,
+      "bvbYtmPct": 6.24,
+      "nominal": 100,
+      "issueValue": 226722200,
+      "tradingStart": "2025-02-20",
+      "maturity": "2032-02-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni Finali_R3202AE.pdf"
+    },
+    {
+      "ticker": "R3205AE",
+      "isin": "ROLX45LYZZF0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.42,
+      "ask": 100.5,
+      "bidVol": 300,
+      "askVol": 108,
+      "refPrice": 100.5,
+      "lastPrice": 100.5,
+      "changePct": 0,
+      "high52w": 102.5999,
+      "low52w": 96,
+      "couponPct": 6.25,
+      "bvbYtmPct": 6.14,
+      "nominal": 100,
+      "issueValue": 45269800,
+      "tradingStart": "2025-05-22",
+      "maturity": "2032-05-21",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_7Y_R3205AE.pdf"
+    },
+    {
+      "ticker": "R3011AE",
+      "isin": "RO29NOGS1TD3",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.1,
+      "ask": 98.1799,
+      "bidVol": 197,
+      "askVol": 32,
+      "refPrice": 98.1,
+      "lastPrice": 98.1,
+      "changePct": 0,
+      "high52w": 103.9998,
+      "low52w": 94.0001,
+      "couponPct": 5,
+      "bvbYtmPct": 5.48,
+      "nominal": 100,
+      "issueValue": 41501400,
+      "tradingStart": "2025-11-20",
+      "maturity": "2030-11-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3011AE.pdf"
+    },
+    {
+      "ticker": "R3206AE",
+      "isin": "ROHJWQ1AI036",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 101.33,
+      "ask": 101.5,
+      "bidVol": 13,
+      "askVol": 141,
+      "refPrice": 101.4,
+      "lastPrice": 101.5,
+      "changePct": 0.1,
+      "high52w": 103.898,
+      "low52w": 99.01,
+      "couponPct": 6.5,
+      "bvbYtmPct": 6.19,
+      "nominal": 100,
+      "issueValue": 124485600,
+      "tradingStart": "2025-06-20",
+      "maturity": "2032-06-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_7Y_R3206AE.pdf"
+    },
+    {
+      "ticker": "R3605AE",
+      "isin": "ROVMSL8DL3F3",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.1005,
+      "ask": 100.7698,
+      "bidVol": 23,
+      "askVol": 1,
+      "refPrice": 100.1001,
+      "lastPrice": 100.1002,
+      "changePct": 0,
+      "high52w": 100.9,
+      "low52w": 100.1001,
+      "couponPct": 6.25,
+      "bvbYtmPct": 6.23,
+      "nominal": 100,
+      "issueValue": 38457600,
+      "tradingStart": "2026-05-21",
+      "maturity": "2036-05-20",
+      "currency": "EUR",
+      "prospectusUrl": null
+    },
+    {
+      "ticker": "R3512AE",
+      "isin": "RORCFVY72V16",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.17,
+      "ask": 99.85,
+      "bidVol": 1,
+      "askVol": 110,
+      "refPrice": 99.8989,
+      "lastPrice": 99.85,
+      "changePct": -0.05,
+      "high52w": 101.96,
+      "low52w": 97,
+      "couponPct": 6.2,
+      "bvbYtmPct": 6.21,
+      "nominal": 100,
+      "issueValue": 115332200,
+      "tradingStart": "2025-12-18",
+      "maturity": "2035-12-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3512AE.pdf"
+    },
+    {
+      "ticker": "R3207AE",
+      "isin": "ROC14H6U70H3",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.1,
+      "ask": 100.67,
+      "bidVol": 75,
+      "askVol": 81,
+      "refPrice": 100,
+      "lastPrice": 100.6871,
+      "changePct": 0.69,
+      "high52w": 102.809,
+      "low52w": 95,
+      "couponPct": 6.3,
+      "bvbYtmPct": 6.15,
+      "nominal": 100,
+      "issueValue": 95543400,
+      "tradingStart": "2025-07-17",
+      "maturity": "2032-07-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_7Y.pdf"
     },
     {
       "ticker": "R3111A",
@@ -1552,6 +3184,30 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_4Y_R2910C.pdf"
     },
     {
+      "ticker": "R2706AE",
+      "isin": "ROGWSAJ4MI93",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.7601,
+      "ask": 100.4,
+      "bidVol": 156,
+      "askVol": 52,
+      "refPrice": 100.5,
+      "lastPrice": 99.7601,
+      "changePct": -0.74,
+      "high52w": 103,
+      "low52w": 95,
+      "couponPct": 3.9,
+      "bvbYtmPct": 4.13,
+      "nominal": 100,
+      "issueValue": 75486200,
+      "tradingStart": "2025-06-20",
+      "maturity": "2027-06-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y_R2706AE.pdf"
+    },
+    {
       "ticker": "R2802A",
       "isin": "ROOBSYD57S94",
       "segment": "Principal",
@@ -1600,28 +3256,28 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/MFP_Fidelis_Termeni Finali_Lei_3Y - donatori R2712B.pdf"
     },
     {
-      "ticker": "R2908A",
-      "isin": "ROOH5OS3YJ34",
+      "ticker": "R3508AE",
+      "isin": "RO3537MMT1B7",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 97.32,
-      "ask": 97.6799,
-      "bidVol": 458,
-      "askVol": 43,
-      "refPrice": 97.3501,
-      "lastPrice": 97.32,
-      "changePct": -0.03,
-      "high52w": 100.37,
-      "low52w": 94,
-      "couponPct": 7,
-      "bvbYtmPct": 7.95,
+      "bid": 101.1111,
+      "ask": 101.39,
+      "bidVol": 1,
+      "askVol": 3,
+      "refPrice": 101.25,
+      "lastPrice": 101.45,
+      "changePct": 0.2,
+      "high52w": 104.438,
+      "low52w": 99.2,
+      "couponPct": 6.5,
+      "bvbYtmPct": 6.28,
       "nominal": 100,
-      "issueValue": 970211700,
-      "tradingStart": "2024-08-26",
-      "maturity": "2029-08-23",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni finali R2908A.pdf"
+      "issueValue": 117675900,
+      "tradingStart": "2025-08-14",
+      "maturity": "2035-08-13",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3508AE.pdf"
     },
     {
       "ticker": "R3110A",
@@ -1648,28 +3304,76 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3110A.pdf"
     },
     {
-      "ticker": "R3004A",
-      "isin": "ROE5YA2DZUA8",
+      "ticker": "R2808AE",
+      "isin": "ROKZLUKMGN59",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 98.651,
-      "ask": 99.4999,
-      "bidVol": 4,
-      "askVol": 8,
-      "refPrice": 99,
-      "lastPrice": 99,
-      "changePct": 0,
-      "high52w": 102.8999,
+      "bid": 99.6003,
+      "ask": 100.4999,
+      "bidVol": 5,
+      "askVol": 10,
+      "refPrice": 100.15,
+      "lastPrice": 100.04,
+      "changePct": -0.11,
+      "high52w": 103,
       "low52w": 96,
-      "couponPct": 7.6,
-      "bvbYtmPct": 7.89,
+      "couponPct": 5.45,
+      "bvbYtmPct": 5.41,
       "nominal": 100,
-      "issueValue": 108525900,
-      "tradingStart": "2025-04-17",
-      "maturity": "2030-04-16",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_5Y_R3004A.pdf"
+      "issueValue": 210583800,
+      "tradingStart": "2023-08-03",
+      "maturity": "2028-08-02",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/OMF 2188 din 12.07.2023.pdf"
+    },
+    {
+      "ticker": "R2904AE",
+      "isin": "RO46T3V3B2W6",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.9105,
+      "ask": 99.4,
+      "bidVol": 9,
+      "askVol": 5,
+      "refPrice": 99.2,
+      "lastPrice": 99.2,
+      "changePct": 0,
+      "high52w": 100.985,
+      "low52w": 95,
+      "couponPct": 5,
+      "bvbYtmPct": 5.3,
+      "nominal": 100,
+      "issueValue": 128839300,
+      "tradingStart": "2024-04-23",
+      "maturity": "2029-04-22",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospect baza FIDELIS 2024.pdf"
+    },
+    {
+      "ticker": "R2707BE",
+      "isin": "ROJ6O1WX8EN5",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.003,
+      "ask": 100.7999,
+      "bidVol": 40,
+      "askVol": 11,
+      "refPrice": 100.0024,
+      "lastPrice": 100.0033,
+      "changePct": 0,
+      "high52w": 103.5,
+      "low52w": 98,
+      "couponPct": 4.4,
+      "bvbYtmPct": 4.39,
+      "nominal": 100,
+      "issueValue": 6318800,
+      "tradingStart": "2025-07-17",
+      "maturity": "2027-07-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y - Donatori.pdf"
     },
     {
       "ticker": "R2803B",
@@ -1768,28 +3472,28 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2711B.pdf"
     },
     {
-      "ticker": "R3003A",
-      "isin": "RON6WVVB8CK0",
+      "ticker": "R2908AE",
+      "isin": "ROFWCWVUUWU1",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.55,
-      "ask": 100.2499,
-      "bidVol": 150,
-      "askVol": 7,
-      "refPrice": 99.5026,
-      "lastPrice": 99.5026,
-      "changePct": -0.1,
-      "high52w": 102.94,
-      "low52w": 96.2,
-      "couponPct": 7.8,
-      "bvbYtmPct": 7.93,
+      "bid": 98.9001,
+      "ask": 99.2828,
+      "bidVol": 10,
+      "askVol": 128,
+      "refPrice": 98.9,
+      "lastPrice": 98.9,
+      "changePct": 0,
+      "high52w": 100.9,
+      "low52w": 95,
+      "couponPct": 5,
+      "bvbYtmPct": 5.37,
       "nominal": 100,
-      "issueValue": 113323500,
-      "tradingStart": "2025-03-20",
-      "maturity": "2030-03-19",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/Juridic/files/MFP_Fidelis_Termeni Finali_Lei_5Y R3003A.pdf"
+      "issueValue": 105703100,
+      "tradingStart": "2024-08-26",
+      "maturity": "2029-08-23",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni finali R2908AE.pdf"
     },
     {
       "ticker": "R2802C",
@@ -1816,30 +3520,6 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2802C.pdf"
     },
     {
-      "ticker": "R2804A",
-      "isin": "ROL18FQB3YR2",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 99.85,
-      "ask": 100.23,
-      "bidVol": 298,
-      "askVol": 63,
-      "refPrice": 99.85,
-      "lastPrice": 99.85,
-      "changePct": 0,
-      "high52w": 103,
-      "low52w": 96.1,
-      "couponPct": 7.3,
-      "bvbYtmPct": 7.36,
-      "nominal": 100,
-      "issueValue": 149062500,
-      "tradingStart": "2025-04-17",
-      "maturity": "2028-04-16",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_3Y_R2804A.pdf"
-    },
-    {
       "ticker": "R3203A",
       "isin": "RO1RJXWIY3I9",
       "segment": "Principal",
@@ -1862,6 +3542,54 @@
       "maturity": "2032-03-18",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3203A.pdf"
+    },
+    {
+      "ticker": "R3511AE",
+      "isin": "ROMWZQ4CEV91",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.4012,
+      "ask": 100.0863,
+      "bidVol": 9,
+      "askVol": 48,
+      "refPrice": 100.0884,
+      "lastPrice": 100.0884,
+      "changePct": -0.1,
+      "high52w": 102.799,
+      "low52w": 97.25,
+      "couponPct": 6.3,
+      "bvbYtmPct": 6.28,
+      "nominal": 100,
+      "issueValue": 71101600,
+      "tradingStart": "2025-11-20",
+      "maturity": "2035-11-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_10Y_R3511AE.pdf"
+    },
+    {
+      "ticker": "R2905AE",
+      "isin": "ROMJJXMMMB11",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.2,
+      "ask": 100.01,
+      "bidVol": 23,
+      "askVol": 874,
+      "refPrice": 100.01,
+      "lastPrice": 100.01,
+      "changePct": 0,
+      "high52w": 100.01,
+      "low52w": 100.01,
+      "couponPct": 4,
+      "bvbYtmPct": 3.99,
+      "nominal": 100,
+      "issueValue": 24611600,
+      "tradingStart": "2026-05-21",
+      "maturity": "2029-05-20",
+      "currency": "EUR",
+      "prospectusUrl": null
     },
     {
       "ticker": "R3005A",
@@ -1936,14 +3664,38 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3112A.pdf"
     },
     {
+      "ticker": "R3008AE",
+      "isin": "ROKMM9ZNGN31",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99,
+      "ask": 99.49,
+      "bidVol": 82,
+      "askVol": 2,
+      "refPrice": 99.5,
+      "lastPrice": 99.5,
+      "changePct": 0.51,
+      "high52w": 102.9999,
+      "low52w": 94.5,
+      "couponPct": 5.25,
+      "bvbYtmPct": 5.38,
+      "nominal": 100,
+      "issueValue": 37217500,
+      "tradingStart": "2025-08-14",
+      "maturity": "2030-08-13",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3008AE.pdf"
+    },
+    {
       "ticker": "R2712D",
       "isin": "ROP2VPULO136",
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 99.7101,
+      "bid": 99.7102,
       "ask": 100.1999,
-      "bidVol": 7,
+      "bidVol": 178,
       "askVol": 36,
       "refPrice": 100.11,
       "lastPrice": 100.11,
@@ -1958,6 +3710,30 @@
       "maturity": "2027-12-17",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_2712D.pdf"
+    },
+    {
+      "ticker": "R2702AE",
+      "isin": "ROYBEZSSXQ73",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.15,
+      "ask": 100.3,
+      "bidVol": 22,
+      "askVol": 39,
+      "refPrice": 100.3,
+      "lastPrice": 100.3,
+      "changePct": 0.2,
+      "high52w": 102.97,
+      "low52w": 98.3001,
+      "couponPct": 4,
+      "bvbYtmPct": 3.55,
+      "nominal": 100,
+      "issueValue": 163992500,
+      "tradingStart": "2025-02-20",
+      "maturity": "2027-02-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Termeni Finali_R2702AE.pdf"
     },
     {
       "ticker": "R2911A",
@@ -2008,6 +3784,30 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2804C.pdf"
     },
     {
+      "ticker": "R2901AE",
+      "isin": "ROOUNDU25V29",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98,
+      "ask": 98.4999,
+      "bidVol": 50,
+      "askVol": 32,
+      "refPrice": 97.9999,
+      "lastPrice": 97.9999,
+      "changePct": 0.51,
+      "high52w": 100.7,
+      "low52w": 96,
+      "couponPct": 3.75,
+      "bvbYtmPct": 4.56,
+      "nominal": 100,
+      "issueValue": 40617500,
+      "tradingStart": "2026-01-29",
+      "maturity": "2029-01-28",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2901AE.pdf"
+    },
+    {
       "ticker": "R2802B",
       "isin": "ROO6OWJUVYX5",
       "segment": "Principal",
@@ -2030,6 +3830,54 @@
       "maturity": "2028-02-18",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2802B.pdf"
+    },
+    {
+      "ticker": "R2812CE",
+      "isin": "ROIDUZS8Y0G0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97,
+      "ask": 99.1779,
+      "bidVol": 10,
+      "askVol": 45,
+      "refPrice": 99.1898,
+      "lastPrice": 99.1898,
+      "changePct": 2.26,
+      "high52w": 115,
+      "low52w": 96.5112,
+      "couponPct": 3.75,
+      "bvbYtmPct": 4.08,
+      "nominal": 100,
+      "issueValue": 52270700,
+      "tradingStart": "2025-12-18",
+      "maturity": "2028-12-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2812CE.pdf"
+    },
+    {
+      "ticker": "R2904CE",
+      "isin": "ROT3PPVD93X0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.68,
+      "ask": 102.9,
+      "bidVol": 30,
+      "askVol": 180,
+      "refPrice": 99.7,
+      "lastPrice": 99.7,
+      "changePct": 0.02,
+      "high52w": 102,
+      "low52w": 93.01,
+      "couponPct": 4.25,
+      "bvbYtmPct": 4.36,
+      "nominal": 100,
+      "issueValue": 50051400,
+      "tradingStart": "2026-04-27",
+      "maturity": "2029-04-24",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2904CE.pdf"
     },
     {
       "ticker": "R3108A",
@@ -2056,6 +3904,30 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3108A.pdf"
     },
     {
+      "ticker": "R3007AE",
+      "isin": "RO7BBA1JDI51",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100,
+      "ask": 100.6565,
+      "bidVol": 100,
+      "askVol": 9,
+      "refPrice": 100.11,
+      "lastPrice": 100.11,
+      "changePct": 0.87,
+      "high52w": 103.3,
+      "low52w": 95,
+      "couponPct": 5.5,
+      "bvbYtmPct": 5.46,
+      "nominal": 100,
+      "issueValue": 29994300,
+      "tradingStart": "2025-07-17",
+      "maturity": "2030-07-16",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y.pdf"
+    },
+    {
       "ticker": "R2709A",
       "isin": "ROP6PWH0TFR8",
       "segment": "Principal",
@@ -2078,30 +3950,6 @@
       "maturity": "2027-09-17",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2709A.pdf"
-    },
-    {
-      "ticker": "R2709B",
-      "isin": "RO4UOH6AFY33",
-      "segment": "Principal",
-      "category": "Titluri de stat",
-      "status": "Tranzactionabila",
-      "bid": 100.9,
-      "ask": 101.349,
-      "bidVol": 73,
-      "askVol": 32,
-      "refPrice": 100.99,
-      "lastPrice": 100.99,
-      "changePct": 0.27,
-      "high52w": 102.8,
-      "low52w": 100,
-      "couponPct": 8.2,
-      "bvbYtmPct": 7.32,
-      "nominal": 100,
-      "issueValue": 118074100,
-      "tradingStart": "2025-09-18",
-      "maturity": "2027-09-17",
-      "currency": "RON",
-      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y - Donatori_R2709B.pdf"
     },
     {
       "ticker": "R3202A",
@@ -2128,6 +3976,54 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_6Y_R3202A.pdf"
     },
     {
+      "ticker": "R2612AE",
+      "isin": "ROUFKA4GGAZ1",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.0255,
+      "ask": 99.75,
+      "bidVol": 21,
+      "askVol": 95,
+      "refPrice": 99.85,
+      "lastPrice": 99.85,
+      "changePct": -0.05,
+      "high52w": 99.9002,
+      "low52w": 92.2241,
+      "couponPct": 1.8,
+      "bvbYtmPct": 2.08,
+      "nominal": 100,
+      "issueValue": 42116300,
+      "tradingStart": "2021-12-16",
+      "maturity": "2026-12-15",
+      "currency": "EUR",
+      "prospectusUrl": null
+    },
+    {
+      "ticker": "R2903AE",
+      "isin": "ROBK9EB2A2D8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99,
+      "ask": 99.47,
+      "bidVol": 4,
+      "askVol": 40,
+      "refPrice": 99.51,
+      "lastPrice": 99.51,
+      "changePct": 0.52,
+      "high52w": 102,
+      "low52w": 91,
+      "couponPct": 5,
+      "bvbYtmPct": 5.18,
+      "nominal": 100,
+      "issueValue": 72532100,
+      "tradingStart": "2024-03-07",
+      "maturity": "2029-03-06",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/OMF 346 aprobare prospect din 19.02.2024.pdf"
+    },
+    {
       "ticker": "R2805C",
       "isin": "RO088TAIB227",
       "segment": "Principal",
@@ -2135,7 +4031,7 @@
       "status": "Tranzactionabila",
       "bid": 97.4106,
       "ask": 99.7,
-      "bidVol": 7,
+      "bidVol": 32,
       "askVol": 200,
       "refPrice": 99.75,
       "lastPrice": 99.75,
@@ -2174,6 +4070,102 @@
       "maturity": "2030-01-28",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_4Y_R3001A.pdf"
+    },
+    {
+      "ticker": "R3101AE",
+      "isin": "RO4EW9A9YNJ8",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 95.0007,
+      "ask": 97,
+      "bidVol": 100,
+      "askVol": 100,
+      "refPrice": 96.9999,
+      "lastPrice": 96.9999,
+      "changePct": 0,
+      "high52w": 102,
+      "low52w": 94.14,
+      "couponPct": 4.75,
+      "bvbYtmPct": 5.49,
+      "nominal": 100,
+      "issueValue": 37701600,
+      "tradingStart": "2026-01-29",
+      "maturity": "2031-01-28",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3101AE.pdf"
+    },
+    {
+      "ticker": "R2612BE",
+      "isin": "ROPOCDN18MP3",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.4001,
+      "ask": 100.5,
+      "bidVol": 66,
+      "askVol": 23,
+      "refPrice": 100.5997,
+      "lastPrice": 100.5997,
+      "changePct": 0.1,
+      "high52w": 101.4,
+      "low52w": 98,
+      "couponPct": 3.75,
+      "bvbYtmPct": 2.64,
+      "nominal": 100,
+      "issueValue": 84414000,
+      "tradingStart": "2024-12-27",
+      "maturity": "2026-12-23",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/MFP_Fidelis_Termeni Finali_Euro_2Y R2612BE.pdf"
+    },
+    {
+      "ticker": "R2708AE",
+      "isin": "RODE7888PH79",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 98.2502,
+      "ask": 100.2699,
+      "bidVol": 25,
+      "askVol": 50,
+      "refPrice": 99.5,
+      "lastPrice": 99.5,
+      "changePct": 0,
+      "high52w": 100.2,
+      "low52w": 97.52,
+      "couponPct": 3.1,
+      "bvbYtmPct": 3.53,
+      "nominal": 100,
+      "issueValue": 34316900,
+      "tradingStart": "2025-08-14",
+      "maturity": "2027-08-13",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y_R2708AE.pdf"
+    },
+    {
+      "ticker": "R2703AE",
+      "isin": "ROFFXW47BSR5",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99.5202,
+      "ask": 100.6999,
+      "bidVol": 50,
+      "askVol": 6,
+      "refPrice": 99.6703,
+      "lastPrice": 99.6703,
+      "changePct": -1.07,
+      "high52w": 101.39,
+      "low52w": 97,
+      "couponPct": 3.75,
+      "bvbYtmPct": 4.17,
+      "nominal": 100,
+      "issueValue": 82673100,
+      "tradingStart": "2025-03-20",
+      "maturity": "2027-03-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/Juridic/files/MFP_Fidelis_Termeni Finali_Euro_2Y R2703AE.pdf"
     },
     {
       "ticker": "R3002C",
@@ -2248,6 +4240,30 @@
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_2Y_R2801A.pdf"
     },
     {
+      "ticker": "R3006AE",
+      "isin": "ROIS1C28MMI3",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.5,
+      "ask": 101,
+      "bidVol": 47,
+      "askVol": 100,
+      "refPrice": 101.5999,
+      "lastPrice": 101.5999,
+      "changePct": 2.01,
+      "high52w": 109,
+      "low52w": 98,
+      "couponPct": 5.6,
+      "bvbYtmPct": 5.15,
+      "nominal": 100,
+      "issueValue": 21978500,
+      "tradingStart": "2025-06-20",
+      "maturity": "2030-06-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3006AE.pdf"
+    },
+    {
       "ticker": "R2907A",
       "isin": "RO74XVFGHRJ5",
       "segment": "Principal",
@@ -2270,6 +4286,30 @@
       "maturity": "2029-07-16",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_4Y.pdf"
+    },
+    {
+      "ticker": "R3105AE",
+      "isin": "ROIN7TGI0BM0",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99,
+      "ask": 104.8,
+      "bidVol": 3,
+      "askVol": 1,
+      "refPrice": 102.9,
+      "lastPrice": 102.9,
+      "changePct": 2.13,
+      "high52w": 102.9,
+      "low52w": 100.75,
+      "couponPct": 5,
+      "bvbYtmPct": 4.33,
+      "nominal": 100,
+      "issueValue": 17421800,
+      "tradingStart": "2026-05-21",
+      "maturity": "2031-05-20",
+      "currency": "EUR",
+      "prospectusUrl": null
     },
     {
       "ticker": "R3003C",
@@ -2325,7 +4365,7 @@
       "segment": "Principal",
       "category": "Titluri de stat",
       "status": "Tranzactionabila",
-      "bid": 98.8201,
+      "bid": 98.8051,
       "ask": 100.4441,
       "bidVol": 8,
       "askVol": 8,
@@ -2342,6 +4382,78 @@
       "maturity": "2029-09-17",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_4Y_R2909A.pdf"
+    },
+    {
+      "ticker": "R2708BE",
+      "isin": "ROKRR4DYND14",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100.01,
+      "ask": 101.5,
+      "bidVol": 3,
+      "askVol": 2,
+      "refPrice": 100.2,
+      "lastPrice": 100.2,
+      "changePct": 0.1,
+      "high52w": 102.1994,
+      "low52w": 96,
+      "couponPct": 4.1,
+      "bvbYtmPct": 3.92,
+      "nominal": 100,
+      "issueValue": 5796300,
+      "tradingStart": "2025-08-14",
+      "maturity": "2027-08-13",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y - Donatori_R2708BE.pdf"
+    },
+    {
+      "ticker": "R2709BE",
+      "isin": "RO7ME2F4N6J4",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 100,
+      "ask": 101.8,
+      "bidVol": 10,
+      "askVol": 58,
+      "refPrice": 100.71,
+      "lastPrice": 100.71,
+      "changePct": 0,
+      "high52w": 102.6,
+      "low52w": 99.1001,
+      "couponPct": 4.1,
+      "bvbYtmPct": 3.52,
+      "nominal": 100,
+      "issueValue": 8407400,
+      "tradingStart": "2025-09-18",
+      "maturity": "2027-09-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_2Y - Donatori_R2709BE.pdf"
+    },
+    {
+      "ticker": "R2811AE",
+      "isin": "ROIBDNOE8N78",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 97.012,
+      "ask": 99.9995,
+      "bidVol": 10,
+      "askVol": 7,
+      "refPrice": 99.8878,
+      "lastPrice": 99.8878,
+      "changePct": 2.98,
+      "high52w": 101.9999,
+      "low52w": 97,
+      "couponPct": 3.9,
+      "bvbYtmPct": 3.94,
+      "nominal": 100,
+      "issueValue": 52107400,
+      "tradingStart": "2025-11-20",
+      "maturity": "2028-11-19",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_3Y_R2811AE.pdf"
     },
     {
       "ticker": "R2906A",
@@ -2390,6 +4502,54 @@
       "maturity": "2029-08-13",
       "currency": "RON",
       "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Lei_4Y_R2908C.pdf"
+    },
+    {
+      "ticker": "R3009AE",
+      "isin": "ROCHUHLJ51R5",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 99,
+      "ask": 100.02,
+      "bidVol": 307,
+      "askVol": 10,
+      "refPrice": 98.75,
+      "lastPrice": 98.75,
+      "changePct": 0,
+      "high52w": 101.9999,
+      "low52w": 96.0719,
+      "couponPct": 5.25,
+      "bvbYtmPct": 5.57,
+      "nominal": 100,
+      "issueValue": 77913100,
+      "tradingStart": "2025-09-18",
+      "maturity": "2030-09-17",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3009AE.pdf"
+    },
+    {
+      "ticker": "R3104AE",
+      "isin": "ROVYJXJ8GK73",
+      "segment": "Principal",
+      "category": "Titluri de stat",
+      "status": "Tranzactionabila",
+      "bid": 94.6505,
+      "ask": 102.5,
+      "bidVol": 30,
+      "askVol": 11,
+      "refPrice": 99,
+      "lastPrice": 99,
+      "changePct": -3.41,
+      "high52w": 102.5,
+      "low52w": 99,
+      "couponPct": 5.25,
+      "bvbYtmPct": 5.48,
+      "nominal": 100,
+      "issueValue": 38120800,
+      "tradingStart": "2026-04-27",
+      "maturity": "2031-04-24",
+      "currency": "EUR",
+      "prospectusUrl": "https://m.bvb.ro/juridic/files/Prospects/MFP_Fidelis_Termeni Finali_Euro_5Y_R3104AE.pdf"
     },
     {
       "ticker": "B3109A",
@@ -2625,19 +4785,19 @@
       "couponPct": 7,
       "nominal": 100,
       "currency": "RON",
-      "bid": 97.32,
+      "bid": 97.67,
       "ask": 97.6799,
-      "lastPrice": 97.32,
-      "bidVol": 458,
+      "lastPrice": 97.67,
+      "bidVol": 7,
       "askVol": 43,
       "accrued": 5.35068493150685,
-      "ytmAtBid": 0.079472682060441,
+      "ytmAtBid": 0.07818719217902981,
       "ytmAtAsk": 0.0781509228690993,
-      "ytmAtLast": 0.079472682060441,
-      "bvbYtm": 0.0795,
+      "ytmAtLast": 0.07818719217902981,
+      "bvbYtm": 0.0782,
       "dirtyAsk": 103.03058493150685,
-      "dirtyBid": 102.67068493150684,
-      "dirtyLast": 102.67068493150684,
+      "dirtyBid": 103.02068493150685,
+      "dirtyLast": 103.02068493150685,
       "cashflows": [
         {
           "years": 0.2356164383561644,
@@ -2850,16 +5010,16 @@
       "nominal": 100,
       "currency": "RON",
       "bid": 98.3008,
-      "ask": 99.247,
+      "ask": 99.246,
       "lastPrice": 99.2501,
       "bidVol": 7,
       "askVol": 290,
       "accrued": 0.6718232044198895,
       "ytmAtBid": 0.07971562407328747,
-      "ytmAtAsk": 0.0776366455538664,
+      "ytmAtAsk": 0.07763882903964259,
       "ytmAtLast": 0.07762987687601708,
       "bvbYtm": 0.0775,
-      "dirtyAsk": 99.9188232044199,
+      "dirtyAsk": 99.91782320441989,
       "dirtyBid": 98.97262320441989,
       "dirtyLast": 99.9219232044199,
       "cashflows": [
@@ -2939,17 +5099,17 @@
       "currency": "RON",
       "bid": 98.651,
       "ask": 99.4999,
-      "lastPrice": 99,
+      "lastPrice": 99.4999,
       "bidVol": 4,
-      "askVol": 8,
+      "askVol": 5,
       "accrued": 0.8953424657534247,
       "ytmAtBid": 0.08002505495096557,
       "ytmAtAsk": 0.0773917734331917,
-      "ytmAtLast": 0.07893879336188547,
-      "bvbYtm": 0.0789,
+      "ytmAtLast": 0.0773917734331917,
+      "bvbYtm": 0.0774,
       "dirtyAsk": 100.39524246575343,
       "dirtyBid": 99.54634246575343,
-      "dirtyLast": 99.89534246575343,
+      "dirtyLast": 100.39524246575343,
       "cashflows": [
         {
           "years": 0.8821917808219178,
@@ -3211,17 +5371,17 @@
       "currency": "RON",
       "bid": 99.55,
       "ask": 100.2499,
-      "lastPrice": 99.5026,
+      "lastPrice": 100.2499,
       "bidVol": 150,
-      "askVol": 7,
+      "askVol": 3,
       "accrued": 1.5172602739726027,
       "ytmAtBid": 0.07920860356534831,
       "ytmAtAsk": 0.07701662232284434,
-      "ytmAtLast": 0.0793578021985013,
-      "bvbYtm": 0.0793,
+      "ytmAtLast": 0.07701662232284434,
+      "bvbYtm": 0.077,
       "dirtyAsk": 101.76716027397259,
       "dirtyBid": 101.0672602739726,
-      "dirtyLast": 101.0198602739726,
+      "dirtyLast": 101.76716027397259,
       "cashflows": [
         {
           "years": 0.8054794520547945,
@@ -3578,38 +5738,6 @@
       ]
     },
     {
-      "ticker": "R2706A",
-      "isin": "ROROPQC7AIC0",
-      "maturity": "2027-06-19",
-      "yearsToMaturity": 1.0575342465753426,
-      "couponPct": 7.35,
-      "nominal": 100,
-      "currency": "RON",
-      "bid": 99.8,
-      "ask": 99.9,
-      "lastPrice": 99.8,
-      "bidVol": 103,
-      "askVol": 49,
-      "accrued": 6.925961538461538,
-      "ytmAtBid": 0.07540064220665954,
-      "ytmAtAsk": 0.07438274958985858,
-      "ytmAtLast": 0.07540064220665954,
-      "bvbYtm": 0.0754,
-      "dirtyAsk": 106.82596153846154,
-      "dirtyBid": 106.72596153846153,
-      "dirtyLast": 106.72596153846153,
-      "cashflows": [
-        {
-          "years": 0.057534246575342465,
-          "amount": 7.35
-        },
-        {
-          "years": 1.0575342465753426,
-          "amount": 107.35
-        }
-      ]
-    },
-    {
       "ticker": "R2804B",
       "isin": "ROV4S3LM2JJ9",
       "maturity": "2028-04-24",
@@ -3649,18 +5777,18 @@
       "couponPct": 7.6,
       "nominal": 100,
       "currency": "RON",
-      "bid": 98.8201,
+      "bid": 98.8051,
       "ask": 100.4441,
       "lastPrice": 98.02,
       "bidVol": 8,
       "askVol": 8,
       "accrued": 5.282417582417582,
-      "ytmAtBid": 0.07993724787957035,
+      "ytmAtBid": 0.0799909237830434,
       "ytmAtAsk": 0.07419098043465056,
       "ytmAtLast": 0.08281597381574102,
       "bvbYtm": 0.0828,
       "dirtyAsk": 105.72651758241759,
-      "dirtyBid": 104.10251758241758,
+      "dirtyBid": 104.08751758241758,
       "dirtyLast": 103.30241758241758,
       "cashflows": [
         {
@@ -3714,6 +5842,38 @@
       ]
     },
     {
+      "ticker": "R2709B",
+      "isin": "RO4UOH6AFY33",
+      "maturity": "2027-09-17",
+      "yearsToMaturity": 1.3041095890410959,
+      "couponPct": 8.2,
+      "nominal": 100,
+      "currency": "RON",
+      "bid": 100.72,
+      "ask": 100.9,
+      "lastPrice": 100.9,
+      "bidVol": 23,
+      "askVol": 61,
+      "accrued": 5.69945054945055,
+      "ytmAtBid": 0.0755247825582046,
+      "ytmAtAsk": 0.07404659970779903,
+      "ytmAtLast": 0.07404659970779903,
+      "bvbYtm": 0.0739,
+      "dirtyAsk": 106.59945054945055,
+      "dirtyBid": 106.41945054945054,
+      "dirtyLast": 106.59945054945055,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 8.2
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 108.2
+        }
+      ]
+    },
+    {
       "ticker": "R2710B",
       "isin": "ROAFKL8W9QE5",
       "maturity": "2027-10-22",
@@ -3753,18 +5913,18 @@
       "couponPct": 7.55,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.7101,
+      "bid": 99.7102,
       "ask": 100.1999,
       "lastPrice": 100.11,
-      "bidVol": 7,
+      "bidVol": 178,
       "askVol": 36,
       "accrued": 3.3601648351648348,
-      "ytmAtBid": 0.0771426168794278,
+      "ytmAtBid": 0.07714191227569245,
       "ytmAtAsk": 0.07370524507132359,
       "ytmAtLast": 0.07433407744974829,
       "bvbYtm": 0.0742,
       "dirtyAsk": 103.56006483516484,
-      "dirtyBid": 103.07026483516483,
+      "dirtyBid": 103.07036483516484,
       "dirtyLast": 103.47016483516484,
       "cashflows": [
         {
@@ -3825,18 +5985,18 @@
       "couponPct": 7.45,
       "nominal": 100,
       "currency": "RON",
-      "bid": 99.0601,
-      "ask": 100.1,
+      "bid": 99.2,
+      "ask": 100.0999,
       "lastPrice": 99.421,
-      "bidVol": 7,
-      "askVol": 349,
+      "bidVol": 150,
+      "askVol": 463,
       "accrued": 2.456043956043956,
-      "ytmAtBid": 0.0804115170321893,
-      "ytmAtAsk": 0.0735472169762943,
+      "ytmAtBid": 0.07948130284785293,
+      "ytmAtAsk": 0.07354787152144127,
       "ytmAtLast": 0.07801614169147797,
       "bvbYtm": 0.078,
-      "dirtyAsk": 102.55604395604395,
-      "dirtyBid": 101.51614395604396,
+      "dirtyAsk": 102.55594395604396,
+      "dirtyBid": 101.65604395604396,
       "dirtyLast": 101.87704395604396,
       "cashflows": [
         {
@@ -4105,18 +6265,18 @@
       "couponPct": 8.35,
       "nominal": 100,
       "currency": "RON",
-      "bid": 100.95,
+      "bid": 100.9,
       "ask": 101.1,
       "lastPrice": 100.9,
-      "bidVol": 50,
+      "bidVol": 115,
       "askVol": 100,
       "accrued": 7.86826923076923,
-      "ytmAtBid": 0.07368340055109002,
+      "ytmAtBid": 0.07418647679151036,
       "ytmAtAsk": 0.07217706998926587,
       "ytmAtLast": 0.07418647679151036,
       "bvbYtm": 0.0741,
       "dirtyAsk": 108.96826923076922,
-      "dirtyBid": 108.81826923076923,
+      "dirtyBid": 108.76826923076923,
       "dirtyLast": 108.76826923076923,
       "cashflows": [
         {
@@ -4299,17 +6459,17 @@
       "currency": "RON",
       "bid": 99.85,
       "ask": 100.23,
-      "lastPrice": 99.85,
+      "lastPrice": 100.23,
       "bidVol": 298,
-      "askVol": 63,
+      "askVol": 62,
       "accrued": 0.86,
       "ytmAtBid": 0.07361784871318378,
       "ytmAtAsk": 0.07139452587580308,
-      "ytmAtLast": 0.07361784871318378,
-      "bvbYtm": 0.0736,
+      "ytmAtLast": 0.07139452587580308,
+      "bvbYtm": 0.07139999999999999,
       "dirtyAsk": 101.09,
       "dirtyBid": 100.71,
-      "dirtyLast": 100.71,
+      "dirtyLast": 101.09,
       "cashflows": [
         {
           "years": 0.8821917808219178,
@@ -4332,7 +6492,7 @@
       "bid": 101,
       "ask": 101.19,
       "lastPrice": 101,
-      "bidVol": 275,
+      "bidVol": 270,
       "askVol": 236,
       "accrued": 7.162087912087912,
       "ytmAtBid": 0.07268740425934084,
@@ -4405,7 +6565,7 @@
       "ask": 99.78,
       "lastPrice": 99.7997,
       "bidVol": 100,
-      "askVol": 50,
+      "askVol": 100,
       "accrued": 6.193150684931507,
       "ytmAtBid": 0.0727079582575243,
       "ytmAtAsk": 0.07045596177340485,
@@ -4422,38 +6582,6 @@
         {
           "years": 1.095890410958904,
           "amount": 106.85
-        }
-      ]
-    },
-    {
-      "ticker": "R2709B",
-      "isin": "RO4UOH6AFY33",
-      "maturity": "2027-09-17",
-      "yearsToMaturity": 1.3041095890410959,
-      "couponPct": 8.2,
-      "nominal": 100,
-      "currency": "RON",
-      "bid": 100.9,
-      "ask": 101.349,
-      "lastPrice": 100.99,
-      "bidVol": 73,
-      "askVol": 32,
-      "accrued": 5.69945054945055,
-      "ytmAtBid": 0.07404659970779903,
-      "ytmAtAsk": 0.0703795064764563,
-      "ytmAtLast": 0.07330924781854264,
-      "bvbYtm": 0.0732,
-      "dirtyAsk": 107.04845054945055,
-      "dirtyBid": 106.59945054945055,
-      "dirtyLast": 106.68945054945054,
-      "cashflows": [
-        {
-          "years": 0.3041095890410959,
-          "amount": 8.2
-        },
-        {
-          "years": 1.3041095890410959,
-          "amount": 108.2
         }
       ]
     },
@@ -4554,6 +6682,38 @@
       ]
     },
     {
+      "ticker": "R2706A",
+      "isin": "ROROPQC7AIC0",
+      "maturity": "2027-06-19",
+      "yearsToMaturity": 1.0575342465753426,
+      "couponPct": 7.35,
+      "nominal": 100,
+      "currency": "RON",
+      "bid": 100,
+      "ask": 100.3998,
+      "lastPrice": 100,
+      "bidVol": 101,
+      "askVol": 15,
+      "accrued": 6.925961538461538,
+      "ytmAtBid": 0.07336683347239159,
+      "ytmAtAsk": 0.06932483302080072,
+      "ytmAtLast": 0.07336683347239159,
+      "bvbYtm": 0.07339999999999999,
+      "dirtyAsk": 107.32576153846153,
+      "dirtyBid": 106.92596153846154,
+      "dirtyLast": 106.92596153846154,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 7.35
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 107.35
+        }
+      ]
+    },
+    {
       "ticker": "R2908C",
       "isin": "RO1YEYZADZ72",
       "maturity": "2029-08-13",
@@ -4629,18 +6789,18 @@
       "couponPct": 7.1,
       "nominal": 100,
       "currency": "RON",
-      "bid": 96.03,
-      "ask": 100.99,
+      "bid": 96.031,
+      "ask": 100.9997,
       "lastPrice": 98,
       "bidVol": 60,
-      "askVol": 16,
+      "askVol": 101,
       "accrued": 0.6276243093922652,
-      "ytmAtBid": 0.083355758106336,
-      "ytmAtAsk": 0.06807542612659745,
+      "ytmAtBid": 0.08335257161525078,
+      "ytmAtAsk": 0.06804653131985106,
       "ytmAtLast": 0.07716310079558752,
       "bvbYtm": 0.077,
-      "dirtyAsk": 101.61762430939226,
-      "dirtyBid": 96.65762430939226,
+      "dirtyAsk": 101.62732430939226,
+      "dirtyBid": 96.65862430939227,
       "dirtyLast": 98.62762430939226,
       "cashflows": [
         {
@@ -4713,7 +6873,7 @@
       "ask": 100.19,
       "lastPrice": 100.19,
       "bidVol": 150,
-      "askVol": 1452,
+      "askVol": 1252,
       "accrued": 3.1780821917808217,
       "ytmAtBid": 0.07097629716736265,
       "ytmAtAsk": 0.06784227208117954,
@@ -4908,7 +7068,7 @@
       "bid": 97.4106,
       "ask": 99.7,
       "lastPrice": 99.75,
-      "bidVol": 7,
+      "bidVol": 32,
       "askVol": 200,
       "accrued": 0.14065934065934066,
       "ytmAtBid": 0.07861757327918895,
@@ -4926,6 +7086,942 @@
         {
           "years": 1.978082191780822,
           "amount": 106.4
+        }
+      ]
+    },
+    {
+      "ticker": "R3602AE",
+      "isin": "ROXZP5TZUW61",
+      "maturity": "2036-02-18",
+      "yearsToMaturity": 9.73150684931507,
+      "couponPct": 6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 97.66,
+      "ask": 97.7498,
+      "lastPrice": 97.7498,
+      "bidVol": 100,
+      "askVol": 4,
+      "accrued": 1.6318681318681318,
+      "ytmAtBid": 0.06322225704207085,
+      "ytmAtAsk": 0.06309415874420665,
+      "ytmAtLast": 0.06309415874420665,
+      "bvbYtm": 0.06309999999999999,
+      "dirtyAsk": 99.38166813186812,
+      "dirtyBid": 99.29186813186813,
+      "dirtyLast": 99.38166813186812,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 6
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 6
+        },
+        {
+          "years": 2.728767123287671,
+          "amount": 6
+        },
+        {
+          "years": 3.728767123287671,
+          "amount": 6
+        },
+        {
+          "years": 4.728767123287671,
+          "amount": 6
+        },
+        {
+          "years": 5.728767123287671,
+          "amount": 6
+        },
+        {
+          "years": 6.7315068493150685,
+          "amount": 6
+        },
+        {
+          "years": 7.7315068493150685,
+          "amount": 6
+        },
+        {
+          "years": 8.73150684931507,
+          "amount": 6
+        },
+        {
+          "years": 9.73150684931507,
+          "amount": 106
+        }
+      ]
+    },
+    {
+      "ticker": "R3510AE",
+      "isin": "RO6NDIVKWUM2",
+      "maturity": "2035-10-22",
+      "yearsToMaturity": 9.405479452054795,
+      "couponPct": 6.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 101.25,
+      "ask": 101.3999,
+      "lastPrice": 101.25,
+      "bidVol": 103,
+      "askVol": 19,
+      "accrued": 3.892857142857143,
+      "ytmAtBid": 0.06309810190577991,
+      "ytmAtAsk": 0.06288417158066295,
+      "ytmAtLast": 0.06309810190577991,
+      "bvbYtm": 0.06309999999999999,
+      "dirtyAsk": 105.29275714285714,
+      "dirtyBid": 105.14285714285714,
+      "dirtyLast": 105.14285714285714,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 6.5
+        },
+        {
+          "years": 1.4,
+          "amount": 6.5
+        },
+        {
+          "years": 2.4027397260273973,
+          "amount": 6.5
+        },
+        {
+          "years": 3.4027397260273973,
+          "amount": 6.5
+        },
+        {
+          "years": 4.402739726027397,
+          "amount": 6.5
+        },
+        {
+          "years": 5.402739726027397,
+          "amount": 6.5
+        },
+        {
+          "years": 6.405479452054794,
+          "amount": 6.5
+        },
+        {
+          "years": 7.405479452054794,
+          "amount": 6.5
+        },
+        {
+          "years": 8.405479452054795,
+          "amount": 6.5
+        },
+        {
+          "years": 9.405479452054795,
+          "amount": 106.5
+        }
+      ]
+    },
+    {
+      "ticker": "R3508AE",
+      "isin": "RO3537MMT1B7",
+      "maturity": "2035-08-13",
+      "yearsToMaturity": 9.213698630136987,
+      "couponPct": 6.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 101.1111,
+      "ask": 101.39,
+      "lastPrice": 101.45,
+      "bidVol": 1,
+      "askVol": 3,
+      "accrued": 5.142857142857143,
+      "ytmAtBid": 0.06328687202767469,
+      "ytmAtAsk": 0.06288218856207095,
+      "ytmAtLast": 0.06279531636391766,
+      "bvbYtm": 0.06280000000000001,
+      "dirtyAsk": 106.53285714285714,
+      "dirtyBid": 106.25395714285713,
+      "dirtyLast": 106.59285714285714,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 6.5
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 6.5
+        },
+        {
+          "years": 2.210958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 3.210958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 4.210958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 5.210958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 6.213698630136986,
+          "amount": 6.5
+        },
+        {
+          "years": 7.213698630136986,
+          "amount": 6.5
+        },
+        {
+          "years": 8.213698630136987,
+          "amount": 6.5
+        },
+        {
+          "years": 9.213698630136987,
+          "amount": 106.5
+        }
+      ]
+    },
+    {
+      "ticker": "R3604AE",
+      "isin": "ROLYE7K276R7",
+      "maturity": "2036-04-24",
+      "yearsToMaturity": 9.912328767123288,
+      "couponPct": 6.4,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.3602,
+      "ask": 100.8,
+      "lastPrice": 100.83,
+      "bidVol": 8,
+      "askVol": 15,
+      "accrued": 0.5657458563535912,
+      "ytmAtBid": 0.06348894015536644,
+      "ytmAtAsk": 0.06288083989056759,
+      "ytmAtLast": 0.06283948503551073,
+      "bvbYtm": 0.06280000000000001,
+      "dirtyAsk": 101.36574585635358,
+      "dirtyBid": 100.9259458563536,
+      "dirtyLast": 101.39574585635359,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 6.4
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 6.4
+        },
+        {
+          "years": 2.9068493150684933,
+          "amount": 6.4
+        },
+        {
+          "years": 3.9068493150684933,
+          "amount": 6.4
+        },
+        {
+          "years": 4.906849315068493,
+          "amount": 6.4
+        },
+        {
+          "years": 5.909589041095891,
+          "amount": 6.4
+        },
+        {
+          "years": 6.909589041095891,
+          "amount": 6.4
+        },
+        {
+          "years": 7.909589041095891,
+          "amount": 6.4
+        },
+        {
+          "years": 8.90958904109589,
+          "amount": 6.4
+        },
+        {
+          "years": 9.912328767123288,
+          "amount": 106.4
+        }
+      ]
+    },
+    {
+      "ticker": "R3509AE",
+      "isin": "ROG7CTZ7I9J2",
+      "maturity": "2035-09-17",
+      "yearsToMaturity": 9.30958904109589,
+      "couponPct": 6.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 101.0001,
+      "ask": 101.4,
+      "lastPrice": 101.3,
+      "bidVol": 25,
+      "askVol": 36,
+      "accrued": 4.517857142857143,
+      "ytmAtBid": 0.0634493732068222,
+      "ytmAtAsk": 0.06287332958891056,
+      "ytmAtLast": 0.06301710123079829,
+      "bvbYtm": 0.063,
+      "dirtyAsk": 105.91785714285714,
+      "dirtyBid": 105.51795714285714,
+      "dirtyLast": 105.81785714285714,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 6.5
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 6.5
+        },
+        {
+          "years": 2.3068493150684932,
+          "amount": 6.5
+        },
+        {
+          "years": 3.3068493150684932,
+          "amount": 6.5
+        },
+        {
+          "years": 4.306849315068493,
+          "amount": 6.5
+        },
+        {
+          "years": 5.306849315068493,
+          "amount": 6.5
+        },
+        {
+          "years": 6.30958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 7.30958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 8.30958904109589,
+          "amount": 6.5
+        },
+        {
+          "years": 9.30958904109589,
+          "amount": 106.5
+        }
+      ]
+    },
+    {
+      "ticker": "R3511AE",
+      "isin": "ROMWZQ4CEV91",
+      "maturity": "2035-11-19",
+      "yearsToMaturity": 9.482191780821918,
+      "couponPct": 6.3,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.4012,
+      "ask": 100.0863,
+      "lastPrice": 100.0884,
+      "bidVol": 9,
+      "askVol": 48,
+      "accrued": 3.2884615384615383,
+      "ytmAtBid": 0.06376378264394589,
+      "ytmAtAsk": 0.06278071666019969,
+      "ytmAtLast": 0.0627777166373562,
+      "bvbYtm": 0.06280000000000001,
+      "dirtyAsk": 103.37476153846153,
+      "dirtyBid": 102.68966153846154,
+      "dirtyLast": 103.37686153846153,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 6.3
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 6.3
+        },
+        {
+          "years": 2.4794520547945207,
+          "amount": 6.3
+        },
+        {
+          "years": 3.4794520547945207,
+          "amount": 6.3
+        },
+        {
+          "years": 4.47945205479452,
+          "amount": 6.3
+        },
+        {
+          "years": 5.47945205479452,
+          "amount": 6.3
+        },
+        {
+          "years": 6.482191780821918,
+          "amount": 6.3
+        },
+        {
+          "years": 7.482191780821918,
+          "amount": 6.3
+        },
+        {
+          "years": 8.482191780821918,
+          "amount": 6.3
+        },
+        {
+          "years": 9.482191780821918,
+          "amount": 106.3
+        }
+      ]
+    },
+    {
+      "ticker": "R3601AE",
+      "isin": "ROWSNY06IUC9",
+      "maturity": "2036-01-28",
+      "yearsToMaturity": 9.673972602739726,
+      "couponPct": 6.2,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.15,
+      "ask": 99.4499,
+      "lastPrice": 99.45,
+      "bidVol": 12,
+      "askVol": 34,
+      "accrued": 2.043956043956044,
+      "ytmAtBid": 0.0631201209325809,
+      "ytmAtAsk": 0.06269546653493308,
+      "ytmAtLast": 0.06269532520673238,
+      "bvbYtm": 0.06269999999999999,
+      "dirtyAsk": 101.49385604395604,
+      "dirtyBid": 101.19395604395605,
+      "dirtyLast": 101.49395604395605,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 6.2
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 6.2
+        },
+        {
+          "years": 2.671232876712329,
+          "amount": 6.2
+        },
+        {
+          "years": 3.671232876712329,
+          "amount": 6.2
+        },
+        {
+          "years": 4.671232876712328,
+          "amount": 6.2
+        },
+        {
+          "years": 5.671232876712328,
+          "amount": 6.2
+        },
+        {
+          "years": 6.673972602739726,
+          "amount": 6.2
+        },
+        {
+          "years": 7.673972602739726,
+          "amount": 6.2
+        },
+        {
+          "years": 8.673972602739726,
+          "amount": 6.2
+        },
+        {
+          "years": 9.673972602739726,
+          "amount": 106.2
+        }
+      ]
+    },
+    {
+      "ticker": "R3603AE",
+      "isin": "ROHLCA3VVNV2",
+      "maturity": "2036-03-18",
+      "yearsToMaturity": 9.810958904109588,
+      "couponPct": 6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 97.9,
+      "ask": 98.3,
+      "lastPrice": 98.3,
+      "bidVol": 273,
+      "askVol": 1800,
+      "accrued": 1.1703296703296704,
+      "ytmAtBid": 0.06285996126825921,
+      "ytmAtAsk": 0.06229559888015501,
+      "ytmAtLast": 0.06229559888015501,
+      "bvbYtm": 0.0623,
+      "dirtyAsk": 99.47032967032966,
+      "dirtyBid": 99.07032967032967,
+      "dirtyLast": 99.47032967032966,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 6
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 6
+        },
+        {
+          "years": 2.8054794520547945,
+          "amount": 6
+        },
+        {
+          "years": 3.8054794520547945,
+          "amount": 6
+        },
+        {
+          "years": 4.8054794520547945,
+          "amount": 6
+        },
+        {
+          "years": 5.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 6.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 7.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 8.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 9.810958904109588,
+          "amount": 106
+        }
+      ]
+    },
+    {
+      "ticker": "R3512AE",
+      "isin": "RORCFVY72V16",
+      "maturity": "2035-12-17",
+      "yearsToMaturity": 9.558904109589042,
+      "couponPct": 6.2,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.17,
+      "ask": 99.85,
+      "lastPrice": 99.85,
+      "bidVol": 1,
+      "askVol": 110,
+      "accrued": 2.7593406593406593,
+      "ytmAtBid": 0.06309129335568286,
+      "ytmAtAsk": 0.06212272113771178,
+      "ytmAtLast": 0.06212272113771178,
+      "bvbYtm": 0.0621,
+      "dirtyAsk": 102.60934065934066,
+      "dirtyBid": 101.92934065934067,
+      "dirtyLast": 102.60934065934066,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 6.2
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 6.2
+        },
+        {
+          "years": 2.5561643835616437,
+          "amount": 6.2
+        },
+        {
+          "years": 3.5561643835616437,
+          "amount": 6.2
+        },
+        {
+          "years": 4.556164383561644,
+          "amount": 6.2
+        },
+        {
+          "years": 5.556164383561644,
+          "amount": 6.2
+        },
+        {
+          "years": 6.558904109589041,
+          "amount": 6.2
+        },
+        {
+          "years": 7.558904109589041,
+          "amount": 6.2
+        },
+        {
+          "years": 8.558904109589042,
+          "amount": 6.2
+        },
+        {
+          "years": 9.558904109589042,
+          "amount": 106.2
+        }
+      ]
+    },
+    {
+      "ticker": "R3202AE",
+      "isin": "ROF1JEO56VX1",
+      "maturity": "2032-02-19",
+      "yearsToMaturity": 5.7315068493150685,
+      "couponPct": 6.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.05,
+      "ask": 100.1969,
+      "lastPrice": 100.01,
+      "bidVol": 12,
+      "askVol": 20,
+      "accrued": 1.6952054794520548,
+      "ytmAtBid": 0.06228272206499241,
+      "ytmAtAsk": 0.061970995826413855,
+      "ytmAtLast": 0.06236770490068011,
+      "bvbYtm": 0.062400000000000004,
+      "dirtyAsk": 101.89210547945206,
+      "dirtyBid": 101.74520547945205,
+      "dirtyLast": 101.70520547945206,
+      "cashflows": [
+        {
+          "years": 0.7287671232876712,
+          "amount": 6.25
+        },
+        {
+          "years": 1.7287671232876711,
+          "amount": 6.25
+        },
+        {
+          "years": 2.7315068493150685,
+          "amount": 6.25
+        },
+        {
+          "years": 3.7315068493150685,
+          "amount": 6.25
+        },
+        {
+          "years": 4.7315068493150685,
+          "amount": 6.25
+        },
+        {
+          "years": 5.7315068493150685,
+          "amount": 106.25
+        }
+      ]
+    },
+    {
+      "ticker": "R3206AE",
+      "isin": "ROHJWQ1AI036",
+      "maturity": "2032-06-19",
+      "yearsToMaturity": 6.063013698630137,
+      "couponPct": 6.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 101.33,
+      "ask": 101.5,
+      "lastPrice": 101.5,
+      "bidVol": 13,
+      "askVol": 141,
+      "accrued": 6.125,
+      "ytmAtBid": 0.062221413623774424,
+      "ytmAtAsk": 0.061879704444436356,
+      "ytmAtLast": 0.061879704444436356,
+      "bvbYtm": 0.061900000000000004,
+      "dirtyAsk": 107.625,
+      "dirtyBid": 107.455,
+      "dirtyLast": 107.625,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 6.5
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 6.5
+        },
+        {
+          "years": 2.0602739726027397,
+          "amount": 6.5
+        },
+        {
+          "years": 3.0602739726027397,
+          "amount": 6.5
+        },
+        {
+          "years": 4.06027397260274,
+          "amount": 6.5
+        },
+        {
+          "years": 5.06027397260274,
+          "amount": 6.5
+        },
+        {
+          "years": 6.063013698630137,
+          "amount": 106.5
+        }
+      ]
+    },
+    {
+      "ticker": "R3207AE",
+      "isin": "ROC14H6U70H3",
+      "maturity": "2032-07-16",
+      "yearsToMaturity": 6.136986301369863,
+      "couponPct": 6.3,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.1,
+      "ask": 100.67,
+      "lastPrice": 100.6871,
+      "bidVol": 75,
+      "askVol": 81,
+      "accrued": 5.469230769230769,
+      "ytmAtBid": 0.06270279551972635,
+      "ytmAtAsk": 0.061561211972730234,
+      "ytmAtLast": 0.061527092329924926,
+      "bvbYtm": 0.061500000000000006,
+      "dirtyAsk": 106.13923076923078,
+      "dirtyBid": 105.56923076923076,
+      "dirtyLast": 106.15633076923078,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 6.3
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 6.3
+        },
+        {
+          "years": 2.1342465753424658,
+          "amount": 6.3
+        },
+        {
+          "years": 3.1342465753424658,
+          "amount": 6.3
+        },
+        {
+          "years": 4.134246575342465,
+          "amount": 6.3
+        },
+        {
+          "years": 5.134246575342465,
+          "amount": 6.3
+        },
+        {
+          "years": 6.136986301369863,
+          "amount": 106.3
+        }
+      ]
+    },
+    {
+      "ticker": "R3605AE",
+      "isin": "ROVMSL8DL3F3",
+      "maturity": "2036-05-20",
+      "yearsToMaturity": 9.983561643835616,
+      "couponPct": 6.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.1005,
+      "ask": 100.7698,
+      "lastPrice": 100.1002,
+      "bidVol": 23,
+      "askVol": 1,
+      "accrued": 0.13736263736263737,
+      "ytmAtBid": 0.062326906743692234,
+      "ytmAtAsk": 0.06141096763894893,
+      "ytmAtLast": 0.062327319086762145,
+      "bvbYtm": 0.0623,
+      "dirtyAsk": 100.90716263736265,
+      "dirtyBid": 100.23786263736264,
+      "dirtyLast": 100.23756263736264,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 6.25
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 6.25
+        },
+        {
+          "years": 2.978082191780822,
+          "amount": 6.25
+        },
+        {
+          "years": 3.978082191780822,
+          "amount": 6.25
+        },
+        {
+          "years": 4.978082191780822,
+          "amount": 6.25
+        },
+        {
+          "years": 5.980821917808219,
+          "amount": 6.25
+        },
+        {
+          "years": 6.980821917808219,
+          "amount": 6.25
+        },
+        {
+          "years": 7.980821917808219,
+          "amount": 6.25
+        },
+        {
+          "years": 8.98082191780822,
+          "amount": 6.25
+        },
+        {
+          "years": 9.983561643835616,
+          "amount": 106.25
+        }
+      ]
+    },
+    {
+      "ticker": "R3205AE",
+      "isin": "ROLX45LYZZF0",
+      "maturity": "2032-05-21",
+      "yearsToMaturity": 5.983561643835617,
+      "couponPct": 6.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.42,
+      "ask": 100.5,
+      "lastPrice": 100.5,
+      "bidVol": 300,
+      "askVol": 108,
+      "accrued": 0.136986301369863,
+      "ytmAtBid": 0.06157419006922282,
+      "ytmAtAsk": 0.06141086932620965,
+      "ytmAtLast": 0.06141086932620965,
+      "bvbYtm": 0.061399999999999996,
+      "dirtyAsk": 100.63698630136986,
+      "dirtyBid": 100.55698630136986,
+      "dirtyLast": 100.63698630136986,
+      "cashflows": [
+        {
+          "years": 0.9780821917808219,
+          "amount": 6.25
+        },
+        {
+          "years": 1.9808219178082191,
+          "amount": 6.25
+        },
+        {
+          "years": 2.9808219178082194,
+          "amount": 6.25
+        },
+        {
+          "years": 3.9808219178082194,
+          "amount": 6.25
+        },
+        {
+          "years": 4.980821917808219,
+          "amount": 6.25
+        },
+        {
+          "years": 5.983561643835617,
+          "amount": 106.25
+        }
+      ]
+    },
+    {
+      "ticker": "R3204AE",
+      "isin": "ROV33IZK0XP8",
+      "maturity": "2032-04-16",
+      "yearsToMaturity": 5.887671232876713,
+      "couponPct": 6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100,
+      "ask": 100.0799,
+      "lastPrice": 100.0799,
+      "bidVol": 100,
+      "askVol": 12,
+      "accrued": 0.7068493150684931,
+      "ytmAtBid": 0.0599066742870491,
+      "ytmAtAsk": 0.0597418480028864,
+      "ytmAtLast": 0.0597418480028864,
+      "bvbYtm": 0.059699999999999996,
+      "dirtyAsk": 100.78674931506849,
+      "dirtyBid": 100.7068493150685,
+      "dirtyLast": 100.78674931506849,
+      "cashflows": [
+        {
+          "years": 0.8821917808219178,
+          "amount": 6
+        },
+        {
+          "years": 1.884931506849315,
+          "amount": 6
+        },
+        {
+          "years": 2.884931506849315,
+          "amount": 6
+        },
+        {
+          "years": 3.884931506849315,
+          "amount": 6
+        },
+        {
+          "years": 4.884931506849315,
+          "amount": 6
+        },
+        {
+          "years": 5.887671232876713,
+          "amount": 106
+        }
+      ]
+    },
+    {
+      "ticker": "R3203AE",
+      "isin": "ROW1WT1KVBM6",
+      "maturity": "2032-03-19",
+      "yearsToMaturity": 5.810958904109589,
+      "couponPct": 6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100,
+      "ask": 100.0875,
+      "lastPrice": 100,
+      "bidVol": 190,
+      "askVol": 190,
+      "accrued": 1.167123287671233,
+      "ytmAtBid": 0.05988624025485478,
+      "ytmAtAsk": 0.0597038266423624,
+      "ytmAtLast": 0.05988624025485478,
+      "bvbYtm": 0.0599,
+      "dirtyAsk": 101.25462328767124,
+      "dirtyBid": 101.16712328767123,
+      "dirtyLast": 101.16712328767123,
+      "cashflows": [
+        {
+          "years": 0.8054794520547945,
+          "amount": 6
+        },
+        {
+          "years": 1.8082191780821917,
+          "amount": 6
+        },
+        {
+          "years": 2.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 3.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 4.808219178082192,
+          "amount": 6
+        },
+        {
+          "years": 5.810958904109589,
+          "amount": 106
         }
       ]
     },
@@ -4954,6 +8050,862 @@
         {
           "years": 0.1780821917808219,
           "amount": 107.2
+        }
+      ]
+    },
+    {
+      "ticker": "R3112AE",
+      "isin": "ROYZCEDPZ539",
+      "maturity": "2031-12-23",
+      "yearsToMaturity": 5.572602739726028,
+      "couponPct": 5.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100,
+      "ask": 100.03,
+      "lastPrice": 100,
+      "bidVol": 188,
+      "askVol": 45,
+      "accrued": 2.473287671232877,
+      "ytmAtBid": 0.05738554705749266,
+      "ytmAtAsk": 0.05732125087524764,
+      "ytmAtLast": 0.05738554705749266,
+      "bvbYtm": 0.0574,
+      "dirtyAsk": 102.50328767123288,
+      "dirtyBid": 102.47328767123288,
+      "dirtyLast": 102.47328767123288,
+      "cashflows": [
+        {
+          "years": 0.5698630136986301,
+          "amount": 5.75
+        },
+        {
+          "years": 1.5698630136986302,
+          "amount": 5.75
+        },
+        {
+          "years": 2.5726027397260274,
+          "amount": 5.75
+        },
+        {
+          "years": 3.5726027397260274,
+          "amount": 5.75
+        },
+        {
+          "years": 4.572602739726028,
+          "amount": 5.75
+        },
+        {
+          "years": 5.572602739726028,
+          "amount": 105.75
+        }
+      ]
+    },
+    {
+      "ticker": "R3012AE",
+      "isin": "ROSIR7HAZ5O9",
+      "maturity": "2030-12-17",
+      "yearsToMaturity": 4.556164383561644,
+      "couponPct": 4.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 95.1,
+      "ask": 96.6999,
+      "lastPrice": 95.1,
+      "bidVol": 30,
+      "askVol": 8,
+      "accrued": 2.114010989010989,
+      "ytmAtBid": 0.06001041361014359,
+      "ytmAtAsk": 0.0558099526388105,
+      "ytmAtLast": 0.06001041361014359,
+      "bvbYtm": 0.06,
+      "dirtyAsk": 98.81391098901099,
+      "dirtyBid": 97.21401098901099,
+      "dirtyLast": 97.21401098901099,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 4.75
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 4.75
+        },
+        {
+          "years": 2.5561643835616437,
+          "amount": 4.75
+        },
+        {
+          "years": 3.5561643835616437,
+          "amount": 4.75
+        },
+        {
+          "years": 4.556164383561644,
+          "amount": 104.75
+        }
+      ]
+    },
+    {
+      "ticker": "R3101AE",
+      "isin": "RO4EW9A9YNJ8",
+      "maturity": "2031-01-28",
+      "yearsToMaturity": 4.671232876712328,
+      "couponPct": 4.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 95.0007,
+      "ask": 97,
+      "lastPrice": 96.9999,
+      "bidVol": 100,
+      "askVol": 100,
+      "accrued": 1.565934065934066,
+      "ytmAtBid": 0.06000427095568739,
+      "ytmAtAsk": 0.054877530987141654,
+      "ytmAtLast": 0.054877784015843645,
+      "bvbYtm": 0.054900000000000004,
+      "dirtyAsk": 98.56593406593407,
+      "dirtyBid": 96.56663406593407,
+      "dirtyLast": 98.56583406593407,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 4.75
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 4.75
+        },
+        {
+          "years": 2.671232876712329,
+          "amount": 4.75
+        },
+        {
+          "years": 3.671232876712329,
+          "amount": 4.75
+        },
+        {
+          "years": 4.671232876712328,
+          "amount": 104.75
+        }
+      ]
+    },
+    {
+      "ticker": "R3011AE",
+      "isin": "RO29NOGS1TD3",
+      "maturity": "2030-11-19",
+      "yearsToMaturity": 4.47945205479452,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.1,
+      "ask": 98.1799,
+      "lastPrice": 98.1,
+      "bidVol": 197,
+      "askVol": 32,
+      "accrued": 2.60989010989011,
+      "ytmAtBid": 0.054797367862192914,
+      "ytmAtAsk": 0.054589291830779985,
+      "ytmAtLast": 0.054797367862192914,
+      "bvbYtm": 0.0548,
+      "dirtyAsk": 100.78979010989012,
+      "dirtyBid": 100.70989010989011,
+      "dirtyLast": 100.70989010989011,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 5
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 5
+        },
+        {
+          "years": 2.4794520547945207,
+          "amount": 5
+        },
+        {
+          "years": 3.4794520547945207,
+          "amount": 5
+        },
+        {
+          "years": 4.47945205479452,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R3008AE",
+      "isin": "ROKMM9ZNGN31",
+      "maturity": "2030-08-13",
+      "yearsToMaturity": 4.210958904109589,
+      "couponPct": 5.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99,
+      "ask": 99.49,
+      "lastPrice": 99.5,
+      "bidVol": 82,
+      "askVol": 2,
+      "accrued": 4.153846153846154,
+      "ytmAtBid": 0.05513447048724629,
+      "ytmAtAsk": 0.053796149062691256,
+      "ytmAtLast": 0.053768925747135654,
+      "bvbYtm": 0.0538,
+      "dirtyAsk": 103.64384615384616,
+      "dirtyBid": 103.15384615384616,
+      "dirtyLast": 103.65384615384616,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 5.25
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 5.25
+        },
+        {
+          "years": 2.210958904109589,
+          "amount": 5.25
+        },
+        {
+          "years": 3.210958904109589,
+          "amount": 5.25
+        },
+        {
+          "years": 4.210958904109589,
+          "amount": 105.25
+        }
+      ]
+    },
+    {
+      "ticker": "R2907AE",
+      "isin": "RO4BEW3ZCCI4",
+      "maturity": "2029-07-03",
+      "yearsToMaturity": 3.0986301369863014,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.95,
+      "ask": 99,
+      "lastPrice": 99,
+      "bidVol": 30,
+      "askVol": 20,
+      "accrued": 4.52054794520548,
+      "ytmAtBid": 0.053682017751270905,
+      "ytmAtAsk": 0.05350149542209692,
+      "ytmAtLast": 0.05350149542209692,
+      "bvbYtm": 0.0535,
+      "dirtyAsk": 103.52054794520548,
+      "dirtyBid": 103.47054794520548,
+      "dirtyLast": 103.52054794520548,
+      "cashflows": [
+        {
+          "years": 0.0958904109589041,
+          "amount": 5
+        },
+        {
+          "years": 1.095890410958904,
+          "amount": 5
+        },
+        {
+          "years": 2.0986301369863014,
+          "amount": 5
+        },
+        {
+          "years": 3.0986301369863014,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R2804AE",
+      "isin": "ROTDI264MAU5",
+      "maturity": "2028-04-13",
+      "yearsToMaturity": 1.8767123287671232,
+      "couponPct": 5.8,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.5,
+      "ask": 100.79,
+      "lastPrice": 100.79,
+      "bidVol": 4,
+      "askVol": 379,
+      "accrued": 0.7309589041095891,
+      "ytmAtBid": 0.0549410350213293,
+      "ytmAtAsk": 0.05328595088212751,
+      "ytmAtLast": 0.05328595088212751,
+      "bvbYtm": 0.0533,
+      "dirtyAsk": 101.52095890410959,
+      "dirtyBid": 101.23095890410958,
+      "dirtyLast": 101.52095890410959,
+      "cashflows": [
+        {
+          "years": 0.873972602739726,
+          "amount": 5.8
+        },
+        {
+          "years": 1.8767123287671232,
+          "amount": 105.8
+        }
+      ]
+    },
+    {
+      "ticker": "R3006AE",
+      "isin": "ROIS1C28MMI3",
+      "maturity": "2030-06-19",
+      "yearsToMaturity": 4.06027397260274,
+      "couponPct": 5.6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.5,
+      "ask": 101,
+      "lastPrice": 101.5999,
+      "bidVol": 47,
+      "askVol": 100,
+      "accrued": 5.276923076923077,
+      "ytmAtBid": 0.05453397813835181,
+      "ytmAtAsk": 0.053137867915211245,
+      "ytmAtLast": 0.05147474180557765,
+      "bvbYtm": 0.051500000000000004,
+      "dirtyAsk": 106.27692307692308,
+      "dirtyBid": 105.77692307692308,
+      "dirtyLast": 106.87682307692309,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 5.6
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 5.6
+        },
+        {
+          "years": 2.0602739726027397,
+          "amount": 5.6
+        },
+        {
+          "years": 3.0602739726027397,
+          "amount": 5.6
+        },
+        {
+          "years": 4.06027397260274,
+          "amount": 105.6
+        }
+      ]
+    },
+    {
+      "ticker": "R3007AE",
+      "isin": "RO7BBA1JDI51",
+      "maturity": "2030-07-16",
+      "yearsToMaturity": 4.134246575342465,
+      "couponPct": 5.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100,
+      "ask": 100.6565,
+      "lastPrice": 100.11,
+      "bidVol": 100,
+      "askVol": 9,
+      "accrued": 4.774725274725275,
+      "ytmAtBid": 0.05492045686696656,
+      "ytmAtAsk": 0.05311188191990368,
+      "ytmAtLast": 0.05461633941740729,
+      "bvbYtm": 0.0546,
+      "dirtyAsk": 105.43122527472526,
+      "dirtyBid": 104.77472527472527,
+      "dirtyLast": 104.88472527472527,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 5.5
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 5.5
+        },
+        {
+          "years": 2.1342465753424658,
+          "amount": 5.5
+        },
+        {
+          "years": 3.1342465753424658,
+          "amount": 5.5
+        },
+        {
+          "years": 4.134246575342465,
+          "amount": 105.5
+        }
+      ]
+    },
+    {
+      "ticker": "R2810AE",
+      "isin": "ROY61GNL5YW8",
+      "maturity": "2028-10-06",
+      "yearsToMaturity": 2.3589041095890413,
+      "couponPct": 5.3,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.8001,
+      "ask": 100,
+      "lastPrice": 100,
+      "bidVol": 54,
+      "askVol": 127,
+      "accrued": 3.4123287671232876,
+      "ytmAtBid": 0.05371638140059076,
+      "ytmAtAsk": 0.052794271177845076,
+      "ytmAtLast": 0.052794271177845076,
+      "bvbYtm": 0.0528,
+      "dirtyAsk": 103.41232876712328,
+      "dirtyBid": 103.21242876712328,
+      "dirtyLast": 103.41232876712328,
+      "cashflows": [
+        {
+          "years": 0.3561643835616438,
+          "amount": 5.3
+        },
+        {
+          "years": 1.356164383561644,
+          "amount": 5.3
+        },
+        {
+          "years": 2.3589041095890413,
+          "amount": 105.3
+        }
+      ]
+    },
+    {
+      "ticker": "R2910AE",
+      "isin": "RO773WJCMQ25",
+      "maturity": "2029-10-16",
+      "yearsToMaturity": 3.3863013698630136,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.6001,
+      "ask": 99.1499,
+      "lastPrice": 98.6,
+      "bidVol": 17,
+      "askVol": 85,
+      "accrued": 3.0821917808219177,
+      "ytmAtBid": 0.054493295872816816,
+      "ytmAtAsk": 0.052664889983134344,
+      "ytmAtLast": 0.054493629693752155,
+      "bvbYtm": 0.0545,
+      "dirtyAsk": 102.23209178082192,
+      "dirtyBid": 101.68229178082191,
+      "dirtyLast": 101.68219178082191,
+      "cashflows": [
+        {
+          "years": 0.3835616438356164,
+          "amount": 5
+        },
+        {
+          "years": 1.3835616438356164,
+          "amount": 5
+        },
+        {
+          "years": 2.3863013698630136,
+          "amount": 5
+        },
+        {
+          "years": 3.3863013698630136,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R3102AE",
+      "isin": "ROWHEG1FHZQ1",
+      "maturity": "2031-02-18",
+      "yearsToMaturity": 4.728767123287671,
+      "couponPct": 4.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 95.0002,
+      "ask": 96.89,
+      "lastPrice": 96.89,
+      "bidVol": 3,
+      "askVol": 1,
+      "accrued": 1.223901098901099,
+      "ytmAtBid": 0.05730245684389956,
+      "ytmAtAsk": 0.05253723534406163,
+      "ytmAtLast": 0.05253723534406163,
+      "bvbYtm": 0.0525,
+      "dirtyAsk": 98.1139010989011,
+      "dirtyBid": 96.2241010989011,
+      "dirtyLast": 98.1139010989011,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 4.5
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 4.5
+        },
+        {
+          "years": 2.728767123287671,
+          "amount": 4.5
+        },
+        {
+          "years": 3.728767123287671,
+          "amount": 4.5
+        },
+        {
+          "years": 4.728767123287671,
+          "amount": 104.5
+        }
+      ]
+    },
+    {
+      "ticker": "R3103AE",
+      "isin": "RO0AS9O8UWZ3",
+      "maturity": "2031-03-18",
+      "yearsToMaturity": 4.8054794520547945,
+      "couponPct": 4.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 95,
+      "ask": 96.8999,
+      "lastPrice": 95,
+      "bidVol": 11,
+      "askVol": 15,
+      "accrued": 0.8777472527472527,
+      "ytmAtBid": 0.05713952743099071,
+      "ytmAtAsk": 0.052417041471926495,
+      "ytmAtLast": 0.05713952743099071,
+      "bvbYtm": 0.0571,
+      "dirtyAsk": 97.77764725274726,
+      "dirtyBid": 95.87774725274726,
+      "dirtyLast": 95.87774725274726,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 4.5
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 4.5
+        },
+        {
+          "years": 2.8054794520547945,
+          "amount": 4.5
+        },
+        {
+          "years": 3.8054794520547945,
+          "amount": 4.5
+        },
+        {
+          "years": 4.8054794520547945,
+          "amount": 104.5
+        }
+      ]
+    },
+    {
+      "ticker": "R3010AE",
+      "isin": "ROXC47R5KNF9",
+      "maturity": "2030-10-22",
+      "yearsToMaturity": 4.402739726027397,
+      "couponPct": 5.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.11,
+      "ask": 100,
+      "lastPrice": 99,
+      "bidVol": 11,
+      "askVol": 150,
+      "accrued": 3.144230769230769,
+      "ytmAtBid": 0.057367436558706686,
+      "ytmAtAsk": 0.052397192193893716,
+      "ytmAtLast": 0.05501166163594462,
+      "bvbYtm": 0.055,
+      "dirtyAsk": 103.14423076923077,
+      "dirtyBid": 101.25423076923077,
+      "dirtyLast": 102.14423076923077,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 5.25
+        },
+        {
+          "years": 1.4,
+          "amount": 5.25
+        },
+        {
+          "years": 2.4027397260273973,
+          "amount": 5.25
+        },
+        {
+          "years": 3.4027397260273973,
+          "amount": 5.25
+        },
+        {
+          "years": 4.402739726027397,
+          "amount": 105.25
+        }
+      ]
+    },
+    {
+      "ticker": "R3009AE",
+      "isin": "ROCHUHLJ51R5",
+      "maturity": "2030-09-17",
+      "yearsToMaturity": 4.306849315068493,
+      "couponPct": 5.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99,
+      "ask": 100.02,
+      "lastPrice": 98.75,
+      "bidVol": 307,
+      "askVol": 10,
+      "accrued": 3.6490384615384617,
+      "ytmAtBid": 0.055068193847546354,
+      "ytmAtAsk": 0.05234830648987554,
+      "ytmAtLast": 0.05574038389022462,
+      "bvbYtm": 0.0557,
+      "dirtyAsk": 103.66903846153846,
+      "dirtyBid": 102.64903846153847,
+      "dirtyLast": 102.39903846153847,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 5.25
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 5.25
+        },
+        {
+          "years": 2.3068493150684932,
+          "amount": 5.25
+        },
+        {
+          "years": 3.3068493150684932,
+          "amount": 5.25
+        },
+        {
+          "years": 4.306849315068493,
+          "amount": 105.25
+        }
+      ]
+    },
+    {
+      "ticker": "R2908AE",
+      "isin": "ROFWCWVUUWU1",
+      "maturity": "2029-08-23",
+      "yearsToMaturity": 3.2383561643835614,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.9001,
+      "ask": 99.2828,
+      "lastPrice": 98.9,
+      "bidVol": 10,
+      "askVol": 128,
+      "accrued": 3.8219178082191783,
+      "ytmAtBid": 0.05366569405305199,
+      "ytmAtAsk": 0.05234264940372668,
+      "ytmAtLast": 0.05366604062146507,
+      "bvbYtm": 0.0537,
+      "dirtyAsk": 103.10471780821918,
+      "dirtyBid": 102.72201780821918,
+      "dirtyLast": 102.72191780821919,
+      "cashflows": [
+        {
+          "years": 0.2356164383561644,
+          "amount": 5
+        },
+        {
+          "years": 1.2356164383561643,
+          "amount": 5
+        },
+        {
+          "years": 2.2383561643835614,
+          "amount": 5
+        },
+        {
+          "years": 3.2383561643835614,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R2902AE",
+      "isin": "ROWF8VKLR6R9",
+      "maturity": "2029-02-18",
+      "yearsToMaturity": 2.728767123287671,
+      "couponPct": 3.6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 94.42,
+      "ask": 95.95,
+      "lastPrice": 95.95,
+      "bidVol": 40,
+      "askVol": 21,
+      "accrued": 0.9791208791208792,
+      "ytmAtBid": 0.05863194607081823,
+      "ytmAtAsk": 0.05222861884976737,
+      "ytmAtLast": 0.05222861884976737,
+      "bvbYtm": 0.052199999999999996,
+      "dirtyAsk": 96.92912087912089,
+      "dirtyBid": 95.39912087912089,
+      "dirtyLast": 96.92912087912089,
+      "cashflows": [
+        {
+          "years": 0.726027397260274,
+          "amount": 3.6
+        },
+        {
+          "years": 1.726027397260274,
+          "amount": 3.6
+        },
+        {
+          "years": 2.728767123287671,
+          "amount": 103.6
+        }
+      ]
+    },
+    {
+      "ticker": "R2904AE",
+      "isin": "RO46T3V3B2W6",
+      "maturity": "2029-04-22",
+      "yearsToMaturity": 2.9013698630136986,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.9105,
+      "ask": 99.4,
+      "lastPrice": 99.2,
+      "bidVol": 9,
+      "askVol": 5,
+      "accrued": 0.5068493150684932,
+      "ytmAtBid": 0.054063753195805475,
+      "ytmAtAsk": 0.05218963869265281,
+      "ytmAtLast": 0.05295381843461655,
+      "bvbYtm": 0.053,
+      "dirtyAsk": 99.9068493150685,
+      "dirtyBid": 99.41734931506849,
+      "dirtyLast": 99.7068493150685,
+      "cashflows": [
+        {
+          "years": 0.8986301369863013,
+          "amount": 5
+        },
+        {
+          "years": 1.9013698630136986,
+          "amount": 5
+        },
+        {
+          "years": 2.9013698630136986,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R2812AE",
+      "isin": "RO5W46FHTRU7",
+      "maturity": "2028-12-20",
+      "yearsToMaturity": 2.5643835616438357,
+      "couponPct": 5.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.32,
+      "ask": 100.65,
+      "lastPrice": 100.32,
+      "bidVol": 353,
+      "askVol": 4,
+      "accrued": 2.410958904109589,
+      "ytmAtBid": 0.053423349134391174,
+      "ytmAtAsk": 0.052022959891473874,
+      "ytmAtLast": 0.053423349134391174,
+      "bvbYtm": 0.053399999999999996,
+      "dirtyAsk": 103.0609589041096,
+      "dirtyBid": 102.73095890410958,
+      "dirtyLast": 102.73095890410958,
+      "cashflows": [
+        {
+          "years": 0.5616438356164384,
+          "amount": 5.5
+        },
+        {
+          "years": 1.5616438356164384,
+          "amount": 5.5
+        },
+        {
+          "years": 2.5643835616438357,
+          "amount": 105.5
+        }
+      ]
+    },
+    {
+      "ticker": "R2903AE",
+      "isin": "ROBK9EB2A2D8",
+      "maturity": "2029-03-06",
+      "yearsToMaturity": 2.7726027397260276,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99,
+      "ask": 99.47,
+      "lastPrice": 99.51,
+      "bidVol": 4,
+      "askVol": 40,
+      "accrued": 1.1506849315068493,
+      "ytmAtBid": 0.05383570454432629,
+      "ytmAtAsk": 0.0519622307328973,
+      "ytmAtLast": 0.051803356589516625,
+      "bvbYtm": 0.0518,
+      "dirtyAsk": 100.62068493150684,
+      "dirtyBid": 100.15068493150685,
+      "dirtyLast": 100.66068493150685,
+      "cashflows": [
+        {
+          "years": 0.7698630136986301,
+          "amount": 5
+        },
+        {
+          "years": 1.7726027397260273,
+          "amount": 5
+        },
+        {
+          "years": 2.7726027397260276,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R2808AE",
+      "isin": "ROKZLUKMGN59",
+      "maturity": "2028-08-02",
+      "yearsToMaturity": 2.180821917808219,
+      "couponPct": 5.45,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.6003,
+      "ask": 100.4999,
+      "lastPrice": 100.04,
+      "bidVol": 5,
+      "askVol": 10,
+      "accrued": 4.47945205479452,
+      "ytmAtBid": 0.05632071915897541,
+      "ytmAtAsk": 0.05184803230804391,
+      "ytmAtLast": 0.05412713802070357,
+      "bvbYtm": 0.0541,
+      "dirtyAsk": 104.97935205479452,
+      "dirtyBid": 104.07975205479453,
+      "dirtyLast": 104.51945205479453,
+      "cashflows": [
+        {
+          "years": 0.1780821917808219,
+          "amount": 5.45
+        },
+        {
+          "years": 1.178082191780822,
+          "amount": 5.45
+        },
+        {
+          "years": 2.180821917808219,
+          "amount": 105.45
         }
       ]
     },
@@ -5006,6 +8958,154 @@
       ]
     },
     {
+      "ticker": "R3104AE",
+      "isin": "ROVYJXJ8GK73",
+      "maturity": "2031-04-24",
+      "yearsToMaturity": 4.906849315068493,
+      "couponPct": 5.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 94.6505,
+      "ask": 102.5,
+      "lastPrice": 99,
+      "bidVol": 30,
+      "askVol": 11,
+      "accrued": 0.46408839779005523,
+      "ytmAtBid": 0.06563168132561259,
+      "ytmAtAsk": 0.04671734748990275,
+      "ytmAtLast": 0.05491310326033272,
+      "bvbYtm": 0.0548,
+      "dirtyAsk": 102.96408839779005,
+      "dirtyBid": 95.11458839779004,
+      "dirtyLast": 99.46408839779005,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 5.25
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 5.25
+        },
+        {
+          "years": 2.9068493150684933,
+          "amount": 5.25
+        },
+        {
+          "years": 3.9068493150684933,
+          "amount": 5.25
+        },
+        {
+          "years": 4.906849315068493,
+          "amount": 105.25
+        }
+      ]
+    },
+    {
+      "ticker": "R2810CE",
+      "isin": "RORVG1BGEDM4",
+      "maturity": "2028-10-22",
+      "yearsToMaturity": 2.4027397260273973,
+      "couponPct": 4.15,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98,
+      "ask": 98.9999,
+      "lastPrice": 97.5,
+      "bidVol": 1,
+      "askVol": 32,
+      "accrued": 2.4854395604395605,
+      "ytmAtBid": 0.05040876884595491,
+      "ytmAtAsk": 0.04586371153709479,
+      "ytmAtLast": 0.052706604852573946,
+      "bvbYtm": 0.0527,
+      "dirtyAsk": 101.48533956043956,
+      "dirtyBid": 100.48543956043956,
+      "dirtyLast": 99.98543956043956,
+      "cashflows": [
+        {
+          "years": 0.4,
+          "amount": 4.15
+        },
+        {
+          "years": 1.4,
+          "amount": 4.15
+        },
+        {
+          "years": 2.4027397260273973,
+          "amount": 104.15
+        }
+      ]
+    },
+    {
+      "ticker": "R2901AE",
+      "isin": "ROOUNDU25V29",
+      "maturity": "2029-01-28",
+      "yearsToMaturity": 2.671232876712329,
+      "couponPct": 3.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98,
+      "ask": 98.4999,
+      "lastPrice": 97.9999,
+      "bidVol": 50,
+      "askVol": 32,
+      "accrued": 1.2362637362637363,
+      "ytmAtBid": 0.04553592114825733,
+      "ytmAtAsk": 0.04348793750978075,
+      "ytmAtLast": 0.04553633232717402,
+      "bvbYtm": 0.045599999999999995,
+      "dirtyAsk": 99.73616373626373,
+      "dirtyBid": 99.23626373626374,
+      "dirtyLast": 99.23616373626373,
+      "cashflows": [
+        {
+          "years": 0.6684931506849315,
+          "amount": 3.75
+        },
+        {
+          "years": 1.6684931506849314,
+          "amount": 3.75
+        },
+        {
+          "years": 2.671232876712329,
+          "amount": 103.75
+        }
+      ]
+    },
+    {
+      "ticker": "R2709AE",
+      "isin": "RODEVKUTQUL4",
+      "maturity": "2027-09-17",
+      "yearsToMaturity": 1.3041095890410959,
+      "couponPct": 3.1,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.11,
+      "ask": 98.5,
+      "lastPrice": 98.1101,
+      "bidVol": 20,
+      "askVol": 200,
+      "accrued": 2.15467032967033,
+      "ytmAtBid": 0.04616621430614032,
+      "ytmAtAsk": 0.04298231299617328,
+      "ytmAtLast": 0.04616539503331296,
+      "bvbYtm": 0.0463,
+      "dirtyAsk": 100.65467032967032,
+      "dirtyBid": 100.26467032967032,
+      "dirtyLast": 100.26477032967033,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 3.1
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 103.1
+        }
+      ]
+    },
+    {
       "ticker": "B2902A",
       "isin": "ROVRZSEM43E4",
       "maturity": "2029-02-12",
@@ -5038,6 +9138,618 @@
         {
           "years": 2.712328767123288,
           "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R2812CE",
+      "isin": "ROIDUZS8Y0G0",
+      "maturity": "2028-12-17",
+      "yearsToMaturity": 2.5561643835616437,
+      "couponPct": 3.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 97,
+      "ask": 99.1779,
+      "lastPrice": 99.1898,
+      "bidVol": 10,
+      "askVol": 45,
+      "accrued": 1.668956043956044,
+      "ytmAtBid": 0.0501848898420576,
+      "ytmAtAsk": 0.04085856661549769,
+      "ytmAtLast": 0.040808404301060364,
+      "bvbYtm": 0.0408,
+      "dirtyAsk": 100.84685604395604,
+      "dirtyBid": 98.66895604395604,
+      "dirtyLast": 100.85875604395605,
+      "cashflows": [
+        {
+          "years": 0.5534246575342465,
+          "amount": 3.75
+        },
+        {
+          "years": 1.5534246575342465,
+          "amount": 3.75
+        },
+        {
+          "years": 2.5561643835616437,
+          "amount": 103.75
+        }
+      ]
+    },
+    {
+      "ticker": "R2905AE",
+      "isin": "ROMJJXMMMB11",
+      "maturity": "2029-05-20",
+      "yearsToMaturity": 2.978082191780822,
+      "couponPct": 4,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 97.2,
+      "ask": 100.01,
+      "lastPrice": 100.01,
+      "bidVol": 23,
+      "askVol": 874,
+      "accrued": 0.08791208791208792,
+      "ytmAtBid": 0.050352181162452325,
+      "ytmAtAsk": 0.03995828682673164,
+      "ytmAtLast": 0.03995828682673164,
+      "bvbYtm": 0.039900000000000005,
+      "dirtyAsk": 100.09791208791209,
+      "dirtyBid": 97.28791208791209,
+      "dirtyLast": 100.09791208791209,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 4
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 4
+        },
+        {
+          "years": 2.978082191780822,
+          "amount": 104
+        }
+      ]
+    },
+    {
+      "ticker": "R2707AE",
+      "isin": "RO2RNGFETGY1",
+      "maturity": "2027-07-16",
+      "yearsToMaturity": 1.1315068493150684,
+      "couponPct": 3.4,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.6005,
+      "ask": 99.38,
+      "lastPrice": 99.4,
+      "bidVol": 3,
+      "askVol": 77,
+      "accrued": 2.9516483516483514,
+      "ytmAtBid": 0.0469158397463616,
+      "ytmAtAsk": 0.03965260976110585,
+      "ytmAtLast": 0.039467663591494784,
+      "bvbYtm": 0.0395,
+      "dirtyAsk": 102.33164835164834,
+      "dirtyBid": 101.55214835164834,
+      "dirtyLast": 102.35164835164835,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 3.4
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 103.4
+        }
+      ]
+    },
+    {
+      "ticker": "R3105AE",
+      "isin": "ROIN7TGI0BM0",
+      "maturity": "2031-05-20",
+      "yearsToMaturity": 4.978082191780822,
+      "couponPct": 5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99,
+      "ask": 104.8,
+      "lastPrice": 102.9,
+      "bidVol": 3,
+      "askVol": 1,
+      "accrued": 0.10989010989010989,
+      "ytmAtBid": 0.05232813992188312,
+      "ytmAtAsk": 0.03919516233145259,
+      "ytmAtLast": 0.04339304435416125,
+      "bvbYtm": 0.0433,
+      "dirtyAsk": 104.90989010989011,
+      "dirtyBid": 99.10989010989012,
+      "dirtyLast": 103.00989010989012,
+      "cashflows": [
+        {
+          "years": 0.9753424657534246,
+          "amount": 5
+        },
+        {
+          "years": 1.978082191780822,
+          "amount": 5
+        },
+        {
+          "years": 2.978082191780822,
+          "amount": 5
+        },
+        {
+          "years": 3.978082191780822,
+          "amount": 5
+        },
+        {
+          "years": 4.978082191780822,
+          "amount": 105
+        }
+      ]
+    },
+    {
+      "ticker": "R2811AE",
+      "isin": "ROIBDNOE8N78",
+      "maturity": "2028-11-19",
+      "yearsToMaturity": 2.4794520547945207,
+      "couponPct": 3.9,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 97.012,
+      "ask": 99.9995,
+      "lastPrice": 99.8878,
+      "bidVol": 10,
+      "askVol": 7,
+      "accrued": 2.0357142857142856,
+      "ytmAtBid": 0.05202673366875388,
+      "ytmAtAsk": 0.03890146393678151,
+      "ytmAtLast": 0.03938211625791155,
+      "bvbYtm": 0.0394,
+      "dirtyAsk": 102.03521428571429,
+      "dirtyBid": 99.04771428571429,
+      "dirtyLast": 101.92351428571429,
+      "cashflows": [
+        {
+          "years": 0.4767123287671233,
+          "amount": 3.9
+        },
+        {
+          "years": 1.4767123287671233,
+          "amount": 3.9
+        },
+        {
+          "years": 2.4794520547945207,
+          "amount": 103.9
+        }
+      ]
+    },
+    {
+      "ticker": "R2903CE",
+      "isin": "ROKRUQ2S3EJ7",
+      "maturity": "2029-03-18",
+      "yearsToMaturity": 2.8054794520547945,
+      "couponPct": 3.5,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 96,
+      "ask": 99.2887,
+      "lastPrice": 97,
+      "bidVol": 1,
+      "askVol": 20,
+      "accrued": 0.6826923076923077,
+      "ytmAtBid": 0.05059248811448924,
+      "ytmAtAsk": 0.037674715771572664,
+      "ytmAtLast": 0.046600597008364275,
+      "bvbYtm": 0.0466,
+      "dirtyAsk": 99.97139230769231,
+      "dirtyBid": 96.6826923076923,
+      "dirtyLast": 97.6826923076923,
+      "cashflows": [
+        {
+          "years": 0.8027397260273973,
+          "amount": 3.5
+        },
+        {
+          "years": 1.8054794520547945,
+          "amount": 3.5
+        },
+        {
+          "years": 2.8054794520547945,
+          "amount": 103.5
+        }
+      ]
+    },
+    {
+      "ticker": "R2707BE",
+      "isin": "ROJ6O1WX8EN5",
+      "maturity": "2027-07-16",
+      "yearsToMaturity": 1.1315068493150684,
+      "couponPct": 4.4,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.003,
+      "ask": 100.7999,
+      "lastPrice": 100.0033,
+      "bidVol": 40,
+      "askVol": 11,
+      "accrued": 3.81978021978022,
+      "ytmAtBid": 0.04388658297830261,
+      "ytmAtAsk": 0.03658612715662457,
+      "ytmAtLast": 0.04388381403987296,
+      "bvbYtm": 0.043899999999999995,
+      "dirtyAsk": 104.61968021978021,
+      "dirtyBid": 103.82278021978021,
+      "dirtyLast": 103.82308021978021,
+      "cashflows": [
+        {
+          "years": 0.13150684931506848,
+          "amount": 4.4
+        },
+        {
+          "years": 1.1315068493150684,
+          "amount": 104.4
+        }
+      ]
+    },
+    {
+      "ticker": "R2704AE",
+      "isin": "ROSSLQ9LCF50",
+      "maturity": "2027-04-16",
+      "yearsToMaturity": 0.8821917808219178,
+      "couponPct": 3.6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.85,
+      "ask": 100,
+      "lastPrice": 100,
+      "bidVol": 13,
+      "askVol": 5,
+      "accrued": 0.4241095890410959,
+      "ytmAtBid": 0.03767973146750592,
+      "ytmAtAsk": 0.03592298025614582,
+      "ytmAtLast": 0.03592298025614582,
+      "bvbYtm": 0.036000000000000004,
+      "dirtyAsk": 100.4241095890411,
+      "dirtyBid": 100.27410958904109,
+      "dirtyLast": 100.4241095890411,
+      "cashflows": [
+        {
+          "years": 0.8821917808219178,
+          "amount": 103.6
+        }
+      ]
+    },
+    {
+      "ticker": "R2702AE",
+      "isin": "ROYBEZSSXQ73",
+      "maturity": "2027-02-19",
+      "yearsToMaturity": 0.7287671232876712,
+      "couponPct": 4,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.15,
+      "ask": 100.3,
+      "lastPrice": 100.3,
+      "bidVol": 22,
+      "askVol": 39,
+      "accrued": 1.084931506849315,
+      "ytmAtBid": 0.03766830972745083,
+      "ytmAtAsk": 0.035562263015890494,
+      "ytmAtLast": 0.035562263015890494,
+      "bvbYtm": 0.0355,
+      "dirtyAsk": 101.38493150684931,
+      "dirtyBid": 101.23493150684932,
+      "dirtyLast": 101.38493150684931,
+      "cashflows": [
+        {
+          "years": 0.7287671232876712,
+          "amount": 104
+        }
+      ]
+    },
+    {
+      "ticker": "R2706AE",
+      "isin": "ROGWSAJ4MI93",
+      "maturity": "2027-06-19",
+      "yearsToMaturity": 1.0575342465753426,
+      "couponPct": 3.9,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.7601,
+      "ask": 100.4,
+      "lastPrice": 99.7601,
+      "bidVol": 156,
+      "askVol": 52,
+      "accrued": 3.6750000000000003,
+      "ytmAtBid": 0.041328583989525214,
+      "ytmAtAsk": 0.03505134998704307,
+      "ytmAtLast": 0.041328583989525214,
+      "bvbYtm": 0.041299999999999996,
+      "dirtyAsk": 104.075,
+      "dirtyBid": 103.43509999999999,
+      "dirtyLast": 103.43509999999999,
+      "cashflows": [
+        {
+          "years": 0.057534246575342465,
+          "amount": 3.9
+        },
+        {
+          "years": 1.0575342465753426,
+          "amount": 103.9
+        }
+      ]
+    },
+    {
+      "ticker": "R2705AE",
+      "isin": "ROA0GOCOANU8",
+      "maturity": "2027-05-21",
+      "yearsToMaturity": 0.9780821917808219,
+      "couponPct": 3.85,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.8,
+      "ask": 100.4998,
+      "lastPrice": 99.8,
+      "bidVol": 169,
+      "askVol": 2,
+      "accrued": 0.08438356164383562,
+      "ytmAtBid": 0.04060957641922869,
+      "ytmAtAsk": 0.03320802471716888,
+      "ytmAtLast": 0.04060957641922869,
+      "bvbYtm": 0.0406,
+      "dirtyAsk": 100.58418356164383,
+      "dirtyBid": 99.88438356164383,
+      "dirtyLast": 99.88438356164383,
+      "cashflows": [
+        {
+          "years": 0.9780821917808219,
+          "amount": 103.85
+        }
+      ]
+    },
+    {
+      "ticker": "R2904CE",
+      "isin": "ROT3PPVD93X0",
+      "maturity": "2029-04-24",
+      "yearsToMaturity": 2.9068493150684933,
+      "couponPct": 4.25,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.68,
+      "ask": 102.9,
+      "lastPrice": 99.7,
+      "bidVol": 30,
+      "askVol": 180,
+      "accrued": 0.3756906077348066,
+      "ytmAtBid": 0.043744937545852736,
+      "ytmAtAsk": 0.0319493203132879,
+      "ytmAtLast": 0.043670058104908094,
+      "bvbYtm": 0.0436,
+      "dirtyAsk": 103.27569060773482,
+      "dirtyBid": 100.05569060773482,
+      "dirtyLast": 100.07569060773481,
+      "cashflows": [
+        {
+          "years": 0.9041095890410958,
+          "amount": 4.25
+        },
+        {
+          "years": 1.906849315068493,
+          "amount": 4.25
+        },
+        {
+          "years": 2.9068493150684933,
+          "amount": 104.25
+        }
+      ]
+    },
+    {
+      "ticker": "R2708AE",
+      "isin": "RODE7888PH79",
+      "maturity": "2027-08-13",
+      "yearsToMaturity": 1.2082191780821918,
+      "couponPct": 3.1,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 98.2502,
+      "ask": 100.2699,
+      "lastPrice": 99.5,
+      "bidVol": 25,
+      "askVol": 50,
+      "accrued": 2.452747252747253,
+      "ytmAtBid": 0.046136080840369686,
+      "ytmAtAsk": 0.028648745239479467,
+      "ytmAtLast": 0.035238419455708936,
+      "bvbYtm": 0.0353,
+      "dirtyAsk": 102.72264725274727,
+      "dirtyBid": 100.70294725274726,
+      "dirtyLast": 101.95274725274726,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 3.1
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 103.1
+        }
+      ]
+    },
+    {
+      "ticker": "R2703AE",
+      "isin": "ROFFXW47BSR5",
+      "maturity": "2027-03-19",
+      "yearsToMaturity": 0.8054794520547945,
+      "couponPct": 3.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.5202,
+      "ask": 100.6999,
+      "lastPrice": 99.6703,
+      "bidVol": 50,
+      "askVol": 6,
+      "accrued": 0.7294520547945206,
+      "ytmAtBid": 0.04352965208818205,
+      "ytmAtAsk": 0.028482784371590242,
+      "ytmAtLast": 0.041593141184421256,
+      "bvbYtm": 0.0417,
+      "dirtyAsk": 101.42935205479452,
+      "dirtyBid": 100.24965205479452,
+      "dirtyLast": 100.39975205479452,
+      "cashflows": [
+        {
+          "years": 0.8054794520547945,
+          "amount": 103.75
+        }
+      ]
+    },
+    {
+      "ticker": "R2612BE",
+      "isin": "ROPOCDN18MP3",
+      "maturity": "2026-12-23",
+      "yearsToMaturity": 0.5698630136986301,
+      "couponPct": 3.75,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.4001,
+      "ask": 100.5,
+      "lastPrice": 100.5997,
+      "bidVol": 66,
+      "askVol": 23,
+      "accrued": 1.6130136986301369,
+      "ytmAtBid": 0.03006926443777047,
+      "ytmAtAsk": 0.028301518032094464,
+      "ytmAtLast": 0.026542054256424308,
+      "bvbYtm": 0.0264,
+      "dirtyAsk": 102.11301369863014,
+      "dirtyBid": 102.01311369863014,
+      "dirtyLast": 102.21271369863014,
+      "cashflows": [
+        {
+          "years": 0.5698630136986301,
+          "amount": 103.75
+        }
+      ]
+    },
+    {
+      "ticker": "R2708BE",
+      "isin": "ROKRR4DYND14",
+      "maturity": "2027-08-13",
+      "yearsToMaturity": 1.2082191780821918,
+      "couponPct": 4.1,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100.01,
+      "ask": 101.5,
+      "lastPrice": 100.2,
+      "bidVol": 3,
+      "askVol": 2,
+      "accrued": 3.243956043956044,
+      "ytmAtBid": 0.04081637758645229,
+      "ytmAtAsk": 0.028138713183579966,
+      "ytmAtLast": 0.039180638967081904,
+      "bvbYtm": 0.0392,
+      "dirtyAsk": 104.74395604395605,
+      "dirtyBid": 103.25395604395605,
+      "dirtyLast": 103.44395604395605,
+      "cashflows": [
+        {
+          "years": 0.20821917808219179,
+          "amount": 4.1
+        },
+        {
+          "years": 1.2082191780821918,
+          "amount": 104.1
+        }
+      ]
+    },
+    {
+      "ticker": "R2709BE",
+      "isin": "RO7ME2F4N6J4",
+      "maturity": "2027-09-17",
+      "yearsToMaturity": 1.3041095890410959,
+      "couponPct": 4.1,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 100,
+      "ask": 101.8,
+      "lastPrice": 100.71,
+      "bidVol": 10,
+      "askVol": 58,
+      "accrued": 2.849725274725275,
+      "ytmAtBid": 0.040887539886171,
+      "ytmAtAsk": 0.026708742807386443,
+      "ytmAtLast": 0.035241405974375084,
+      "bvbYtm": 0.0352,
+      "dirtyAsk": 104.64972527472527,
+      "dirtyBid": 102.84972527472527,
+      "dirtyLast": 103.55972527472527,
+      "cashflows": [
+        {
+          "years": 0.3041095890410959,
+          "amount": 4.1
+        },
+        {
+          "years": 1.3041095890410959,
+          "amount": 104.1
+        }
+      ]
+    },
+    {
+      "ticker": "R2610AE",
+      "isin": "ROQHRYERUPM6",
+      "maturity": "2026-10-06",
+      "yearsToMaturity": 0.3561643835616438,
+      "couponPct": 1.6,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.3001,
+      "ask": 99.7,
+      "lastPrice": 99.4,
+      "bidVol": 100,
+      "askVol": 99,
+      "accrued": 1.0301369863013699,
+      "ytmAtBid": 0.035941544600063935,
+      "ytmAtAsk": 0.024435733474092558,
+      "ytmAtLast": 0.033050893573090434,
+      "bvbYtm": 0.0335,
+      "dirtyAsk": 100.73013698630137,
+      "dirtyBid": 100.33023698630137,
+      "dirtyLast": 100.43013698630138,
+      "cashflows": [
+        {
+          "years": 0.3561643835616438,
+          "amount": 101.6
+        }
+      ]
+    },
+    {
+      "ticker": "R2612AE",
+      "isin": "ROUFKA4GGAZ1",
+      "maturity": "2026-12-15",
+      "yearsToMaturity": 0.547945205479452,
+      "couponPct": 1.8,
+      "nominal": 100,
+      "currency": "EUR",
+      "bid": 99.0255,
+      "ask": 99.75,
+      "lastPrice": 99.85,
+      "bidVol": 21,
+      "askVol": 95,
+      "accrued": 0.8136986301369863,
+      "ytmAtBid": 0.036132299137534574,
+      "ytmAtAsk": 0.022549723740667105,
+      "ytmAtLast": 0.020696634164778516,
+      "bvbYtm": 0.0208,
+      "dirtyAsk": 100.56369863013698,
+      "dirtyBid": 99.83919863013698,
+      "dirtyLast": 100.66369863013698,
+      "cashflows": [
+        {
+          "years": 0.547945205479452,
+          "amount": 101.8
         }
       ]
     }

@@ -9,7 +9,7 @@ import type { BondAnalytics, BondDetail, ListingRow } from "./types.js";
 
 export interface ScrapeResult {
   generatedAt: string;
-  listing: ListingRow[]; // filtered (RON + Titluri de stat)
+  listing: ListingRow[]; // filtered (currencies ∈ filter, category = Titluri de stat)
   details: BondDetail[];
   analytics: BondAnalytics[]; // sorted by ytmAtAsk desc, then ytmAtLast desc
   errors: { ticker: string; error: string }[];
@@ -42,7 +42,9 @@ export interface ScrapeOptions {
   concurrency?: number;
   delayMs?: number;
   filter?: {
-    currency?: string;
+    // Set of currencies to keep. Default ["RON", "EUR"]. Each one becomes
+    // a tab in the UI; the same data.json feeds all tabs.
+    currencies?: string[];
     category?: string;
   };
 }
@@ -52,13 +54,13 @@ export async function scrapeAll(
 ): Promise<ScrapeResult> {
   const concurrency = opts.concurrency ?? 4;
   const delayMs = opts.delayMs ?? 100;
-  const wantCurrency = opts.filter?.currency ?? "RON";
+  const wantCurrencies = new Set(opts.filter?.currencies ?? ["RON", "EUR"]);
   const wantCategory = opts.filter?.category ?? "Titluri de stat";
 
   const listingHtml = await fetchListing();
   const allRows = parseListing(listingHtml);
   const listing = allRows.filter(
-    (r) => r.currency === wantCurrency && r.category === wantCategory
+    (r) => wantCurrencies.has(r.currency) && r.category === wantCategory
   );
 
   const errors: ScrapeResult["errors"] = [];

@@ -73,6 +73,27 @@
     .badge.ok { background: rgba(21,128,61,0.12); color: var(--good); }
     .badge.bad { background: rgba(185,28,28,0.12); color: var(--bad); }
     .badge.mid { background: rgba(180,83,9,0.12); color: var(--warn); }
+    nav.tabs {
+      display: flex; gap: 2px; padding: 12px 20px 0;
+      background: var(--bg); border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      background: transparent; color: var(--muted);
+      border: 1px solid transparent; border-bottom: none;
+      border-radius: 6px 6px 0 0; padding: 8px 16px;
+      cursor: pointer; font-size: 13px; font-weight: 600;
+      margin-bottom: -1px;
+    }
+    .tab:hover:not(.active) { color: var(--accent); }
+    .tab.active {
+      background: var(--bg); color: var(--text);
+      border-color: var(--border); border-bottom-color: var(--bg);
+    }
+    .tab .count {
+      color: var(--muted); margin-left: 6px;
+      font-weight: 400; font-size: 11px;
+    }
+    .tab.active .count { color: var(--accent); }
     main { padding: 16px 20px; }
     table { border-collapse: collapse; width: 100%; font-size: 13px; }
     thead th {
@@ -105,7 +126,7 @@
 </head>
 <body>
   <header>
-    <h1>BVB – RON Titluri de stat — YTM at ask, bid &amp; last</h1>
+    <h1>BVB Titluri de stat — YTM at ask, bid &amp; last</h1>
     <button id="refresh">Refresh</button>
     <span class="meta" id="meta">loading…</span>
     <div class="filters">
@@ -119,12 +140,17 @@
       </label>
     </div>
   </header>
+  <nav class="tabs" id="tabs" role="tablist">
+    <button class="tab active" data-currency="RON" role="tab">RON <span class="count" id="count-RON">–</span></button>
+    <button class="tab" data-currency="EUR" role="tab">EUR <span class="count" id="count-EUR">–</span></button>
+  </nav>
   <main>
     <div id="content" class="empty">Loading…</div>
   </main>
   <footer>
     Source: <a href="https://m.bvb.ro/FinancialInstruments/Markets/Bonds" target="_blank" rel="noopener">m.bvb.ro</a>.
-    Prices are delayed ≥15 min by BVB and additionally refreshed on a 15-min GitHub Actions cron.
+    Both RON and EUR Titluri de stat are scraped in the same pass and split into the two tabs.
+    Prices are delayed ≥15 min by BVB and additionally refreshed on a 15-min cron.
     YTM at ask/bid/last computed locally assuming annual coupons (ACT/365);
     BVB YTM column reproduces the site's displayed YTM (based on last price) for cross-check.
     Type a target in "Target YTM" to see the clean price each bond needs to offer that yield —
@@ -140,6 +166,12 @@
     let sort = { key: "ytmAtAsk", dir: "desc" };
     // Target YTM as a fraction (e.g. 0.08 for 8%). null = unset.
     let targetYtm = null;
+    // Active currency tab. Initialized from URL hash so links like
+    // #EUR open straight on that tab; defaults to RON otherwise.
+    const SUPPORTED_CURRENCIES = ["RON", "EUR"];
+    let currency = SUPPORTED_CURRENCIES.includes(location.hash.slice(1))
+      ? location.hash.slice(1)
+      : "RON";
 
     // Inverse of solveYtm: given target YTM, return the clean price that
     // achieves it. Direct closed-form (no solver). Returns null if cashflows
@@ -231,6 +263,7 @@
         const at = new Date(DATA.generatedAt);
         const ageMin = Math.max(0, Math.round((Date.now() - at.getTime()) / 60000));
         $("meta").innerHTML = `${DATA.analytics.length} bonds — generated ${at.toLocaleString()} <span class="small">(${ageMin}m ago)</span>`;
+        updateTabCounts();
         render();
       } catch (e) {
         $("content").innerHTML = `<div class="error">Failed to load: ${e.message || e}</div>`;
@@ -250,10 +283,33 @@
       const minVol = Number($("minAskVol").value) || 0;
       const maxYears = Number($("maxYears").value) || Infinity;
       return rows.filter((a) =>
+        a.currency === currency &&
         (!requireAsk || (a.ask != null && a.ytmAtAsk != null)) &&
         ((a.askVol ?? 0) >= minVol) &&
         (a.yearsToMaturity <= maxYears)
       );
+    }
+
+    function updateTabCounts() {
+      if (!DATA) return;
+      const counts = {};
+      for (const a of DATA.analytics) counts[a.currency] = (counts[a.currency] || 0) + 1;
+      for (const ccy of SUPPORTED_CURRENCIES) {
+        const el = $("count-" + ccy);
+        if (el) el.textContent = "(" + (counts[ccy] || 0) + ")";
+      }
+    }
+
+    function setCurrency(ccy) {
+      if (!SUPPORTED_CURRENCIES.includes(ccy) || ccy === currency) return;
+      currency = ccy;
+      document.querySelectorAll(".tab").forEach((t) =>
+        t.classList.toggle("active", t.dataset.currency === ccy)
+      );
+      if (location.hash.slice(1) !== ccy) {
+        history.replaceState(null, "", "#" + ccy);
+      }
+      render();
     }
 
     function applySort(rows) {
@@ -313,6 +369,18 @@
       const n = v === "" ? NaN : Number(v);
       targetYtm = Number.isFinite(n) ? n / 100 : null;
       render();
+    });
+    document.querySelectorAll(".tab").forEach((t) =>
+      t.addEventListener("click", () => setCurrency(t.dataset.currency))
+    );
+    // Reflect the initial currency on the tab DOM (since the default in
+    // markup is "RON active" but hash may have selected EUR).
+    document.querySelectorAll(".tab").forEach((t) =>
+      t.classList.toggle("active", t.dataset.currency === currency)
+    );
+    window.addEventListener("hashchange", () => {
+      const h = location.hash.slice(1);
+      if (SUPPORTED_CURRENCIES.includes(h)) setCurrency(h);
     });
     load();
   </script>

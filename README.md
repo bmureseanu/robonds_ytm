@@ -21,7 +21,8 @@ src/
   ytm.ts          ACT/365 annual-coupon schedule, accrued, bisection YTM
   analytics.ts    BondDetail -> per-100 dirty + YTM at bid/ask/last
   scrape.ts       fetch listing, filter, fan-out fetch details
-  build-data.ts   entry point; honours BVB_OUT env to control output path
+  build-data.ts   entry point; honours BVB_OUT + BVB_GATE env knobs
+  gate.ts         Europe/Bucharest business-hours gate (Intl-based, DST-safe)
   cli.ts          terminal pretty-printer (debug)
   public/         the static site
     index.html    sortable table UI + service worker registration
@@ -35,6 +36,10 @@ src/
 deploy/cpanel/
   setup.sh        one-shot installer over SSH (npm ci, build, copy assets)
   refresh.sh      invoked by cPanel cron; writes data.json into the doc root
+deploy/pm2/
+  setup.sh           one-shot installer for a pm2-managed Linux server
+  ecosystem.config.cjs   pm2 app: one-shot scraper triggered via cron_restart
+  nginx.example.conf for the reverse proxy that serves the static site
 ```
 
 ## Local development
@@ -135,6 +140,90 @@ If the friend's cPanel is now your one source of truth, you can disable the
 GitHub workflows (so the repo doesn't keep emailing you data-refresh commits):
 **Actions tab → scrape → … → Disable workflow**, same for `deploy-pages`.
 The code stays in the repo; only the schedule stops.
+
+## Deploying on a Linux server with pm2
+
+For a host that already runs other Node apps under [pm2](https://pm2.keymetrics.io/)
+(typical VPS / dedicated setup). The architecture:
+
+- The static files live in a doc root directory (e.g. `/var/www/bvb`),
+  served by the existing reverse proxy (nginx / Caddy / Apache).
+- The scraper is a one-shot Node script. pm2 fires it on a cron-style
+  schedule (`cron_restart`) and writes `data.json` atomically into that
+  same doc root. The Bucharest business-hours gate lives inside the
+  script (`BVB_GATE=on`) so DST boundaries don't matter.
+
+### Prerequisites on the host
+
+- Node ≥ 18 (`node --version`). If installed via `nvm`, the `node` used by
+  the SSH session should be the same one pm2 inherits.
+- pm2 installed globally for the deploy user: `npm i -g pm2`.
+- A reverse proxy you can edit a server block in (nginx is assumed below).
+
+### Initial setup
+
+SSH in as the deploy user and run:
+
+```sh
+cd ~ && git clone https://github.com/<you>/<repo>.git bvb
+cd bvb
+export BVB_HOME="$HOME/bvb"
+export BVB_WEB_ROOT="/var/www/bvb"        # subdomain doc root
+bash deploy/pm2/setup.sh
+```
+
+`setup.sh` is idempotent — re-run after every `git pull` to upgrade. It
+runs `npm ci`, compiles TS to `dist/`, copies static assets into
+`$BVB_WEB_ROOT`, and runs one forced refresh so `data.json` exists.
+
+### Wire up pm2
+
+```sh
+BVB_HOME="$HOME/bvb" BVB_WEB_ROOT=/var/www/bvb \
+  pm2 start deploy/pm2/ecosystem.config.cjs --update-env
+pm2 save             # persist the app list for reboots
+pm2 startup          # (first time only) follow the printed command
+                     # to register pm2 with systemd
+```
+
+Useful pm2 commands afterwards:
+
+```sh
+pm2 list             # see app status and last exit code
+pm2 logs bvb-scrape  # tail stdout + stderr
+pm2 restart bvb-scrape    # run a refresh on demand (bypasses cron)
+pm2 reload deploy/pm2/ecosystem.config.cjs --update-env  # pick up config changes
+```
+
+### Wire up nginx
+
+Copy `deploy/pm2/nginx.example.conf` to `/etc/nginx/sites-available/bvb.example.com`,
+edit the `server_name` and `root` directives, then:
+
+```sh
+sudo ln -sf /etc/nginx/sites-available/bvb.example.com /etc/nginx/sites-enabled/
+sudo nginx -t && sudo systemctl reload nginx
+sudo certbot --nginx -d bvb.example.com      # (optional) HTTPS
+```
+
+For Caddy / Apache, the same pattern applies: serve the doc root as
+plain static, mark `/data.json` and `/sw.js` as no-cache, and short-cache
+the rest.
+
+### Updating after code change
+
+```sh
+cd ~/bvb && git pull && bash deploy/pm2/setup.sh
+```
+
+The new `dist/build-data.js` is picked up automatically on the next pm2
+cron tick — no `pm2 reload` needed unless you changed
+`ecosystem.config.cjs` itself.
+
+### Disabling GitHub Actions when pm2 is the primary host
+
+Same as for cPanel: **Actions tab → scrape → Disable workflow**, same for
+`deploy-pages`. The repo stays, the schedule stops.
 
 ## Install on phone
 

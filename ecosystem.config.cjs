@@ -1,32 +1,40 @@
-// pm2 ecosystem config for the BVB scraper.
+// pm2 ecosystem config for the app server plus the scheduled scraper.
 //
 // Usage:
 //   cd /path/to/repo
-//   BVB_HOME=/path/to/repo BVB_WEB_ROOT=/var/www/bvb pm2 start deploy/pm2/ecosystem.config.cjs
+//   npm install
+//   npm run build
+//   pm2 start ecosystem.config.cjs --update-env
 //   pm2 save
 //   pm2 startup    # follow the printed instructions to make pm2 survive reboot
 //
-// Why this is a "one-shot under cron_restart" pattern:
-//   The scraper is not a long-running process — it does one pass and exits.
-//   pm2's `cron_restart` schedules the *restart* of a stopped app, so we set
-//   `autorestart: false` to keep it stopped between ticks. Net result: pm2
-//   launches the script at the cron time, the script writes data.json
-//   atomically and exits, pm2 keeps it stopped until the next cron tick.
-//
-// File is CJS (not ESM) because pm2's config loader expects CommonJS,
-// while the rest of the repo is ESM ("type": "module" in package.json).
-// Both can coexist as long as we use the .cjs extension here.
+// The web app is a normal long-running process. The scraper remains a
+// one-shot job triggered by pm2's `cron_restart`, which restarts a stopped
+// process on schedule. We keep `autorestart: false` for that job so it runs
+// once per tick, writes dist/public/data.json, and exits cleanly.
 
 const path = require("node:path");
 
-// Resolve from process.env so the friend can edit the env block below
-// OR pass them on the command line via `pm2 start ... --update-env`.
-const BVB_HOME = process.env.BVB_HOME || path.resolve(__dirname, "..", "..");
-const BVB_WEB_ROOT = process.env.BVB_WEB_ROOT || "/var/www/bvb";
-const BVB_OUT = process.env.BVB_OUT || path.join(BVB_WEB_ROOT, "data.json");
+const BVB_HOME = process.env.BVB_HOME || path.resolve(__dirname);
+const PORT = process.env.PORT || "7902";
 
 module.exports = {
   apps: [
+    {
+      name: "bvb-web",
+      cwd: BVB_HOME,
+      script: "dist/server.js",
+      autorestart: true,
+      max_memory_restart: "200M",
+      env: {
+        NODE_ENV: "production",
+        PORT,
+      },
+      out_file: path.join(BVB_HOME, "logs/web.out.log"),
+      error_file: path.join(BVB_HOME, "logs/web.err.log"),
+      merge_logs: true,
+      time: true,
+    },
     {
       name: "bvb-scrape",
       cwd: BVB_HOME,
@@ -43,7 +51,6 @@ module.exports = {
         NODE_ENV: "production",
         TZ: "UTC",                  // explicit; cron_restart parses in UTC
         BVB_GATE: "on",             // skip outside Bucharest business hours
-        BVB_OUT: BVB_OUT,           // atomic write target (served by nginx)
       },
       out_file: path.join(BVB_HOME, "logs/scrape.out.log"),
       error_file: path.join(BVB_HOME, "logs/scrape.err.log"),

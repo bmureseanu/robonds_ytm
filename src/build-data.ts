@@ -2,7 +2,7 @@
 //   - GitHub Actions cron (writes src/public/data.json in the repo)
 //   - cPanel cron (writes directly into the subdomain doc root)
 //   - pm2 cron_restart on a real server (same — writes to BVB_OUT)
-//   - locally via `npm run build:data`
+//   - manually via `npm run build:data`
 //
 // Env knobs:
 //   BVB_OUT   Full path to the output JSON file. Defaults to

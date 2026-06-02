@@ -6,23 +6,23 @@
   <meta name="theme-color" content="#ffffff" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="BVB YTM" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" type="image/svg+xml" href="icon.svg" />
-  <link rel="apple-touch-icon" href="icon.svg" />
-  <title>BVB – RON Titluri de stat YTM</title>
+  <meta name="apple-mobile-web-app-title" content="<%= appShortName %>" />
+  <link rel="manifest" href="<%= manifestPath %>" />
+  <link rel="icon" type="image/svg+xml" href="<%= iconPath %>" />
+  <link rel="apple-touch-icon" href="<%= iconPath %>" />
+  <title><%= appTitle %></title>
   <style>
     :root {
       --bg: #ffffff;
-      --panel: #f6f7f9;    /* header / sticky thead background */
-      --panel2: #eef1f6;   /* row hover, input/button background */
+      --panel: #f6f7f9;
+      --panel2: #eef1f6;
       --border: #d6dbe3;
-      --text: #1a1d24;     /* near-black body text */
-      --muted: #5b6473;    /* labels, secondary text */
-      --accent: #2563eb;   /* AA-contrast blue on white */
-      --good: #15803d;     /* green for positive yield/cells */
-      --bad: #b91c1c;      /* red for errors / negative pct */
-      --warn: #b45309;     /* amber for stale-quote warning rows */
+      --text: #1a1d24;
+      --muted: #5b6473;
+      --accent: #2563eb;
+      --good: #15803d;
+      --bad: #b91c1c;
+      --warn: #b45309;
       --warn-bg: rgba(180, 83, 9, 0.08);
     }
     * { box-sizing: border-box; }
@@ -161,25 +161,21 @@
   </footer>
 
   <script>
+    const DATA_URL = <%- JSON.stringify(dataPath) %>;
+    const SERVICE_WORKER_URL = <%- JSON.stringify(swPath) %>;
     const $ = (id) => document.getElementById(id);
     let DATA = null;
     let sort = { key: "ytmAtAsk", dir: "desc" };
-    // Target YTM as a fraction (e.g. 0.08 for 8%). null = unset.
     let targetYtm = null;
-    // Active currency tab. Initialized from URL hash so links like
-    // #EUR open straight on that tab; defaults to RON otherwise.
     const SUPPORTED_CURRENCIES = ["RON", "EUR"];
     let currency = SUPPORTED_CURRENCIES.includes(location.hash.slice(1))
       ? location.hash.slice(1)
       : "RON";
 
-    // Inverse of solveYtm: given target YTM, return the clean price that
-    // achieves it. Direct closed-form (no solver). Returns null if cashflows
-    // are missing or the math degenerates.
     function priceAtYtm(yTarget, cfs, accrued) {
       if (yTarget == null || !cfs || !cfs.length) return null;
       const one = 1 + yTarget;
-      if (one <= 0) return null;  // would require taking pow of non-positive base
+      if (one <= 0) return null;
       let dirty = 0;
       for (const cf of cfs) dirty += cf.amount / Math.pow(one, cf.years);
       const clean = dirty - (accrued || 0);
@@ -189,10 +185,6 @@
     function priceAtTargetCell(a) {
       const p = priceAtYtm(targetYtm, a.cashflows, a.accrued);
       if (p == null) return targetYtm == null ? '<span class="small">set target</span>' : "-";
-      // Classify relative to current market:
-      //  p >= ask  → market is already at or below your target price → just buy at ask.
-      //  bid <= p < ask → your target sits in the spread → post a limit order at p.
-      //  p < bid → your target is more aggressive than current buyers → unlikely to fill.
       let cls = "price-spread";
       let badge = "";
       if (a.ask != null && p >= a.ask) {
@@ -231,8 +223,6 @@
       { key: "bvbYtm", label: "BVB YTM", align: "right", fmt: (a) => yieldCell(a.bvbYtm, false) },
     ];
 
-    // Sort accessors. Most keys are plain field lookups (`a[key]`); the
-    // priceAtTarget column needs to recompute on the fly.
     function sortValue(a, key) {
       if (key === "priceAtTarget") return priceAtYtm(targetYtm, a.cashflows, a.accrued);
       return a[key];
@@ -255,8 +245,7 @@
       $("refresh").disabled = true;
       $("meta").textContent = "loading…";
       try {
-        // Cache-bust on explicit refresh; otherwise let the SW handle it.
-        const url = "./data.json" + (force ? "?t=" + Date.now() : "");
+        const url = DATA_URL + (force ? "?t=" + Date.now() : "");
         const res = await fetch(url, force ? { cache: "reload" } : {});
         if (!res.ok) throw new Error("HTTP " + res.status);
         DATA = await res.json();
@@ -274,7 +263,7 @@
 
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./sw.js").catch(() => {});
+        navigator.serviceWorker.register(SERVICE_WORKER_URL).catch(() => {});
       });
     }
 
@@ -332,7 +321,6 @@
         $("content").innerHTML = `<div class="empty">No rows match current filters.</div>`;
         return;
       }
-      // mark "warn" rows: where YTM at ask < 0 (price above final CF) or no ask quote
       const isWarn = (a) =>
         a.ask == null || (a.ytmAtAsk != null && a.ytmAtAsk < 0);
 
@@ -373,8 +361,6 @@
     document.querySelectorAll(".tab").forEach((t) =>
       t.addEventListener("click", () => setCurrency(t.dataset.currency))
     );
-    // Reflect the initial currency on the tab DOM (since the default in
-    // markup is "RON active" but hash may have selected EUR).
     document.querySelectorAll(".tab").forEach((t) =>
       t.classList.toggle("active", t.dataset.currency === currency)
     );

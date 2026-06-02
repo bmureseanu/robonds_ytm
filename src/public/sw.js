@@ -4,16 +4,19 @@
 //    fetch in the background, refresh cache for next open. The page also
 //    bypasses the SW when the user clicks Refresh (cache: "reload").
 
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 
 const SHELL = [
   "./",
-  "./index.html",
   "./manifest.json",
   "./icon.svg",
 ];
+const SHELL_PATHS = new Set(
+  SHELL.map((asset) => new URL(asset, self.registration.scope).pathname)
+);
+const DATA_PATH = new URL("./data.json", self.registration.scope).pathname;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -40,11 +43,11 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  if (url.pathname.endsWith("/data.json")) {
+  if (url.pathname === DATA_PATH) {
     event.respondWith(staleWhileRevalidate(req, DATA_CACHE));
     return;
   }
-  if (SHELL.some((s) => url.pathname.endsWith(s.replace("./", "/")) || url.pathname.endsWith(s.replace("./", "")))) {
+  if (SHELL_PATHS.has(url.pathname)) {
     event.respondWith(cacheFirst(req, SHELL_CACHE));
     return;
   }
